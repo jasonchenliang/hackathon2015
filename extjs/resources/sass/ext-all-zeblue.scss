@@ -1,0 +1,141 @@
+$theme-name: 'zeblue';
+
+$color1: #d3dbe0;
+$color2: #058ad6;
+//applied to accordions and _toolbar file//lighten($base-color,3)
+
+$include-missing-images: true;
+$base-color: $color1;
+
+//panel
+$panel-header-color: #000;
+$panel-header-background-color: $color2;
+$panel-border-color: darken($color1, 10);//all borders
+
+//-------------------------------custom -----------------------------------------------------------------------
+$panel-header-color2: #fff;
+
+#right-dsEditor, #treeControl_header_hd, #curveTreePanel_header_hd, 
+#sourcetree_header, #treeControl-placeholder_hd, #right-dsEditor-placeholder_hd, #userTemplateTree_header_hd {
+	.x-panel-header-text-default {
+    color: $panel-header-color2;
+		}
+    }
+
+#favouriteTreePanel_header_hd, #profileTreePanel_header_hd, #templateTreePanel_header_hd, #formulaTreePanel_header_hd,
+#dataSourceTreePanel_header_hd,#curveReportTreePanel_header_hd{
+	.x-panel-header-text {
+	font-weight:bold;
+	color:darken($base-color, 65);
+	}
+}
+#outGraph-body .x-panel-header-default{
+	background: lighten($color1,3);
+	box-shadow:none;
+}
+.x-splitter{
+background-color:darken($color1,5);
+}
+
+//------------------------------end custom -------------------------------------------------------------------
+
+//grid
+$grid-header-color: #000;
+$grid-header-background-color: $color1;//changes column headers only
+$grid-header-over-background-color: darken($color1,10);
+$grid-header-background-gradient: 'glossy';
+$grid-header-over-background-gradient: 'glossy';
+
+$grid-row-cell-alt-background: lighten($color1,12);
+$grid-row-cell-over-background-color: lighten($color1,10);
+$grid-row-cell-over-background-gradient: 'flat';
+$grid-row-cell-focus-background-gradient: 'flat';
+
+//window
+$window-background-color: $color1;
+
+//buttons
+$button-default-color: #fff;
+$button-default-base-color: $color2;
+$button-default-base-color-over: darken($color1,25);
+$button-default-base-color-pressed: darken($color1, 15);
+$button-default-background-gradient-over: 'glossy';
+$button-default-background-gradient-pressed: 'glossy';
+
+//eleza
+$button-default-base-color-disabled: $base-color; 
+$button-default-color-disabled: darken($base-color,60%);
+
+
+$button-toolbar-border-color-pressed: darken($color1,25);
+$button-toolbar-background-color-pressed: darken($color1,10);
+$button-toolbar-border-color-over: darken($color1,25);
+$button-toolbar-background-color-over: darken($color1, 5);
+$button-toolbar-background-gradient: null;
+$button-toolbar-background-gradient-over: 'glossy';
+$button-toolbar-background-gradient-focus: 'glossy';
+$button-toolbar-background-gradient-pressed: 'glossy';
+$button-toolbar-background-gradient-disabled: null;
+$button-toolbar-color: #000 !default;//ribbon button text
+$button-toolbar-color-over: #fff !default;
+$button-toolbar-color-pressed: #fff !default;
+
+//btn group
+$btn-group-background-color: lighten($color1,7);
+$btn-group-header-background-color: lighten($color1,3);
+$btn-group-border-color: darken($color1, 5);
+$btn-group-header-color: darken($color1, 45);
+
+//tabs
+$tab-height: 25px;
+
+$tab-base-color: $color1;
+$tab-background-gradient: null;
+$tab-base-color-over: darken($color1, 10);
+$tab-base-color-active: $color2;
+$tab-color-active: #fff;
+
+$tabbar-strip-background-color: $color2;
+//eleza
+
+$tab-inner-border-color:lighten($base-color, 5);
+
+//progress bar
+$progress-bar-background-color: darken($color1,25);
+
+//fieldsets
+$fieldset-border-color: $color1;
+
+//datepicker
+$datepicker-header-background-color: $color2;
+$datepicker-header-background-gradient: 'glossy';
+$datepicker-today-item-background-color: $color1;
+$datepicker-today-item-border-color: $color2;
+
+$datepicker-th-background-color: $color1;
+$datepicker-th-color: $color2;
+$datepicker-th-border-bottom-color: $color2;
+$datepicker-item-color: #000;
+$datepicker-item-hover-background-color: lighten($color1, 15);
+$datepicker-selected-item-border-color: $color2;
+$datepicker-selected-item-background-color: $color1;
+//$datepicker-monthpicker-item-color: #fff;
+$datepicker-monthpicker-item-color: #000000;
+
+//layout
+$accordion-header-color: #000;
+$accordion-header-background-color: lighten($color1,3);
+
+.x-column-header {
+ background-color:#D3DBE0 !important;
+}
+.x-grid-header-ct {
+ background-color:#D3DBE0 !important;
+}
+.x-column-header-over {
+ background-color:#b0bfc7 !important;
+ background-image:none !important;
+}
+
+@import 'compass';
+@import 'ext4/default/all';

@@ -1,0 +1,159 @@
+$theme-name: 'darkcyan';
+
+$base-color: #1d5d6c !default;
+$neutral-color: #1d8faa !default;
+$color: #fff;
+
+// -> MAKE FONT COLOR WHITE
+$panel-header-color: #fff;
+$panel-body-color: #fff;
+$window-body-color: #fff;
+$window-header-color: #fff;
+$loadmask-msg-inner-color: #fff;
+$toolbar-text-color: #fff;
+$button-default-color: #fff;
+$button-toolbar-color: #fff !default;
+$button-toolbar-color-over: #fff !default;
+$button-toolbar-color-pressed: #fff !default;
+$form-field-color: #fff;
+$fieldset-header-color: #fff;
+$tab-color: #fff;
+$tab-color-active: $tab-color;
+$grid-header-color: #fff;
+$grid-row-cell-color: #fff;
+$accordion-header-color: #fff;
+$datepicker-item-color: #fff;
+$datepicker-monthpicker-item-color: #fff;
+$menu-text-color: #fff;
+
+// -> MAKE COLOR #13353c
+$panel-body-background-color: #13353c;
+$frame-base-color: #13353c;
+$loadmask-msg-inner-background-color: #13353c;
+$progress-background-color: #13353c;
+$grid-row-cell-background: #13353c;
+
+// -> FORM FIELD
+$form-field-border-color: #2a788a;
+$form-field-background-color: #113640;
+
+// -> MENU
+$menu-background-color: #1e515f;
+$menu-text-color: #fff;
+$menu-item-active-background-color: #277d94;
+$menu-item-active-border-color: #1194b7;
+$menu-separator-border-color: #2c6270;
+$menu-separator-background-color: #0d323c;
+
+// -> BUTTON GROUP
+$btn-group-header-color:#FFF;
+$btn-group-header-background-color: #093744;
+
+// -> TABS
+$tab-icon-top: 5px; //new variable for icon top added also in _tabs.scss
+$tab-height: 25px !default;
+$tab-background-gradient: color-stops(#0a5163, #0a5163);
+$tab-background-gradient-disabled:  color-stops(#071f25, #071f25);
+$tab-background-gradient-active: color-stops(#098fae, #098fae);
+$tab-color-disabled: #10524f;
+$tab-color: #7dd5ec;
+$tab-color-active: #fff;
+
+// -> BOUNDLIST
+$boundlist-background-color: #1c5767;
+$boundlist-item-over-background-color: #247186;
+$boundlist-item-selected-background-color: #2f90aa;
+
+// -> DATEPICKER
+$datepicker-background-color: #13353c;
+$datepicker-border-color: #798294;
+$datepicker-today-item-border-color: #9999aa;
+$datepicker-header-background-color: #146373;
+$datepicker-th-background-color: #1b7e92;
+$datepicker-th-color: #fff;
+$datepicker-th-border-bottom-color: #535b5c;
+$datepicker-item-color: #fff;
+$datepicker-item-hover-background-color: #1da4c0;
+$datepicker-selected-item-border-color: #0e414b;
+$datepicker-selected-item-background-color: #1c505b;
+$datepicker-monthpicker-item-color: #fff;
+$datepicker-monthpicker-item-border: 0 none;
+$datepicker-monthpicker-item-selected-background-color: $datepicker-selected-item-background-color;
+
+
+// -> Custom to overwrite styles inherited from ext-all-zeblue.css & zeExt.css
+#right-dsEditor .x-panel-header-text-default, #treeControl_header_hd .x-panel-header-text-default, #curveTreePanel_header_hd .x-panel-header-text-default, #sourcetree_header .x-panel-header-text-default, #treeControl-placeholder_hd .x-panel-header-text-default, #right-dsEditor-placeholder_hd .x-panel-header-text-default, #userTemplateTree_header_hd .x-panel-header-text-default {
+    color: #FFFFFF;
+	}	
+#favouriteTreePanel_header_hd .x-panel-header-text, #profileTreePanel_header_hd .x-panel-header-text, #templateTreePanel_header_hd .x-panel-header-text, #formulaTreePanel_header_hd .x-panel-header-text, #dataSourceTreePanel_header_hd .x-panel-header-text, #curveReportTreePanel_header_hd .x-panel-header-text {
+    color: #FFFFFF;
+    
+	}
+.x-panel-header-text-default,.x-panel-header-text{
+font-weight: normal;
+	}
+.x-column-header {
+    background-color: #338b9d !important;
+	}
+.x-column-header-over {
+    background-color: #186e7f !important;
+	}
+#outGraph-body .x-panel-header-default {
+    background: none repeat scroll 0 0 #185e6f;
+    box-shadow: none;
+	}
+.x-grid-header-ct {
+    background-color: #256370 !important;
+	}
+.x-btn-default-toolbar-small-disabled .x-btn-inner {
+    color: #3b95a8 !important;
+	}
+a:link {
+	color: #2acced;
+	text-decoration: none;
+	}
+a:visited {
+	text-decoration: none;
+	color: #2acced;
+	}
+a:hover {
+	text-decoration: none;
+	color: #2acced;
+	}
+a:active {
+	text-decoration: none;
+	color: #2acced;
+	}
+.x-grid-row .x-grid-cell, .x-grid-row .x-grid-rowwrap-div {
+    background-color: #6db3c9;
+	}  
+.x-boxselect-item {
+    background-color: #2a95ab;
+    border: 1px solid #2a95ab;
+    border-radius: 6px 6px 6px 6px;
+    cursor: default;
+    margin: 1px 1px 1px 0;
+    padding: 0 1px 0 5px !important;
+	}
+.x-field:not(.x-item-disabled) .x-boxselect-item:hover {
+    background: none repeat scroll 0 0 #11aece;
+    border: 1px solid #11aece;
+	}
+.x-field:not(.x-item-disabled) .x-boxselect-item.x-item-selected {
+    background: none repeat scroll 0 0 #0790ac;
+    border: 1px solid #0790ac !important;
+    color: white;
+	}
+// -> End custom to overwrite styles inherited from ext-all-zeblue.css & zeExt.css
+
+$grid-header-over-border-color: #0a2126;
+$grid-row-wrap-border-color:#0a2126;
+$grid-row-cell-over-border-color:#0a2126;
+$grid-row-cell-selected-border-color:#0a2126;
+$grid-row-cell-focus-border-color:#0a2126;
+$grid-cell-with-col-lines-border-color:#0f3e48;
+$grid-grouped-header-border-color:#0a2126;
+
+
+@import 'compass';
+@import 'ext4/default/all';

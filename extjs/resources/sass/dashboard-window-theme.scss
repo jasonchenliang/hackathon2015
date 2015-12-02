@@ -1,0 +1,1066 @@
+// Unless you want to include all components, you must set $include-default to false
+// IF you set this to true, you can also remove lines 10 to 38 of this file
+$include-default: false;
+
+// Insert your custom variables here.
+//$base-color: #000080;
+
+// @import 'compass';
+// @import 'ext4/default/all';
+
+// You may remove any of the following modules that you
+// do not use in order to create a smaller css file.
+// @include extjs-boundlist;
+// @include extjs-button;
+// @include extjs-btn-group;
+// @include extjs-datepicker;
+// @include extjs-colorpicker;
+// @include extjs-menu;
+// @include extjs-grid;
+// @include extjs-form;
+// @include extjs-form-field;
+// @include extjs-form-fieldset;
+// @include extjs-form-checkboxfield;
+// @include extjs-form-checkboxgroup;
+// @include extjs-form-triggerfield;
+// @include extjs-form-htmleditor;
+// @include extjs-panel;
+// @include extjs-qtip;
+// @include extjs-slider;
+// @include extjs-progress;
+// @include extjs-toolbar;
+// @include extjs-window;
+// @include extjs-messagebox;
+// @include extjs-tabbar;
+// @include extjs-tab;
+// @include extjs-tree;
+// @include extjs-drawcomponent;
+// @include extjs-viewport;
+
+// This line changes the location of your images when creating UIs to be relative instead of within the ExtJS directory.
+// You MUST set this to true/string value if you are creating new UIs + supporting legacy browsers.
+// This only applies to new UIs. It does not apply to default component images (i.e. when changing $base-color)
+// The value can either be true, in which case the image path will be "../images/"
+// or a string, of where the path is
+$relative-image-path-for-uis: true; // defaults to "../images/" when true
+
+$colors:  #000000, #993300, #333300, #003300, #003366, #000080, #333399, #606060,
+          #800000, #FF6600, #808000, #008000, #008080, #0000FF, #666699, #969696,
+          #FF0000, #FF9900, #99CC00, #339966, #33CCCC, #3366FF, #800080, #C0C0C0,
+          #FF00FF, #FFCC00, #FFFF00, #00FF00, #00FFFF, #00CCFF, #993366, #FFFFFF,
+          #FF99CC, #FFCC99, #FFFF99, #CCFFCC, #CCFFFF, #99CCFF, #CC99FF;
+$i:0;
+@each $windowColor in $colors {
+  $lightColor: $windowColor;
+  $darkColor: $windowColor;
+  $plainColor: $windowColor;
+  $imagesPath: "../../../../dashboard/images/styles/#{$i}";
+  @if $windowColor != TRANSPARENT {
+    $plainColor: lighten($windowColor, 5%);
+    $lightColor: lighten($windowColor, 10%);
+    $darkColor: darken($windowColor, 15%);
+  }
+  .x-window-windowstyle#{$i} {
+    -webkit-box-shadow: $lightColor 0 1px 0px 0 inset, $lightColor 0 -1px 0px 0 inset, $lightColor -1px 0 0px 0 inset, $lightColor 1px 0 0px 0 inset;
+    -moz-box-shadow: $lightColor 0 1px 0px 0 inset, $lightColor 0 -1px 0px 0 inset, $lightColor -1px 0 0px 0 inset, $lightColor 1px 0 0px 0 inset;
+    box-shadow: $lightColor 0 1px 0 0 inset, $lightColor 0 -1px 0 0 inset, $lightColor -1px 0 0 0 inset, $lightColor 1px 0 0 0 inset;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    padding: 4px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #b2b5ac;
+    background-color: $windowColor;
+  }
+  .x-window-windowstyle#{$i}:after {
+    display: none;
+    content: "x-slicer:corners:url(#{$imagesPath}/window/window-default-corners.gif), sides:url(#{$imagesPath}/window/window-default-sides.gif)";
+  }
+  .x-window-windowstyle#{$i}-mc {
+    background-color: $windowColor;
+  }
+  .x-nbr .x-window-windowstyle#{$i} {
+    padding: 0 !important;
+    border-width: 0;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    background-color: transparent;
+  }
+  body.x-nbr .x-window-windowstyle#{$i} {
+    background-image:url("s.png#dh-5-5-5-5-1-1-1-1-4-4-4-4");
+  }
+  .x-window-windowstyle#{$i}-tl {
+    background-position: 0 -10px;
+  }
+  .x-window-windowstyle#{$i}-tr {
+    background-position: right -15px;
+  }
+  .x-window-windowstyle#{$i}-bl {
+    background-position: 0 -20px;
+  }
+  .x-window-windowstyle#{$i}-br {
+    background-position: right -25px;
+  }
+  .x-window-windowstyle#{$i}-ml {
+    background-position: 0 top;
+  }
+  .x-window-windowstyle#{$i}-mr {
+    background-position: right top;
+  }
+  .x-window-windowstyle#{$i}-tc {
+    background-position: 0 0;
+  }
+  .x-window-windowstyle#{$i}-bc {
+    background-position: 0 -5px;
+  }
+  .x-window-windowstyle#{$i}-tr,
+  .x-window-windowstyle#{$i}-br,
+  .x-window-windowstyle#{$i}-mr {
+    padding-right: 5px;
+  }
+  .x-window-windowstyle#{$i}-tl,
+  .x-window-windowstyle#{$i}-bl,
+  .x-window-windowstyle#{$i}-ml {
+    padding-left: 5px;
+  }
+  .x-window-windowstyle#{$i}-tc {
+    height: 5px;
+  }
+  .x-window-windowstyle#{$i}-bc {
+    height: 5px;
+  }
+  .x-window-windowstyle#{$i}-tl,
+  .x-window-windowstyle#{$i}-bl,
+  .x-window-windowstyle#{$i}-tr,
+  .x-window-windowstyle#{$i}-br,
+  .x-window-windowstyle#{$i}-tc,
+  .x-window-windowstyle#{$i}-bc,
+  .x-window-windowstyle#{$i}-ml,
+  .x-window-windowstyle#{$i}-mr {
+    zoom: 1;
+    background-image:url("#{$imagesPath}/window/window-default-corners.gif");
+  }
+  .x-window-windowstyle#{$i}-ml,
+  .x-window-windowstyle#{$i}-mr {
+    zoom: 1;
+    background-image:url("#{$imagesPath}/window/window-default-sides.gif");
+    background-repeat: repeat-y;
+  }
+  .x-window-windowstyle#{$i}-mc {
+    padding: 0px 0px 0px 0px;
+  }
+  .x-window-body-windowstyle#{$i} {
+    border-color: $darkColor;
+    border-width: 1px;
+  }
+  .x-window-header-windowstyle#{$i} {
+    border-color: $darkColor;
+  }
+  .x-window-header-windowstyle#{$i}-vertical .x-window-header-text-container {
+    -webkit-transform: rotate(90deg);
+    -webkit-transform-origin: 0 0;
+    -moz-transform: rotate(90deg);
+    -moz-transform-origin: 0 0;
+    -o-transform: rotate(90deg);
+    -o-transform-origin: 0 0;
+    transform: rotate(90deg);
+    transform-origin: 0 0;
+  }
+  .x-ie9m .x-window-header-windowstyle#{$i}-vertical .x-window-header-text-container {
+    background-color: $darkColor;
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1), progid:DXImageTransform.Microsoft.Chroma(color=#{$darkColor});
+  }
+  .x-window-header-windowstyle#{$i} .x-window-header-icon {
+    background-position: center center;
+    color: $darkColor;
+    font-size: 16px;
+    height: 16px;
+    line-height: 16px;
+    width: 16px;
+  }
+  .x-window-header-windowstyle#{$i}-top {
+    background-color: $windowColor;
+    -moz-border-radius-topleft: 5px;
+    -webkit-border-top-left-radius: 5px;
+    border-top-left-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -webkit-border-top-right-radius: 5px;
+    border-top-right-radius: 5px;
+    -moz-border-radius-bottomright: 0;
+    -webkit-border-bottom-right-radius: 0;
+    border-bottom-right-radius: 0;
+    -moz-border-radius-bottomleft: 0;
+    -webkit-border-bottom-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 4px 5px 0 5px;
+    border-width: 1px 1px 0 1px;
+    border-style: solid;
+  }
+  .x-window-header-windowstyle#{$i}-top-mc {
+    background-color: $windowColor;
+  }
+  .x-window-header-text-container-windowstyle#{$i} {
+    padding: 0 2px 1px;
+    text-transform: none;
+  }
+  .x-nbr .x-window-header-windowstyle#{$i}-top {
+    padding: 0 !important;
+    border-width: 0 !important;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    background-color: transparent;
+  }
+  body.x-nbr .x-window-header-windowstyle#{$i}-top {
+    /* Pass along Div/Table, Horz/Vert, border-radius and border-width: */
+    background-image:url("s.png#dh-5-5-0-0-1-1-0-1-4-5-0-5");
+  }
+  .x-window-header-windowstyle#{$i}-top-tl {
+    background-position: 0 -10px;
+  }
+  .x-window-header-windowstyle#{$i}-top-tr {
+    background-position: right -15px;
+  }
+  .x-window-header-windowstyle#{$i}-top-bl {
+    background-position: 0 -20px;
+  }
+  .x-window-header-windowstyle#{$i}-top-br {
+    background-position: right -25px;
+  }
+  .x-window-header-windowstyle#{$i}-top-ml {
+    background-position: 0 top;
+  }
+  .x-window-header-windowstyle#{$i}-top-mr {
+    background-position: right top;
+  }
+  .x-window-header-windowstyle#{$i}-top-tc {
+    background-position: 0 0;
+  }
+  .x-window-header-windowstyle#{$i}-top-bc {
+    background-position: 0 -5px;
+  }
+  .x-window-header-windowstyle#{$i}-top-tr,
+  .x-window-header-windowstyle#{$i}-top-br,
+  .x-window-header-windowstyle#{$i}-top-mr {
+    padding-right: 5px;
+  }
+  .x-window-header-windowstyle#{$i}-top-tl,
+  .x-window-header-windowstyle#{$i}-top-bl,
+  .x-window-header-windowstyle#{$i}-top-ml {
+    padding-left: 5px;
+  }
+  .x-window-header-windowstyle#{$i}-top-tc {
+    height: 5px;
+  }
+  .x-window-header-windowstyle#{$i}-top-bc {
+    height: 0;
+  }
+  .x-window-header-windowstyle#{$i}-top-tl,
+  .x-window-header-windowstyle#{$i}-top-bl,
+  .x-window-header-windowstyle#{$i}-top-tr,
+  .x-window-header-windowstyle#{$i}-top-br,
+  .x-window-header-windowstyle#{$i}-top-tc,
+  .x-window-header-windowstyle#{$i}-top-bc,
+  .x-window-header-windowstyle#{$i}-top-ml,
+  .x-window-header-windowstyle#{$i}-top-mr {
+    zoom: 1;
+    background-image:url("#{$imagesPath}/window-header/window-header-default-top-corners.gif");
+  }
+  .x-window-header-windowstyle#{$i}-top-ml,
+  .x-window-header-windowstyle#{$i}-top-mr {
+    zoom: 1;
+    background-image:url("#{$imagesPath}/window-header/window-header-default-top-sides.gif");
+    background-repeat: repeat-y;
+  }
+  .x-window-header-windowstyle#{$i}-top-mc {
+    padding: 0px 1px 0 1px;
+  }
+  .x-strict .x-ie7 .x-window-header-windowstyle#{$i}-top-tl,
+  .x-strict .x-ie7 .x-window-header-windowstyle#{$i}-top-bl {
+    position: relative;
+    right: 0;
+  }
+  .x-window-header-windowstyle#{$i}-top:after {
+    display: none;
+    content: "x-slicer:corners:url(#{$imagesPath}/window-header/window-header-default-top-corners.gif), sides:url(#{$imagesPath}/window-header/window-header-default-top-sides.gif)";
+  }
+  .x-window-header-windowstyle#{$i}-right {
+    -moz-border-radius-topleft: 0;
+    -webkit-border-top-left-radius: 0;
+    border-top-left-radius: 0;
+    -moz-border-radius-topright: 5px;
+    -webkit-border-top-right-radius: 5px;
+    border-top-right-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomleft: 0;
+    -webkit-border-bottom-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 5px 4px 5px 0;
+    border-width: 1px 1px 1px 0;
+    border-style: solid;
+    background-color: #d3dee1;
+  }
+  .x-window-header-windowstyle#{$i}-right-mc {
+    background-color: #d3dee1;
+  }
+  .x-nbr .x-window-header-windowstyle#{$i}-right {
+    padding: 0 !important;
+    border-width: 0 !important;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    background-color: transparent;
+  }
+  body.x-nbr .x-window-header-windowstyle#{$i}-right {
+    /* Pass along Div/Table, Horz/Vert, border-radius and border-width: */
+    background-image:url("s.png#dh-0-5-5-0-1-1-1-0-5-4-5-0");
+  }
+  .x-window-header-windowstyle#{$i}-right-tl {
+    background-position: 0 -10px;
+  }
+  .x-window-header-windowstyle#{$i}-right-tr {
+    background-position: right -15px;
+  }
+  .x-window-header-windowstyle#{$i}-right-bl {
+    background-position: 0 -20px;
+  }
+  .x-window-header-windowstyle#{$i}-right-br {
+    background-position: right -25px;
+  }
+  .x-window-header-windowstyle#{$i}-right-ml {
+    background-position: 0 top;
+  }
+  .x-window-header-windowstyle#{$i}-right-mr {
+    background-position: right top;
+  }
+  .x-window-header-windowstyle#{$i}-right-tc {
+    background-position: 0 0;
+  }
+  .x-window-header-windowstyle#{$i}-right-bc {
+    background-position: 0 -5px;
+  }
+  .x-window-header-windowstyle#{$i}-right-tr,
+  .x-window-header-windowstyle#{$i}-right-br,
+  .x-window-header-windowstyle#{$i}-right-mr {
+    padding-right: 5px;
+  }
+  .x-window-header-windowstyle#{$i}-right-tl,
+  .x-window-header-windowstyle#{$i}-right-bl,
+  .x-window-header-windowstyle#{$i}-right-ml {
+    padding-left: 0;
+  }
+  .x-window-header-windowstyle#{$i}-right-tc {
+    height: 5px;
+  }
+  .x-window-header-windowstyle#{$i}-right-bc {
+    height: 5px;
+  }
+  .x-window-header-windowstyle#{$i}-right-tl,
+  .x-window-header-windowstyle#{$i}-right-bl,
+  .x-window-header-windowstyle#{$i}-right-tr,
+  .x-window-header-windowstyle#{$i}-right-br,
+  .x-window-header-windowstyle#{$i}-right-tc,
+  .x-window-header-windowstyle#{$i}-right-bc,
+  .x-window-header-windowstyle#{$i}-right-ml,
+  .x-window-header-windowstyle#{$i}-right-mr {
+    zoom: 1;
+    background-image:url("#{$imagesPath}/window-header/window-header-default-right-corners.gif");
+  }
+  .x-window-header-windowstyle#{$i}-right-ml,
+  .x-window-header-windowstyle#{$i}-right-mr {
+    zoom: 1;
+    background-image:url("#{$imagesPath}/window-header/window-header-default-right-sides.gif");
+    background-repeat: repeat-y;
+  }
+  .x-window-header-windowstyle#{$i}-right-mc {
+    padding: 1px 0px 1px 0;
+  }
+  .x-strict .x-ie7 .x-window-header-windowstyle#{$i}-right-tl,
+  .x-strict .x-ie7 .x-window-header-windowstyle#{$i}-right-bl {
+    position: relative;
+    right: 0;
+  }
+  .x-window-header-windowstyle#{$i}-right:after {
+    display: none;
+    content: "x-slicer:corners:url(#{$imagesPath}/window-header/window-header-default-right-corners.gif), sides:url(#{$imagesPath}/window-header/window-header-default-right-sides.gif)";
+  }
+  .x-window-header-windowstyle#{$i}-bottom {
+    -moz-border-radius-topleft: 0;
+    -webkit-border-top-left-radius: 0;
+    border-top-left-radius: 0;
+    -moz-border-radius-topright: 0;
+    -webkit-border-top-right-radius: 0;
+    border-top-right-radius: 0;
+    -moz-border-radius-bottomright: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 0 5px 4px 5px;
+    border-width: 0 1px 1px 1px;
+    border-style: solid;
+    background-color: #d3dee1;
+  }
+  .x-window-header-windowstyle#{$i}-bottom-mc {
+    background-color: #d3dee1;
+  }
+  .x-nbr .x-window-header-windowstyle#{$i}-bottom {
+    padding: 0 !important;
+    border-width: 0 !important;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    background-color: transparent;
+  }
+  body.x-nbr .x-window-header-windowstyle#{$i}-bottom {
+    /* Pass along Div/Table, Horz/Vert, border-radius and border-width: */
+    background-image:url("s.png#dh-0-0-5-5-0-1-1-1-0-5-4-5");
+  }
+  .x-window-header-windowstyle#{$i}-bottom-tl {
+    background-position: 0 -10px;
+  }
+  .x-window-header-windowstyle#{$i}-bottom-tr {
+    background-position: right -15px;
+  }
+  .x-window-header-windowstyle#{$i}-bottom-bl {
+    background-position: 0 -20px;
+  }
+  .x-window-header-windowstyle#{$i}-bottom-br {
+    background-position: right -25px;
+  }
+  .x-window-header-windowstyle#{$i}-bottom-ml {
+    background-position: 0 top;
+  }
+  .x-window-header-windowstyle#{$i}-bottom-mr {
+    background-position: right top;
+  }
+  .x-window-header-windowstyle#{$i}-bottom-tc {
+    background-position: 0 0;
+  }
+  .x-window-header-windowstyle#{$i}-bottom-bc {
+    background-position: 0 -5px;
+  }
+  .x-window-header-windowstyle#{$i}-bottom-tr,
+  .x-window-header-windowstyle#{$i}-bottom-br,
+  .x-window-header-windowstyle#{$i}-bottom-mr {
+    padding-right: 5px;
+  }
+  .x-window-header-windowstyle#{$i}-bottom-tl,
+  .x-window-header-windowstyle#{$i}-bottom-bl,
+  .x-window-header-windowstyle#{$i}-bottom-ml {
+    padding-left: 5px;
+  }
+  .x-window-header-windowstyle#{$i}-bottom-tc {
+    height: 0;
+  }
+  .x-window-header-windowstyle#{$i}-bottom-bc {
+    height: 5px;
+  }
+  .x-window-header-windowstyle#{$i}-bottom-tl,
+  .x-window-header-windowstyle#{$i}-bottom-bl,
+  .x-window-header-windowstyle#{$i}-bottom-tr,
+  .x-window-header-windowstyle#{$i}-bottom-br,
+  .x-window-header-windowstyle#{$i}-bottom-tc,
+  .x-window-header-windowstyle#{$i}-bottom-bc,
+  .x-window-header-windowstyle#{$i}-bottom-ml,
+  .x-window-header-windowstyle#{$i}-bottom-mr {
+    zoom: 1;
+    background-image:url("#{$imagesPath}/window-header/window-header-default-bottom-corners.gif");
+  }
+  .x-window-header-windowstyle#{$i}-bottom-ml,
+  .x-window-header-windowstyle#{$i}-bottom-mr {
+    zoom: 1;
+    background-image:url("#{$imagesPath}/window-header/window-header-default-bottom-sides.gif");
+    background-repeat: repeat-y;
+  }
+  .x-window-header-windowstyle#{$i}-bottom-mc {
+    padding: 0 1px 0px 1px;
+  }
+  .x-strict .x-ie7 .x-window-header-windowstyle#{$i}-bottom-tl,
+  .x-strict .x-ie7 .x-window-header-windowstyle#{$i}-bottom-bl {
+    position: relative;
+    right: 0;
+  }
+  .x-window-header-windowstyle#{$i}-bottom:after {
+    display: none;
+    content: "x-slicer:corners:url(#{$imagesPath}/window-header/window-header-default-bottom-corners.gif), sides:url(#{$imagesPath}/window-header/window-header-default-bottom-sides.gif)";
+  }
+  .x-window-header-windowstyle#{$i}-left {
+    -moz-border-radius-topleft: 5px;
+    -webkit-border-top-left-radius: 5px;
+    border-top-left-radius: 5px;
+    -moz-border-radius-topright: 0;
+    -webkit-border-top-right-radius: 0;
+    border-top-right-radius: 0;
+    -moz-border-radius-bottomright: 0;
+    -webkit-border-bottom-right-radius: 0;
+    border-bottom-right-radius: 0;
+    -moz-border-radius-bottomleft: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 5px 0 5px 4px;
+    border-width: 1px 0 1px 1px;
+    border-style: solid;
+    background-color: #d3dee1;
+  }
+  .x-window-header-windowstyle#{$i}-left-mc {
+    background-color: #d3dee1;
+  }
+  .x-nbr .x-window-header-windowstyle#{$i}-left {
+    padding: 0 !important;
+    border-width: 0 !important;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    background-color: transparent;
+  }
+  body.x-nbr .x-window-header-windowstyle#{$i}-left {
+    /* Pass along Div/Table, Horz/Vert, border-radius and border-width: */
+    background-image:url("s.png#dh-5-0-0-5-1-0-1-1-5-0-5-4");
+  }
+  .x-window-header-windowstyle#{$i}-left-tl {
+    background-position: 0 -10px;
+  }
+  .x-window-header-windowstyle#{$i}-left-tr {
+    background-position: right -15px;
+  }
+  .x-window-header-windowstyle#{$i}-left-bl {
+    background-position: 0 -20px;
+  }
+  .x-window-header-windowstyle#{$i}-left-br {
+    background-position: right -25px;
+  }
+  .x-window-header-windowstyle#{$i}-left-ml {
+    background-position: 0 top;
+  }
+  .x-window-header-windowstyle#{$i}-left-mr {
+    background-position: right top;
+  }
+  .x-window-header-windowstyle#{$i}-left-tc {
+    background-position: 0 0;
+  }
+  .x-window-header-windowstyle#{$i}-left-bc {
+    background-position: 0 -5px;
+  }
+  .x-window-header-windowstyle#{$i}-left-tr,
+  .x-window-header-windowstyle#{$i}-left-br,
+  .x-window-header-windowstyle#{$i}-left-mr {
+    padding-right: 0;
+  }
+  .x-window-header-windowstyle#{$i}-left-tl,
+  .x-window-header-windowstyle#{$i}-left-bl,
+  .x-window-header-windowstyle#{$i}-left-ml {
+    padding-left: 5px;
+  }
+  .x-window-header-windowstyle#{$i}-left-tc {
+    height: 5px;
+  }
+  .x-window-header-windowstyle#{$i}-left-bc {
+    height: 5px;
+  }
+  .x-window-header-windowstyle#{$i}-left-tl,
+  .x-window-header-windowstyle#{$i}-left-bl,
+  .x-window-header-windowstyle#{$i}-left-tr,
+  .x-window-header-windowstyle#{$i}-left-br,
+  .x-window-header-windowstyle#{$i}-left-tc,
+  .x-window-header-windowstyle#{$i}-left-bc,
+  .x-window-header-windowstyle#{$i}-left-ml,
+  .x-window-header-windowstyle#{$i}-left-mr {
+    zoom: 1;
+    background-image:url("#{$imagesPath}/window-header/window-header-default-left-corners.gif");
+  }
+  .x-window-header-windowstyle#{$i}-left-ml,
+  .x-window-header-windowstyle#{$i}-left-mr {
+    zoom: 1;
+    background-image:url("#{$imagesPath}/window-header/window-header-default-left-sides.gif");
+    background-repeat: repeat-y;
+  }
+  .x-window-header-windowstyle#{$i}-left-mc {
+    padding: 1px 0 1px 0px;
+  }
+  .x-strict .x-ie7 .x-window-header-windowstyle#{$i}-left-tl,
+  .x-strict .x-ie7 .x-window-header-windowstyle#{$i}-left-bl {
+    position: relative;
+    right: 0;
+  }
+  .x-window-header-windowstyle#{$i}-left:after {
+    display: none;
+    content: "x-slicer:corners:url(#{$imagesPath}/window-header/window-header-default-left-corners.gif), sides:url(#{$imagesPath}/window-header/window-header-default-left-sides.gif)";
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-top {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    padding: 4px 5px 4px 5px;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #d3dee1;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-top-mc {
+    background-color: #d3dee1;
+  }
+  .x-nbr .x-window-header-windowstyle#{$i}-collapsed-top {
+    padding: 0 !important;
+    border-width: 0 !important;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    background-color: transparent;
+  }
+  body.x-nbr .x-window-header-windowstyle#{$i}-collapsed-top {
+    /* Pass along Div/Table, Horz/Vert, border-radius and border-width: */
+    background-image:url("s.png#dh-5-5-5-5-1-1-1-1-4-5-4-5");
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-top-tl {
+    background-position: 0 -10px;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-top-tr {
+    background-position: right -15px;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-top-bl {
+    background-position: 0 -20px;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-top-br {
+    background-position: right -25px;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-top-ml {
+    background-position: 0 top;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-top-mr {
+    background-position: right top;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-top-tc {
+    background-position: 0 0;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-top-bc {
+    background-position: 0 -5px;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-top-tr,
+  .x-window-header-windowstyle#{$i}-collapsed-top-br,
+  .x-window-header-windowstyle#{$i}-collapsed-top-mr {
+    padding-right: 5px;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-top-tl,
+  .x-window-header-windowstyle#{$i}-collapsed-top-bl,
+  .x-window-header-windowstyle#{$i}-collapsed-top-ml {
+    padding-left: 5px;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-top-tc {
+    height: 5px;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-top-bc {
+    height: 5px;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-top-tl,
+  .x-window-header-windowstyle#{$i}-collapsed-top-bl,
+  .x-window-header-windowstyle#{$i}-collapsed-top-tr,
+  .x-window-header-windowstyle#{$i}-collapsed-top-br,
+  .x-window-header-windowstyle#{$i}-collapsed-top-tc,
+  .x-window-header-windowstyle#{$i}-collapsed-top-bc,
+  .x-window-header-windowstyle#{$i}-collapsed-top-ml,
+  .x-window-header-windowstyle#{$i}-collapsed-top-mr {
+    zoom: 1;
+    background-image:url("#{$imagesPath}/window-header/window-header-default-collapsed-top-corners.gif");
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-top-ml,
+  .x-window-header-windowstyle#{$i}-collapsed-top-mr {
+    zoom: 1;
+    background-image:url("#{$imagesPath}/window-header/window-header-default-collapsed-top-sides.gif");
+    background-repeat: repeat-y;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-top-mc {
+    padding: 0px 1px 0px 1px;
+  }
+  .x-strict .x-ie7 .x-window-header-windowstyle#{$i}-collapsed-top-tl,
+  .x-strict .x-ie7 .x-window-header-windowstyle#{$i}-collapsed-top-bl {
+    position: relative;
+    right: 0;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-top:after {
+    display: none;
+    content: "x-slicer:corners:url(#{$imagesPath}/window-header/window-header-default-collapsed-top-corners.gif), sides:url(#{$imagesPath}/window-header/window-header-default-collapsed-top-sides.gif)";
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-right {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    padding: 5px 4px 5px 4px;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #d3dee1;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-right-mc {
+    background-color: #d3dee1;
+  }
+  .x-nbr .x-window-header-windowstyle#{$i}-collapsed-right {
+    padding: 0 !important;
+    border-width: 0 !important;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    background-color: transparent;
+  }
+  body.x-nbr .x-window-header-windowstyle#{$i}-collapsed-right {
+    /* Pass along Div/Table, Horz/Vert, border-radius and border-width: */
+    background-image:url("s.png#dh-5-5-5-5-1-1-1-1-5-4-5-4");
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-right-tl {
+    background-position: 0 -10px;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-right-tr {
+    background-position: right -15px;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-right-bl {
+    background-position: 0 -20px;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-right-br {
+    background-position: right -25px;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-right-ml {
+    background-position: 0 top;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-right-mr {
+    background-position: right top;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-right-tc {
+    background-position: 0 0;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-right-bc {
+    background-position: 0 -5px;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-right-tr,
+  .x-window-header-windowstyle#{$i}-collapsed-right-br,
+  .x-window-header-windowstyle#{$i}-collapsed-right-mr {
+    padding-right: 5px;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-right-tl,
+  .x-window-header-windowstyle#{$i}-collapsed-right-bl,
+  .x-window-header-windowstyle#{$i}-collapsed-right-ml {
+    padding-left: 5px;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-right-tc {
+    height: 5px;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-right-bc {
+    height: 5px;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-right-tl,
+  .x-window-header-windowstyle#{$i}-collapsed-right-bl,
+  .x-window-header-windowstyle#{$i}-collapsed-right-tr,
+  .x-window-header-windowstyle#{$i}-collapsed-right-br,
+  .x-window-header-windowstyle#{$i}-collapsed-right-tc,
+  .x-window-header-windowstyle#{$i}-collapsed-right-bc,
+  .x-window-header-windowstyle#{$i}-collapsed-right-ml,
+  .x-window-header-windowstyle#{$i}-collapsed-right-mr {
+    zoom: 1;
+    background-image:url("#{$imagesPath}/window-header/window-header-default-collapsed-right-corners.gif");
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-right-ml,
+  .x-window-header-windowstyle#{$i}-collapsed-right-mr {
+    zoom: 1;
+    background-image:url("#{$imagesPath}/window-header/window-header-default-collapsed-right-sides.gif");
+    background-repeat: repeat-y;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-right-mc {
+    padding: 1px 0px 1px 0px;
+  }
+  .x-strict .x-ie7 .x-window-header-windowstyle#{$i}-collapsed-right-tl,
+  .x-strict .x-ie7 .x-window-header-windowstyle#{$i}-collapsed-right-bl {
+    position: relative;
+    right: 0;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-right:after {
+    display: none;
+    content: "x-slicer:corners:url(#{$imagesPath}/window-header/window-header-default-collapsed-right-corners.gif), sides:url(#{$imagesPath}/window-header/window-header-default-collapsed-right-sides.gif)";
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-bottom {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    padding: 4px 5px 4px 5px;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #d3dee1;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-bottom-mc {
+    background-color: #d3dee1;
+  }
+  .x-nbr .x-window-header-windowstyle#{$i}-collapsed-bottom {
+    padding: 0 !important;
+    border-width: 0 !important;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    background-color: transparent;
+  }
+  body.x-nbr .x-window-header-windowstyle#{$i}-collapsed-bottom {
+    /* Pass along Div/Table, Horz/Vert, border-radius and border-width: */
+    background-image:url("s.png#dh-5-5-5-5-1-1-1-1-4-5-4-5");
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-bottom-tl {
+    background-position: 0 -10px;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-bottom-tr {
+    background-position: right -15px;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-bottom-bl {
+    background-position: 0 -20px;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-bottom-br {
+    background-position: right -25px;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-bottom-ml {
+    background-position: 0 top;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-bottom-mr {
+    background-position: right top;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-bottom-tc {
+    background-position: 0 0;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-bottom-bc {
+    background-position: 0 -5px;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-bottom-tr,
+  .x-window-header-windowstyle#{$i}-collapsed-bottom-br,
+  .x-window-header-windowstyle#{$i}-collapsed-bottom-mr {
+    padding-right: 5px;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-bottom-tl,
+  .x-window-header-windowstyle#{$i}-collapsed-bottom-bl,
+  .x-window-header-windowstyle#{$i}-collapsed-bottom-ml {
+    padding-left: 5px;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-bottom-tc {
+    height: 5px;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-bottom-bc {
+    height: 5px;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-bottom-tl,
+  .x-window-header-windowstyle#{$i}-collapsed-bottom-bl,
+  .x-window-header-windowstyle#{$i}-collapsed-bottom-tr,
+  .x-window-header-windowstyle#{$i}-collapsed-bottom-br,
+  .x-window-header-windowstyle#{$i}-collapsed-bottom-tc,
+  .x-window-header-windowstyle#{$i}-collapsed-bottom-bc,
+  .x-window-header-windowstyle#{$i}-collapsed-bottom-ml,
+  .x-window-header-windowstyle#{$i}-collapsed-bottom-mr {
+    zoom: 1;
+    background-image:url("#{$imagesPath}/window-header/window-header-default-collapsed-bottom-corners.gif");
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-bottom-ml,
+  .x-window-header-windowstyle#{$i}-collapsed-bottom-mr {
+    zoom: 1;
+    background-image:url("#{$imagesPath}/window-header/window-header-default-collapsed-bottom-sides.gif");
+    background-repeat: repeat-y;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-bottom-mc {
+    padding: 0px 1px 0px 1px;
+  }
+  .x-strict .x-ie7 .x-window-header-windowstyle#{$i}-collapsed-bottom-tl,
+  .x-strict .x-ie7 .x-window-header-windowstyle#{$i}-collapsed-bottom-bl {
+    position: relative;
+    right: 0;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-bottom:after {
+    display: none;
+    content: "x-slicer:corners:url(#{$imagesPath}/window-header/window-header-default-collapsed-bottom-corners.gif), sides:url(#{$imagesPath}/window-header/window-header-default-collapsed-bottom-sides.gif)";
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-left {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    padding: 5px 4px 5px 4px;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #d3dee1;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-left-mc {
+    background-color: #d3dee1;
+  }
+  .x-nbr .x-window-header-windowstyle#{$i}-collapsed-left {
+    padding: 0 !important;
+    border-width: 0 !important;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    background-color: transparent;
+  }
+  body.x-nbr .x-window-header-windowstyle#{$i}-collapsed-left {
+    /* Pass along Div/Table, Horz/Vert, border-radius and border-width: */
+    background-image:url("s.png#dh-5-5-5-5-1-1-1-1-5-4-5-4");
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-left-tl {
+    background-position: 0 -10px;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-left-tr {
+    background-position: right -15px;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-left-bl {
+    background-position: 0 -20px;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-left-br {
+    background-position: right -25px;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-left-ml {
+    background-position: 0 top;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-left-mr {
+    background-position: right top;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-left-tc {
+    background-position: 0 0;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-left-bc {
+    background-position: 0 -5px;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-left-tr,
+  .x-window-header-windowstyle#{$i}-collapsed-left-br,
+  .x-window-header-windowstyle#{$i}-collapsed-left-mr {
+    padding-right: 5px;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-left-tl,
+  .x-window-header-windowstyle#{$i}-collapsed-left-bl,
+  .x-window-header-windowstyle#{$i}-collapsed-left-ml {
+    padding-left: 5px;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-left-tc {
+    height: 5px;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-left-bc {
+    height: 5px;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-left-tl,
+  .x-window-header-windowstyle#{$i}-collapsed-left-bl,
+  .x-window-header-windowstyle#{$i}-collapsed-left-tr,
+  .x-window-header-windowstyle#{$i}-collapsed-left-br,
+  .x-window-header-windowstyle#{$i}-collapsed-left-tc,
+  .x-window-header-windowstyle#{$i}-collapsed-left-bc,
+  .x-window-header-windowstyle#{$i}-collapsed-left-ml,
+  .x-window-header-windowstyle#{$i}-collapsed-left-mr {
+    zoom: 1;
+    background-image:url("#{$imagesPath}/window-header/window-header-default-collapsed-left-corners.gif");
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-left-ml,
+  .x-window-header-windowstyle#{$i}-collapsed-left-mr {
+    zoom: 1;
+    background-image:url("#{$imagesPath}/window-header/window-header-default-collapsed-left-sides.gif");
+    background-repeat: repeat-y;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-left-mc {
+    padding: 1px 0px 1px 0px;
+  }
+  .x-strict .x-ie7 .x-window-header-windowstyle#{$i}-collapsed-left-tl,
+  .x-strict .x-ie7 .x-window-header-windowstyle#{$i}-collapsed-left-bl {
+    position: relative;
+    right: 0;
+  }
+  .x-window-header-windowstyle#{$i}-collapsed-left:after {
+    display: none;
+    content: "x-slicer:corners:url(#{$imagesPath}/window-header/window-header-default-collapsed-left-corners.gif), sides:url(#{$imagesPath}/window-header/window-header-default-collapsed-left-sides.gif)";
+  }
+  .x-window-header-windowstyle#{$i}-top {
+    -webkit-box-shadow: $plainColor 0 1px 0px 0 inset, $plainColor -1px 0 0px 0 inset, $plainColor 1px 0 0px 0 inset;
+    -moz-box-shadow: $plainColor 0 1px 0px 0 inset, $plainColor -1px 0 0px 0 inset, $plainColor 1px 0 0px 0 inset;
+    box-shadow: $plainColor 0 1px 0px 0 inset, $plainColor -1px 0 0px 0 inset, $plainColor 1px 0 0px 0 inset;
+  }
+  .x-window-header-windowstyle#{$i}-right {
+    -webkit-box-shadow: $plainColor 0 1px 0px 0 inset, $plainColor 0 -1px 0px 0 inset, $plainColor -1px 0 0px 0 inset;
+    -moz-box-shadow: $plainColor 0 1px 0px 0 inset, $plainColor 0 -1px 0px 0 inset, $plainColor -1px 0 0px 0 inset;
+    box-shadow: $plainColor 0 1px 0px 0 inset, $plainColor 0 -1px 0px 0 inset, $plainColor -1px 0 0px 0 inset;
+  }
+  .x-window-header-windowstyle#{$i}-bottom {
+    -webkit-box-shadow: $plainColor 0 -1px 0px 0 inset, $plainColor -1px 0 0px 0 inset, $plainColor 1px 0 0px 0 inset;
+    -moz-box-shadow: $plainColor 0 -1px 0px 0 inset, $plainColor -1px 0 0px 0 inset, $plainColor 1px 0 0px 0 inset;
+    box-shadow: $plainColor 0 -1px 0px 0 inset, $plainColor -1px 0 0px 0 inset, $plainColor 1px 0 0px 0 inset;
+  }
+  .x-window-header-windowstyle#{$i}-left {
+    -webkit-box-shadow: $plainColor 0 1px 0px 0 inset, $plainColor 0 -1px 0px 0 inset, $plainColor 1px 0 0px 0 inset;
+    -moz-box-shadow: $plainColor 0 1px 0px 0 inset, $plainColor 0 -1px 0px 0 inset, $plainColor 1px 0 0px 0 inset;
+    box-shadow: $plainColor 0 1px 0px 0 inset, $plainColor 0 -1px 0px 0 inset, $plainColor 1px 0 0px 0 inset;
+  }
+  .x-window-header-windowstyle#{$i} .x-window-header-icon {
+    width: 16px;
+    height: 16px;
+    color: $lightColor;
+    font-size: 16px;
+    line-height: 16px;
+    background-position: center center;
+  }
+  .x-window-header-windowstyle#{$i} .x-window-header-glyph {
+    color: $lightColor;
+    font-size: 16px;
+    line-height: 16px;
+    opacity: 0.5;
+  }
+  .x-ie8m .x-window-header-windowstyle#{$i} .x-window-header-glyph {
+    color: #b4b46f;
+  }
+  .x-window-header-windowstyle#{$i}-horizontal .x-window-header-icon-before-title {
+    margin: 0 2px 0 0;
+  }
+  .x-window-header-windowstyle#{$i}-horizontal .x-window-header-icon-after-title {
+    margin: 0 0 0 2px;
+  }
+  .x-window-header-windowstyle#{$i}-vertical .x-window-header-icon-before-title {
+    margin: 0 0 2px 0;
+  }
+  .x-window-header-windowstyle#{$i}-vertical .x-window-header-icon-after-title {
+    margin: 2px 0 0 0;
+  }
+  .x-window-header-windowstyle#{$i}-horizontal .x-tool-after-title {
+    margin: 0 0 0 2px;
+  }
+  .x-window-header-windowstyle#{$i}-horizontal .x-tool-before-title {
+    margin: 0 2px 0 0;
+  }
+  .x-window-header-windowstyle#{$i}-vertical .x-tool-after-title {
+    margin: 2px 0 0 0;
+  }
+  .x-window-header-windowstyle#{$i}-vertical .x-tool-before-title {
+    margin: 0 0 2px 0;
+  }
+  .x-window-windowstyle#{$i}-collapsed .x-window-header {
+    border-width: 1px !important;
+  }
+  .x-nbr .x-window-windowstyle#{$i}-collapsed .x-window-header {
+    border-width: 0 !important;
+  }
+  .x-window-tablerowstyle#{$i} {
+    background-color: $windowColor !important;
+  }
+  $i: $i+1;
+}

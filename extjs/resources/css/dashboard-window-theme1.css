@@ -1,0 +1,5703 @@
+/* line 63, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle5 {
+  -webkit-box-shadow: #0000b3 0 1px 0px 0 inset, #0000b3 0 -1px 0px 0 inset, #0000b3 -1px 0 0px 0 inset, #0000b3 1px 0 0px 0 inset;
+  -moz-box-shadow: #0000b3 0 1px 0px 0 inset, #0000b3 0 -1px 0px 0 inset, #0000b3 -1px 0 0px 0 inset, #0000b3 1px 0 0px 0 inset;
+  box-shadow: #0000b3 0 1px 0 0 inset, #0000b3 0 -1px 0 0 inset, #0000b3 -1px 0 0 0 inset, #0000b3 1px 0 0 0 inset;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 4px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #b2b5ac;
+  background-color: navy;
+}
+
+/* line 78, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle5:after {
+  display: none;
+  content: "x-slicer:corners:url(../../../../dashboard/images/styles/5/window/window-default-corners.gif), sides:url(../../../../dashboard/images/styles/5/window/window-default-sides.gif)";
+}
+
+/* line 82, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle5-mc {
+  background-color: #000080;
+}
+
+/* line 85, ../sass/dashboard-window-theme.scss */
+.x-nbr .x-window-windowstyle5 {
+  padding: 0 !important;
+  border-width: 0;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+/* line 95, ../sass/dashboard-window-theme.scss */
+body.x-nbr .x-window-windowstyle5 {
+  background-image: url("s.png#dh-5-5-5-5-1-1-1-1-4-4-4-4");
+}
+
+/* line 98, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle5-tl {
+  background-position: 0 -10px;
+}
+
+/* line 101, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle5-tr {
+  background-position: right -15px;
+}
+
+/* line 104, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle5-bl {
+  background-position: 0 -20px;
+}
+
+/* line 107, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle5-br {
+  background-position: right -25px;
+}
+
+/* line 110, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle5-ml {
+  background-position: 0 top;
+}
+
+/* line 113, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle5-mr {
+  background-position: right top;
+}
+
+/* line 116, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle5-tc {
+  background-position: 0 0;
+}
+
+/* line 119, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle5-bc {
+  background-position: 0 -5px;
+}
+
+/* line 124, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle5-tr,
+.x-window-windowstyle5-br,
+.x-window-windowstyle5-mr {
+  padding-right: 5px;
+}
+
+/* line 129, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle5-tl,
+.x-window-windowstyle5-bl,
+.x-window-windowstyle5-ml {
+  padding-left: 5px;
+}
+
+/* line 132, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle5-tc {
+  height: 5px;
+}
+
+/* line 135, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle5-bc {
+  height: 5px;
+}
+
+/* line 145, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle5-tl,
+.x-window-windowstyle5-bl,
+.x-window-windowstyle5-tr,
+.x-window-windowstyle5-br,
+.x-window-windowstyle5-tc,
+.x-window-windowstyle5-bc,
+.x-window-windowstyle5-ml,
+.x-window-windowstyle5-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/5/window/window-default-corners.gif);
+}
+
+/* line 150, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle5-ml,
+.x-window-windowstyle5-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/5/window/window-default-sides.gif);
+  background-repeat: repeat-y;
+}
+
+/* line 155, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle5-mc {
+  padding: 0px 0px 0px 0px;
+}
+
+/* line 158, ../sass/dashboard-window-theme.scss */
+.x-window-body-windowstyle5 {
+  border-color: #000034;
+  border-width: 1px;
+}
+
+/* line 162, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5 {
+  border-color: #000034;
+}
+
+/* line 165, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-vertical .x-window-header-text-container {
+  -webkit-transform: rotate(90deg);
+  -webkit-transform-origin: 0 0;
+  -moz-transform: rotate(90deg);
+  -moz-transform-origin: 0 0;
+  -o-transform: rotate(90deg);
+  -o-transform-origin: 0 0;
+  transform: rotate(90deg);
+  transform-origin: 0 0;
+}
+
+/* line 175, ../sass/dashboard-window-theme.scss */
+.x-ie9m .x-window-header-windowstyle5-vertical .x-window-header-text-container {
+  background-color: #000034;
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1), progid:DXImageTransform.Microsoft.Chroma(color=#000034);
+}
+
+/* line 179, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5 .x-window-header-icon {
+  background-position: center center;
+  color: #000034;
+  font-size: 16px;
+  height: 16px;
+  line-height: 16px;
+  width: 16px;
+}
+
+/* line 187, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-top {
+  background-color: #000080;
+  -moz-border-radius-topleft: 5px;
+  -webkit-border-top-left-radius: 5px;
+  border-top-left-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  -webkit-border-top-right-radius: 5px;
+  border-top-right-radius: 5px;
+  -moz-border-radius-bottomright: 0;
+  -webkit-border-bottom-right-radius: 0;
+  border-bottom-right-radius: 0;
+  -moz-border-radius-bottomleft: 0;
+  -webkit-border-bottom-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 4px 5px 0 5px;
+  border-width: 1px 1px 0 1px;
+  border-style: solid;
+}
+
+/* line 205, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-top-mc {
+  background-color: #000080;
+}
+
+/* line 208, ../sass/dashboard-window-theme.scss */
+.x-window-header-text-container-windowstyle5 {
+  padding: 0 2px 1px;
+  text-transform: none;
+}
+
+/* line 212, ../sass/dashboard-window-theme.scss */
+.x-nbr .x-window-header-windowstyle5-top {
+  padding: 0 !important;
+  border-width: 0 !important;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+/* line 222, ../sass/dashboard-window-theme.scss */
+body.x-nbr .x-window-header-windowstyle5-top {
+  /* Pass along Div/Table, Horz/Vert, border-radius and border-width: */
+  background-image: url("s.png#dh-5-5-0-0-1-1-0-1-4-5-0-5");
+}
+
+/* line 226, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-top-tl {
+  background-position: 0 -10px;
+}
+
+/* line 229, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-top-tr {
+  background-position: right -15px;
+}
+
+/* line 232, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-top-bl {
+  background-position: 0 -20px;
+}
+
+/* line 235, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-top-br {
+  background-position: right -25px;
+}
+
+/* line 238, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-top-ml {
+  background-position: 0 top;
+}
+
+/* line 241, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-top-mr {
+  background-position: right top;
+}
+
+/* line 244, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-top-tc {
+  background-position: 0 0;
+}
+
+/* line 247, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-top-bc {
+  background-position: 0 -5px;
+}
+
+/* line 252, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-top-tr,
+.x-window-header-windowstyle5-top-br,
+.x-window-header-windowstyle5-top-mr {
+  padding-right: 5px;
+}
+
+/* line 257, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-top-tl,
+.x-window-header-windowstyle5-top-bl,
+.x-window-header-windowstyle5-top-ml {
+  padding-left: 5px;
+}
+
+/* line 260, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-top-tc {
+  height: 5px;
+}
+
+/* line 263, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-top-bc {
+  height: 0;
+}
+
+/* line 273, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-top-tl,
+.x-window-header-windowstyle5-top-bl,
+.x-window-header-windowstyle5-top-tr,
+.x-window-header-windowstyle5-top-br,
+.x-window-header-windowstyle5-top-tc,
+.x-window-header-windowstyle5-top-bc,
+.x-window-header-windowstyle5-top-ml,
+.x-window-header-windowstyle5-top-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/5/window-header/window-header-default-top-corners.gif);
+}
+
+/* line 278, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-top-ml,
+.x-window-header-windowstyle5-top-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/5/window-header/window-header-default-top-sides.gif);
+  background-repeat: repeat-y;
+}
+
+/* line 283, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-top-mc {
+  padding: 0px 1px 0 1px;
+}
+
+/* line 287, ../sass/dashboard-window-theme.scss */
+.x-strict .x-ie7 .x-window-header-windowstyle5-top-tl,
+.x-strict .x-ie7 .x-window-header-windowstyle5-top-bl {
+  position: relative;
+  right: 0;
+}
+
+/* line 291, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-top:after {
+  display: none;
+  content: "x-slicer:corners:url(../../../../dashboard/images/styles/5/window-header/window-header-default-top-corners.gif), sides:url(../../../../dashboard/images/styles/5/window-header/window-header-default-top-sides.gif)";
+}
+
+/* line 295, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-right {
+  -moz-border-radius-topleft: 0;
+  -webkit-border-top-left-radius: 0;
+  border-top-left-radius: 0;
+  -moz-border-radius-topright: 5px;
+  -webkit-border-top-right-radius: 5px;
+  border-top-right-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  -moz-border-radius-bottomleft: 0;
+  -webkit-border-bottom-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 5px 4px 5px 0;
+  border-width: 1px 1px 1px 0;
+  border-style: solid;
+  background-color: #d3dee1;
+}
+
+/* line 313, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-right-mc {
+  background-color: #d3dee1;
+}
+
+/* line 316, ../sass/dashboard-window-theme.scss */
+.x-nbr .x-window-header-windowstyle5-right {
+  padding: 0 !important;
+  border-width: 0 !important;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+/* line 326, ../sass/dashboard-window-theme.scss */
+body.x-nbr .x-window-header-windowstyle5-right {
+  /* Pass along Div/Table, Horz/Vert, border-radius and border-width: */
+  background-image: url("s.png#dh-0-5-5-0-1-1-1-0-5-4-5-0");
+}
+
+/* line 330, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-right-tl {
+  background-position: 0 -10px;
+}
+
+/* line 333, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-right-tr {
+  background-position: right -15px;
+}
+
+/* line 336, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-right-bl {
+  background-position: 0 -20px;
+}
+
+/* line 339, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-right-br {
+  background-position: right -25px;
+}
+
+/* line 342, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-right-ml {
+  background-position: 0 top;
+}
+
+/* line 345, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-right-mr {
+  background-position: right top;
+}
+
+/* line 348, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-right-tc {
+  background-position: 0 0;
+}
+
+/* line 351, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-right-bc {
+  background-position: 0 -5px;
+}
+
+/* line 356, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-right-tr,
+.x-window-header-windowstyle5-right-br,
+.x-window-header-windowstyle5-right-mr {
+  padding-right: 5px;
+}
+
+/* line 361, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-right-tl,
+.x-window-header-windowstyle5-right-bl,
+.x-window-header-windowstyle5-right-ml {
+  padding-left: 0;
+}
+
+/* line 364, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-right-tc {
+  height: 5px;
+}
+
+/* line 367, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-right-bc {
+  height: 5px;
+}
+
+/* line 377, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-right-tl,
+.x-window-header-windowstyle5-right-bl,
+.x-window-header-windowstyle5-right-tr,
+.x-window-header-windowstyle5-right-br,
+.x-window-header-windowstyle5-right-tc,
+.x-window-header-windowstyle5-right-bc,
+.x-window-header-windowstyle5-right-ml,
+.x-window-header-windowstyle5-right-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/5/window-header/window-header-default-right-corners.gif);
+}
+
+/* line 382, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-right-ml,
+.x-window-header-windowstyle5-right-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/5/window-header/window-header-default-right-sides.gif);
+  background-repeat: repeat-y;
+}
+
+/* line 387, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-right-mc {
+  padding: 1px 0px 1px 0;
+}
+
+/* line 391, ../sass/dashboard-window-theme.scss */
+.x-strict .x-ie7 .x-window-header-windowstyle5-right-tl,
+.x-strict .x-ie7 .x-window-header-windowstyle5-right-bl {
+  position: relative;
+  right: 0;
+}
+
+/* line 395, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-right:after {
+  display: none;
+  content: "x-slicer:corners:url(../../../../dashboard/images/styles/5/window-header/window-header-default-right-corners.gif), sides:url(../../../../dashboard/images/styles/5/window-header/window-header-default-right-sides.gif)";
+}
+
+/* line 399, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-bottom {
+  -moz-border-radius-topleft: 0;
+  -webkit-border-top-left-radius: 0;
+  border-top-left-radius: 0;
+  -moz-border-radius-topright: 0;
+  -webkit-border-top-right-radius: 0;
+  border-top-right-radius: 0;
+  -moz-border-radius-bottomright: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 0 5px 4px 5px;
+  border-width: 0 1px 1px 1px;
+  border-style: solid;
+  background-color: #d3dee1;
+}
+
+/* line 417, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-bottom-mc {
+  background-color: #d3dee1;
+}
+
+/* line 420, ../sass/dashboard-window-theme.scss */
+.x-nbr .x-window-header-windowstyle5-bottom {
+  padding: 0 !important;
+  border-width: 0 !important;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+/* line 430, ../sass/dashboard-window-theme.scss */
+body.x-nbr .x-window-header-windowstyle5-bottom {
+  /* Pass along Div/Table, Horz/Vert, border-radius and border-width: */
+  background-image: url("s.png#dh-0-0-5-5-0-1-1-1-0-5-4-5");
+}
+
+/* line 434, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-bottom-tl {
+  background-position: 0 -10px;
+}
+
+/* line 437, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-bottom-tr {
+  background-position: right -15px;
+}
+
+/* line 440, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-bottom-bl {
+  background-position: 0 -20px;
+}
+
+/* line 443, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-bottom-br {
+  background-position: right -25px;
+}
+
+/* line 446, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-bottom-ml {
+  background-position: 0 top;
+}
+
+/* line 449, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-bottom-mr {
+  background-position: right top;
+}
+
+/* line 452, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-bottom-tc {
+  background-position: 0 0;
+}
+
+/* line 455, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-bottom-bc {
+  background-position: 0 -5px;
+}
+
+/* line 460, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-bottom-tr,
+.x-window-header-windowstyle5-bottom-br,
+.x-window-header-windowstyle5-bottom-mr {
+  padding-right: 5px;
+}
+
+/* line 465, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-bottom-tl,
+.x-window-header-windowstyle5-bottom-bl,
+.x-window-header-windowstyle5-bottom-ml {
+  padding-left: 5px;
+}
+
+/* line 468, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-bottom-tc {
+  height: 0;
+}
+
+/* line 471, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-bottom-bc {
+  height: 5px;
+}
+
+/* line 481, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-bottom-tl,
+.x-window-header-windowstyle5-bottom-bl,
+.x-window-header-windowstyle5-bottom-tr,
+.x-window-header-windowstyle5-bottom-br,
+.x-window-header-windowstyle5-bottom-tc,
+.x-window-header-windowstyle5-bottom-bc,
+.x-window-header-windowstyle5-bottom-ml,
+.x-window-header-windowstyle5-bottom-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/5/window-header/window-header-default-bottom-corners.gif);
+}
+
+/* line 486, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-bottom-ml,
+.x-window-header-windowstyle5-bottom-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/5/window-header/window-header-default-bottom-sides.gif);
+  background-repeat: repeat-y;
+}
+
+/* line 491, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-bottom-mc {
+  padding: 0 1px 0px 1px;
+}
+
+/* line 495, ../sass/dashboard-window-theme.scss */
+.x-strict .x-ie7 .x-window-header-windowstyle5-bottom-tl,
+.x-strict .x-ie7 .x-window-header-windowstyle5-bottom-bl {
+  position: relative;
+  right: 0;
+}
+
+/* line 499, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-bottom:after {
+  display: none;
+  content: "x-slicer:corners:url(../../../../dashboard/images/styles/5/window-header/window-header-default-bottom-corners.gif), sides:url(../../../../dashboard/images/styles/5/window-header/window-header-default-bottom-sides.gif)";
+}
+
+/* line 503, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-left {
+  -moz-border-radius-topleft: 5px;
+  -webkit-border-top-left-radius: 5px;
+  border-top-left-radius: 5px;
+  -moz-border-radius-topright: 0;
+  -webkit-border-top-right-radius: 0;
+  border-top-right-radius: 0;
+  -moz-border-radius-bottomright: 0;
+  -webkit-border-bottom-right-radius: 0;
+  border-bottom-right-radius: 0;
+  -moz-border-radius-bottomleft: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 5px 0 5px 4px;
+  border-width: 1px 0 1px 1px;
+  border-style: solid;
+  background-color: #d3dee1;
+}
+
+/* line 521, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-left-mc {
+  background-color: #d3dee1;
+}
+
+/* line 524, ../sass/dashboard-window-theme.scss */
+.x-nbr .x-window-header-windowstyle5-left {
+  padding: 0 !important;
+  border-width: 0 !important;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+/* line 534, ../sass/dashboard-window-theme.scss */
+body.x-nbr .x-window-header-windowstyle5-left {
+  /* Pass along Div/Table, Horz/Vert, border-radius and border-width: */
+  background-image: url("s.png#dh-5-0-0-5-1-0-1-1-5-0-5-4");
+}
+
+/* line 538, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-left-tl {
+  background-position: 0 -10px;
+}
+
+/* line 541, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-left-tr {
+  background-position: right -15px;
+}
+
+/* line 544, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-left-bl {
+  background-position: 0 -20px;
+}
+
+/* line 547, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-left-br {
+  background-position: right -25px;
+}
+
+/* line 550, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-left-ml {
+  background-position: 0 top;
+}
+
+/* line 553, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-left-mr {
+  background-position: right top;
+}
+
+/* line 556, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-left-tc {
+  background-position: 0 0;
+}
+
+/* line 559, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-left-bc {
+  background-position: 0 -5px;
+}
+
+/* line 564, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-left-tr,
+.x-window-header-windowstyle5-left-br,
+.x-window-header-windowstyle5-left-mr {
+  padding-right: 0;
+}
+
+/* line 569, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-left-tl,
+.x-window-header-windowstyle5-left-bl,
+.x-window-header-windowstyle5-left-ml {
+  padding-left: 5px;
+}
+
+/* line 572, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-left-tc {
+  height: 5px;
+}
+
+/* line 575, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-left-bc {
+  height: 5px;
+}
+
+/* line 585, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-left-tl,
+.x-window-header-windowstyle5-left-bl,
+.x-window-header-windowstyle5-left-tr,
+.x-window-header-windowstyle5-left-br,
+.x-window-header-windowstyle5-left-tc,
+.x-window-header-windowstyle5-left-bc,
+.x-window-header-windowstyle5-left-ml,
+.x-window-header-windowstyle5-left-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/5/window-header/window-header-default-left-corners.gif);
+}
+
+/* line 590, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-left-ml,
+.x-window-header-windowstyle5-left-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/5/window-header/window-header-default-left-sides.gif);
+  background-repeat: repeat-y;
+}
+
+/* line 595, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-left-mc {
+  padding: 1px 0 1px 0px;
+}
+
+/* line 599, ../sass/dashboard-window-theme.scss */
+.x-strict .x-ie7 .x-window-header-windowstyle5-left-tl,
+.x-strict .x-ie7 .x-window-header-windowstyle5-left-bl {
+  position: relative;
+  right: 0;
+}
+
+/* line 603, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-left:after {
+  display: none;
+  content: "x-slicer:corners:url(../../../../dashboard/images/styles/5/window-header/window-header-default-left-corners.gif), sides:url(../../../../dashboard/images/styles/5/window-header/window-header-default-left-sides.gif)";
+}
+
+/* line 607, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-top {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 4px 5px 4px 5px;
+  border-width: 1px;
+  border-style: solid;
+  background-color: #d3dee1;
+}
+
+/* line 618, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-top-mc {
+  background-color: #d3dee1;
+}
+
+/* line 621, ../sass/dashboard-window-theme.scss */
+.x-nbr .x-window-header-windowstyle5-collapsed-top {
+  padding: 0 !important;
+  border-width: 0 !important;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+/* line 631, ../sass/dashboard-window-theme.scss */
+body.x-nbr .x-window-header-windowstyle5-collapsed-top {
+  /* Pass along Div/Table, Horz/Vert, border-radius and border-width: */
+  background-image: url("s.png#dh-5-5-5-5-1-1-1-1-4-5-4-5");
+}
+
+/* line 635, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-top-tl {
+  background-position: 0 -10px;
+}
+
+/* line 638, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-top-tr {
+  background-position: right -15px;
+}
+
+/* line 641, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-top-bl {
+  background-position: 0 -20px;
+}
+
+/* line 644, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-top-br {
+  background-position: right -25px;
+}
+
+/* line 647, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-top-ml {
+  background-position: 0 top;
+}
+
+/* line 650, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-top-mr {
+  background-position: right top;
+}
+
+/* line 653, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-top-tc {
+  background-position: 0 0;
+}
+
+/* line 656, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-top-bc {
+  background-position: 0 -5px;
+}
+
+/* line 661, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-top-tr,
+.x-window-header-windowstyle5-collapsed-top-br,
+.x-window-header-windowstyle5-collapsed-top-mr {
+  padding-right: 5px;
+}
+
+/* line 666, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-top-tl,
+.x-window-header-windowstyle5-collapsed-top-bl,
+.x-window-header-windowstyle5-collapsed-top-ml {
+  padding-left: 5px;
+}
+
+/* line 669, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-top-tc {
+  height: 5px;
+}
+
+/* line 672, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-top-bc {
+  height: 5px;
+}
+
+/* line 682, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-top-tl,
+.x-window-header-windowstyle5-collapsed-top-bl,
+.x-window-header-windowstyle5-collapsed-top-tr,
+.x-window-header-windowstyle5-collapsed-top-br,
+.x-window-header-windowstyle5-collapsed-top-tc,
+.x-window-header-windowstyle5-collapsed-top-bc,
+.x-window-header-windowstyle5-collapsed-top-ml,
+.x-window-header-windowstyle5-collapsed-top-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/5/window-header/window-header-default-collapsed-top-corners.gif);
+}
+
+/* line 687, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-top-ml,
+.x-window-header-windowstyle5-collapsed-top-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/5/window-header/window-header-default-collapsed-top-sides.gif);
+  background-repeat: repeat-y;
+}
+
+/* line 692, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-top-mc {
+  padding: 0px 1px 0px 1px;
+}
+
+/* line 696, ../sass/dashboard-window-theme.scss */
+.x-strict .x-ie7 .x-window-header-windowstyle5-collapsed-top-tl,
+.x-strict .x-ie7 .x-window-header-windowstyle5-collapsed-top-bl {
+  position: relative;
+  right: 0;
+}
+
+/* line 700, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-top:after {
+  display: none;
+  content: "x-slicer:corners:url(../../../../dashboard/images/styles/5/window-header/window-header-default-collapsed-top-corners.gif), sides:url(../../../../dashboard/images/styles/5/window-header/window-header-default-collapsed-top-sides.gif)";
+}
+
+/* line 704, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-right {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 5px 4px 5px 4px;
+  border-width: 1px;
+  border-style: solid;
+  background-color: #d3dee1;
+}
+
+/* line 715, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-right-mc {
+  background-color: #d3dee1;
+}
+
+/* line 718, ../sass/dashboard-window-theme.scss */
+.x-nbr .x-window-header-windowstyle5-collapsed-right {
+  padding: 0 !important;
+  border-width: 0 !important;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+/* line 728, ../sass/dashboard-window-theme.scss */
+body.x-nbr .x-window-header-windowstyle5-collapsed-right {
+  /* Pass along Div/Table, Horz/Vert, border-radius and border-width: */
+  background-image: url("s.png#dh-5-5-5-5-1-1-1-1-5-4-5-4");
+}
+
+/* line 732, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-right-tl {
+  background-position: 0 -10px;
+}
+
+/* line 735, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-right-tr {
+  background-position: right -15px;
+}
+
+/* line 738, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-right-bl {
+  background-position: 0 -20px;
+}
+
+/* line 741, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-right-br {
+  background-position: right -25px;
+}
+
+/* line 744, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-right-ml {
+  background-position: 0 top;
+}
+
+/* line 747, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-right-mr {
+  background-position: right top;
+}
+
+/* line 750, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-right-tc {
+  background-position: 0 0;
+}
+
+/* line 753, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-right-bc {
+  background-position: 0 -5px;
+}
+
+/* line 758, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-right-tr,
+.x-window-header-windowstyle5-collapsed-right-br,
+.x-window-header-windowstyle5-collapsed-right-mr {
+  padding-right: 5px;
+}
+
+/* line 763, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-right-tl,
+.x-window-header-windowstyle5-collapsed-right-bl,
+.x-window-header-windowstyle5-collapsed-right-ml {
+  padding-left: 5px;
+}
+
+/* line 766, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-right-tc {
+  height: 5px;
+}
+
+/* line 769, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-right-bc {
+  height: 5px;
+}
+
+/* line 779, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-right-tl,
+.x-window-header-windowstyle5-collapsed-right-bl,
+.x-window-header-windowstyle5-collapsed-right-tr,
+.x-window-header-windowstyle5-collapsed-right-br,
+.x-window-header-windowstyle5-collapsed-right-tc,
+.x-window-header-windowstyle5-collapsed-right-bc,
+.x-window-header-windowstyle5-collapsed-right-ml,
+.x-window-header-windowstyle5-collapsed-right-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/5/window-header/window-header-default-collapsed-right-corners.gif);
+}
+
+/* line 784, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-right-ml,
+.x-window-header-windowstyle5-collapsed-right-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/5/window-header/window-header-default-collapsed-right-sides.gif);
+  background-repeat: repeat-y;
+}
+
+/* line 789, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-right-mc {
+  padding: 1px 0px 1px 0px;
+}
+
+/* line 793, ../sass/dashboard-window-theme.scss */
+.x-strict .x-ie7 .x-window-header-windowstyle5-collapsed-right-tl,
+.x-strict .x-ie7 .x-window-header-windowstyle5-collapsed-right-bl {
+  position: relative;
+  right: 0;
+}
+
+/* line 797, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-right:after {
+  display: none;
+  content: "x-slicer:corners:url(../../../../dashboard/images/styles/5/window-header/window-header-default-collapsed-right-corners.gif), sides:url(../../../../dashboard/images/styles/5/window-header/window-header-default-collapsed-right-sides.gif)";
+}
+
+/* line 801, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-bottom {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 4px 5px 4px 5px;
+  border-width: 1px;
+  border-style: solid;
+  background-color: #d3dee1;
+}
+
+/* line 812, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-bottom-mc {
+  background-color: #d3dee1;
+}
+
+/* line 815, ../sass/dashboard-window-theme.scss */
+.x-nbr .x-window-header-windowstyle5-collapsed-bottom {
+  padding: 0 !important;
+  border-width: 0 !important;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+/* line 825, ../sass/dashboard-window-theme.scss */
+body.x-nbr .x-window-header-windowstyle5-collapsed-bottom {
+  /* Pass along Div/Table, Horz/Vert, border-radius and border-width: */
+  background-image: url("s.png#dh-5-5-5-5-1-1-1-1-4-5-4-5");
+}
+
+/* line 829, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-bottom-tl {
+  background-position: 0 -10px;
+}
+
+/* line 832, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-bottom-tr {
+  background-position: right -15px;
+}
+
+/* line 835, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-bottom-bl {
+  background-position: 0 -20px;
+}
+
+/* line 838, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-bottom-br {
+  background-position: right -25px;
+}
+
+/* line 841, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-bottom-ml {
+  background-position: 0 top;
+}
+
+/* line 844, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-bottom-mr {
+  background-position: right top;
+}
+
+/* line 847, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-bottom-tc {
+  background-position: 0 0;
+}
+
+/* line 850, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-bottom-bc {
+  background-position: 0 -5px;
+}
+
+/* line 855, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-bottom-tr,
+.x-window-header-windowstyle5-collapsed-bottom-br,
+.x-window-header-windowstyle5-collapsed-bottom-mr {
+  padding-right: 5px;
+}
+
+/* line 860, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-bottom-tl,
+.x-window-header-windowstyle5-collapsed-bottom-bl,
+.x-window-header-windowstyle5-collapsed-bottom-ml {
+  padding-left: 5px;
+}
+
+/* line 863, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-bottom-tc {
+  height: 5px;
+}
+
+/* line 866, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-bottom-bc {
+  height: 5px;
+}
+
+/* line 876, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-bottom-tl,
+.x-window-header-windowstyle5-collapsed-bottom-bl,
+.x-window-header-windowstyle5-collapsed-bottom-tr,
+.x-window-header-windowstyle5-collapsed-bottom-br,
+.x-window-header-windowstyle5-collapsed-bottom-tc,
+.x-window-header-windowstyle5-collapsed-bottom-bc,
+.x-window-header-windowstyle5-collapsed-bottom-ml,
+.x-window-header-windowstyle5-collapsed-bottom-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/5/window-header/window-header-default-collapsed-bottom-corners.gif);
+}
+
+/* line 881, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-bottom-ml,
+.x-window-header-windowstyle5-collapsed-bottom-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/5/window-header/window-header-default-collapsed-bottom-sides.gif);
+  background-repeat: repeat-y;
+}
+
+/* line 886, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-bottom-mc {
+  padding: 0px 1px 0px 1px;
+}
+
+/* line 890, ../sass/dashboard-window-theme.scss */
+.x-strict .x-ie7 .x-window-header-windowstyle5-collapsed-bottom-tl,
+.x-strict .x-ie7 .x-window-header-windowstyle5-collapsed-bottom-bl {
+  position: relative;
+  right: 0;
+}
+
+/* line 894, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-bottom:after {
+  display: none;
+  content: "x-slicer:corners:url(../../../../dashboard/images/styles/5/window-header/window-header-default-collapsed-bottom-corners.gif), sides:url(../../../../dashboard/images/styles/5/window-header/window-header-default-collapsed-bottom-sides.gif)";
+}
+
+/* line 898, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-left {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 5px 4px 5px 4px;
+  border-width: 1px;
+  border-style: solid;
+  background-color: #d3dee1;
+}
+
+/* line 909, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-left-mc {
+  background-color: #d3dee1;
+}
+
+/* line 912, ../sass/dashboard-window-theme.scss */
+.x-nbr .x-window-header-windowstyle5-collapsed-left {
+  padding: 0 !important;
+  border-width: 0 !important;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+/* line 922, ../sass/dashboard-window-theme.scss */
+body.x-nbr .x-window-header-windowstyle5-collapsed-left {
+  /* Pass along Div/Table, Horz/Vert, border-radius and border-width: */
+  background-image: url("s.png#dh-5-5-5-5-1-1-1-1-5-4-5-4");
+}
+
+/* line 926, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-left-tl {
+  background-position: 0 -10px;
+}
+
+/* line 929, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-left-tr {
+  background-position: right -15px;
+}
+
+/* line 932, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-left-bl {
+  background-position: 0 -20px;
+}
+
+/* line 935, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-left-br {
+  background-position: right -25px;
+}
+
+/* line 938, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-left-ml {
+  background-position: 0 top;
+}
+
+/* line 941, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-left-mr {
+  background-position: right top;
+}
+
+/* line 944, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-left-tc {
+  background-position: 0 0;
+}
+
+/* line 947, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-left-bc {
+  background-position: 0 -5px;
+}
+
+/* line 952, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-left-tr,
+.x-window-header-windowstyle5-collapsed-left-br,
+.x-window-header-windowstyle5-collapsed-left-mr {
+  padding-right: 5px;
+}
+
+/* line 957, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-left-tl,
+.x-window-header-windowstyle5-collapsed-left-bl,
+.x-window-header-windowstyle5-collapsed-left-ml {
+  padding-left: 5px;
+}
+
+/* line 960, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-left-tc {
+  height: 5px;
+}
+
+/* line 963, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-left-bc {
+  height: 5px;
+}
+
+/* line 973, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-left-tl,
+.x-window-header-windowstyle5-collapsed-left-bl,
+.x-window-header-windowstyle5-collapsed-left-tr,
+.x-window-header-windowstyle5-collapsed-left-br,
+.x-window-header-windowstyle5-collapsed-left-tc,
+.x-window-header-windowstyle5-collapsed-left-bc,
+.x-window-header-windowstyle5-collapsed-left-ml,
+.x-window-header-windowstyle5-collapsed-left-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/5/window-header/window-header-default-collapsed-left-corners.gif);
+}
+
+/* line 978, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-left-ml,
+.x-window-header-windowstyle5-collapsed-left-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/5/window-header/window-header-default-collapsed-left-sides.gif);
+  background-repeat: repeat-y;
+}
+
+/* line 983, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-left-mc {
+  padding: 1px 0px 1px 0px;
+}
+
+/* line 987, ../sass/dashboard-window-theme.scss */
+.x-strict .x-ie7 .x-window-header-windowstyle5-collapsed-left-tl,
+.x-strict .x-ie7 .x-window-header-windowstyle5-collapsed-left-bl {
+  position: relative;
+  right: 0;
+}
+
+/* line 991, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-collapsed-left:after {
+  display: none;
+  content: "x-slicer:corners:url(../../../../dashboard/images/styles/5/window-header/window-header-default-collapsed-left-corners.gif), sides:url(../../../../dashboard/images/styles/5/window-header/window-header-default-collapsed-left-sides.gif)";
+}
+
+/* line 995, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-top {
+  -webkit-box-shadow: #00009a 0 1px 0px 0 inset, #00009a -1px 0 0px 0 inset, #00009a 1px 0 0px 0 inset;
+  -moz-box-shadow: #00009a 0 1px 0px 0 inset, #00009a -1px 0 0px 0 inset, #00009a 1px 0 0px 0 inset;
+  box-shadow: #00009a 0 1px 0px 0 inset, #00009a -1px 0 0px 0 inset, #00009a 1px 0 0px 0 inset;
+}
+
+/* line 1000, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-right {
+  -webkit-box-shadow: #00009a 0 1px 0px 0 inset, #00009a 0 -1px 0px 0 inset, #00009a -1px 0 0px 0 inset;
+  -moz-box-shadow: #00009a 0 1px 0px 0 inset, #00009a 0 -1px 0px 0 inset, #00009a -1px 0 0px 0 inset;
+  box-shadow: #00009a 0 1px 0px 0 inset, #00009a 0 -1px 0px 0 inset, #00009a -1px 0 0px 0 inset;
+}
+
+/* line 1005, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-bottom {
+  -webkit-box-shadow: #00009a 0 -1px 0px 0 inset, #00009a -1px 0 0px 0 inset, #00009a 1px 0 0px 0 inset;
+  -moz-box-shadow: #00009a 0 -1px 0px 0 inset, #00009a -1px 0 0px 0 inset, #00009a 1px 0 0px 0 inset;
+  box-shadow: #00009a 0 -1px 0px 0 inset, #00009a -1px 0 0px 0 inset, #00009a 1px 0 0px 0 inset;
+}
+
+/* line 1010, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-left {
+  -webkit-box-shadow: #00009a 0 1px 0px 0 inset, #00009a 0 -1px 0px 0 inset, #00009a 1px 0 0px 0 inset;
+  -moz-box-shadow: #00009a 0 1px 0px 0 inset, #00009a 0 -1px 0px 0 inset, #00009a 1px 0 0px 0 inset;
+  box-shadow: #00009a 0 1px 0px 0 inset, #00009a 0 -1px 0px 0 inset, #00009a 1px 0 0px 0 inset;
+}
+
+/* line 1015, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5 .x-window-header-icon {
+  width: 16px;
+  height: 16px;
+  color: #0000b3;
+  font-size: 16px;
+  line-height: 16px;
+  background-position: center center;
+}
+
+/* line 1023, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5 .x-window-header-glyph {
+  color: #0000b3;
+  font-size: 16px;
+  line-height: 16px;
+  opacity: 0.5;
+}
+
+/* line 1029, ../sass/dashboard-window-theme.scss */
+.x-ie8m .x-window-header-windowstyle5 .x-window-header-glyph {
+  color: #b4b46f;
+}
+
+/* line 1032, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-horizontal .x-window-header-icon-before-title {
+  margin: 0 2px 0 0;
+}
+
+/* line 1035, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-horizontal .x-window-header-icon-after-title {
+  margin: 0 0 0 2px;
+}
+
+/* line 1038, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-vertical .x-window-header-icon-before-title {
+  margin: 0 0 2px 0;
+}
+
+/* line 1041, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-vertical .x-window-header-icon-after-title {
+  margin: 2px 0 0 0;
+}
+
+/* line 1044, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-horizontal .x-tool-after-title {
+  margin: 0 0 0 2px;
+}
+
+/* line 1047, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-horizontal .x-tool-before-title {
+  margin: 0 2px 0 0;
+}
+
+/* line 1050, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-vertical .x-tool-after-title {
+  margin: 2px 0 0 0;
+}
+
+/* line 1053, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle5-vertical .x-tool-before-title {
+  margin: 0 0 2px 0;
+}
+
+/* line 1056, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle5-collapsed .x-window-header {
+  border-width: 1px !important;
+}
+
+/* line 1059, ../sass/dashboard-window-theme.scss */
+.x-nbr .x-window-windowstyle5-collapsed .x-window-header {
+  border-width: 0 !important;
+}
+
+/* line 1062, ../sass/dashboard-window-theme.scss */
+.x-window-tablerowstyle5 {
+  background-color: navy !important;
+}
+
+/* line 63, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle6 {
+  -webkit-box-shadow: #4040bf 0 1px 0px 0 inset, #4040bf 0 -1px 0px 0 inset, #4040bf -1px 0 0px 0 inset, #4040bf 1px 0 0px 0 inset;
+  -moz-box-shadow: #4040bf 0 1px 0px 0 inset, #4040bf 0 -1px 0px 0 inset, #4040bf -1px 0 0px 0 inset, #4040bf 1px 0 0px 0 inset;
+  box-shadow: #4040bf 0 1px 0 0 inset, #4040bf 0 -1px 0 0 inset, #4040bf -1px 0 0 0 inset, #4040bf 1px 0 0 0 inset;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 4px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #b2b5ac;
+  background-color: #333399;
+}
+
+/* line 78, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle6:after {
+  display: none;
+  content: "x-slicer:corners:url(../../../../dashboard/images/styles/6/window/window-default-corners.gif), sides:url(../../../../dashboard/images/styles/6/window/window-default-sides.gif)";
+}
+
+/* line 82, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle6-mc {
+  background-color: #333399;
+}
+
+/* line 85, ../sass/dashboard-window-theme.scss */
+.x-nbr .x-window-windowstyle6 {
+  padding: 0 !important;
+  border-width: 0;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+/* line 95, ../sass/dashboard-window-theme.scss */
+body.x-nbr .x-window-windowstyle6 {
+  background-image: url("s.png#dh-5-5-5-5-1-1-1-1-4-4-4-4");
+}
+
+/* line 98, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle6-tl {
+  background-position: 0 -10px;
+}
+
+/* line 101, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle6-tr {
+  background-position: right -15px;
+}
+
+/* line 104, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle6-bl {
+  background-position: 0 -20px;
+}
+
+/* line 107, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle6-br {
+  background-position: right -25px;
+}
+
+/* line 110, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle6-ml {
+  background-position: 0 top;
+}
+
+/* line 113, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle6-mr {
+  background-position: right top;
+}
+
+/* line 116, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle6-tc {
+  background-position: 0 0;
+}
+
+/* line 119, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle6-bc {
+  background-position: 0 -5px;
+}
+
+/* line 124, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle6-tr,
+.x-window-windowstyle6-br,
+.x-window-windowstyle6-mr {
+  padding-right: 5px;
+}
+
+/* line 129, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle6-tl,
+.x-window-windowstyle6-bl,
+.x-window-windowstyle6-ml {
+  padding-left: 5px;
+}
+
+/* line 132, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle6-tc {
+  height: 5px;
+}
+
+/* line 135, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle6-bc {
+  height: 5px;
+}
+
+/* line 145, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle6-tl,
+.x-window-windowstyle6-bl,
+.x-window-windowstyle6-tr,
+.x-window-windowstyle6-br,
+.x-window-windowstyle6-tc,
+.x-window-windowstyle6-bc,
+.x-window-windowstyle6-ml,
+.x-window-windowstyle6-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/6/window/window-default-corners.gif);
+}
+
+/* line 150, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle6-ml,
+.x-window-windowstyle6-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/6/window/window-default-sides.gif);
+  background-repeat: repeat-y;
+}
+
+/* line 155, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle6-mc {
+  padding: 0px 0px 0px 0px;
+}
+
+/* line 158, ../sass/dashboard-window-theme.scss */
+.x-window-body-windowstyle6 {
+  border-color: #202060;
+  border-width: 1px;
+}
+
+/* line 162, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6 {
+  border-color: #202060;
+}
+
+/* line 165, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-vertical .x-window-header-text-container {
+  -webkit-transform: rotate(90deg);
+  -webkit-transform-origin: 0 0;
+  -moz-transform: rotate(90deg);
+  -moz-transform-origin: 0 0;
+  -o-transform: rotate(90deg);
+  -o-transform-origin: 0 0;
+  transform: rotate(90deg);
+  transform-origin: 0 0;
+}
+
+/* line 175, ../sass/dashboard-window-theme.scss */
+.x-ie9m .x-window-header-windowstyle6-vertical .x-window-header-text-container {
+  background-color: #202060;
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1), progid:DXImageTransform.Microsoft.Chroma(color=#202060);
+}
+
+/* line 179, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6 .x-window-header-icon {
+  background-position: center center;
+  color: #202060;
+  font-size: 16px;
+  height: 16px;
+  line-height: 16px;
+  width: 16px;
+}
+
+/* line 187, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-top {
+  background-color: #333399;
+  -moz-border-radius-topleft: 5px;
+  -webkit-border-top-left-radius: 5px;
+  border-top-left-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  -webkit-border-top-right-radius: 5px;
+  border-top-right-radius: 5px;
+  -moz-border-radius-bottomright: 0;
+  -webkit-border-bottom-right-radius: 0;
+  border-bottom-right-radius: 0;
+  -moz-border-radius-bottomleft: 0;
+  -webkit-border-bottom-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 4px 5px 0 5px;
+  border-width: 1px 1px 0 1px;
+  border-style: solid;
+}
+
+/* line 205, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-top-mc {
+  background-color: #333399;
+}
+
+/* line 208, ../sass/dashboard-window-theme.scss */
+.x-window-header-text-container-windowstyle6 {
+  padding: 0 2px 1px;
+  text-transform: none;
+}
+
+/* line 212, ../sass/dashboard-window-theme.scss */
+.x-nbr .x-window-header-windowstyle6-top {
+  padding: 0 !important;
+  border-width: 0 !important;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+/* line 222, ../sass/dashboard-window-theme.scss */
+body.x-nbr .x-window-header-windowstyle6-top {
+  /* Pass along Div/Table, Horz/Vert, border-radius and border-width: */
+  background-image: url("s.png#dh-5-5-0-0-1-1-0-1-4-5-0-5");
+}
+
+/* line 226, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-top-tl {
+  background-position: 0 -10px;
+}
+
+/* line 229, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-top-tr {
+  background-position: right -15px;
+}
+
+/* line 232, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-top-bl {
+  background-position: 0 -20px;
+}
+
+/* line 235, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-top-br {
+  background-position: right -25px;
+}
+
+/* line 238, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-top-ml {
+  background-position: 0 top;
+}
+
+/* line 241, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-top-mr {
+  background-position: right top;
+}
+
+/* line 244, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-top-tc {
+  background-position: 0 0;
+}
+
+/* line 247, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-top-bc {
+  background-position: 0 -5px;
+}
+
+/* line 252, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-top-tr,
+.x-window-header-windowstyle6-top-br,
+.x-window-header-windowstyle6-top-mr {
+  padding-right: 5px;
+}
+
+/* line 257, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-top-tl,
+.x-window-header-windowstyle6-top-bl,
+.x-window-header-windowstyle6-top-ml {
+  padding-left: 5px;
+}
+
+/* line 260, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-top-tc {
+  height: 5px;
+}
+
+/* line 263, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-top-bc {
+  height: 0;
+}
+
+/* line 273, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-top-tl,
+.x-window-header-windowstyle6-top-bl,
+.x-window-header-windowstyle6-top-tr,
+.x-window-header-windowstyle6-top-br,
+.x-window-header-windowstyle6-top-tc,
+.x-window-header-windowstyle6-top-bc,
+.x-window-header-windowstyle6-top-ml,
+.x-window-header-windowstyle6-top-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/6/window-header/window-header-default-top-corners.gif);
+}
+
+/* line 278, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-top-ml,
+.x-window-header-windowstyle6-top-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/6/window-header/window-header-default-top-sides.gif);
+  background-repeat: repeat-y;
+}
+
+/* line 283, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-top-mc {
+  padding: 0px 1px 0 1px;
+}
+
+/* line 287, ../sass/dashboard-window-theme.scss */
+.x-strict .x-ie7 .x-window-header-windowstyle6-top-tl,
+.x-strict .x-ie7 .x-window-header-windowstyle6-top-bl {
+  position: relative;
+  right: 0;
+}
+
+/* line 291, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-top:after {
+  display: none;
+  content: "x-slicer:corners:url(../../../../dashboard/images/styles/6/window-header/window-header-default-top-corners.gif), sides:url(../../../../dashboard/images/styles/6/window-header/window-header-default-top-sides.gif)";
+}
+
+/* line 295, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-right {
+  -moz-border-radius-topleft: 0;
+  -webkit-border-top-left-radius: 0;
+  border-top-left-radius: 0;
+  -moz-border-radius-topright: 5px;
+  -webkit-border-top-right-radius: 5px;
+  border-top-right-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  -moz-border-radius-bottomleft: 0;
+  -webkit-border-bottom-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 5px 4px 5px 0;
+  border-width: 1px 1px 1px 0;
+  border-style: solid;
+  background-color: #d3dee1;
+}
+
+/* line 313, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-right-mc {
+  background-color: #d3dee1;
+}
+
+/* line 316, ../sass/dashboard-window-theme.scss */
+.x-nbr .x-window-header-windowstyle6-right {
+  padding: 0 !important;
+  border-width: 0 !important;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+/* line 326, ../sass/dashboard-window-theme.scss */
+body.x-nbr .x-window-header-windowstyle6-right {
+  /* Pass along Div/Table, Horz/Vert, border-radius and border-width: */
+  background-image: url("s.png#dh-0-5-5-0-1-1-1-0-5-4-5-0");
+}
+
+/* line 330, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-right-tl {
+  background-position: 0 -10px;
+}
+
+/* line 333, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-right-tr {
+  background-position: right -15px;
+}
+
+/* line 336, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-right-bl {
+  background-position: 0 -20px;
+}
+
+/* line 339, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-right-br {
+  background-position: right -25px;
+}
+
+/* line 342, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-right-ml {
+  background-position: 0 top;
+}
+
+/* line 345, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-right-mr {
+  background-position: right top;
+}
+
+/* line 348, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-right-tc {
+  background-position: 0 0;
+}
+
+/* line 351, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-right-bc {
+  background-position: 0 -5px;
+}
+
+/* line 356, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-right-tr,
+.x-window-header-windowstyle6-right-br,
+.x-window-header-windowstyle6-right-mr {
+  padding-right: 5px;
+}
+
+/* line 361, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-right-tl,
+.x-window-header-windowstyle6-right-bl,
+.x-window-header-windowstyle6-right-ml {
+  padding-left: 0;
+}
+
+/* line 364, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-right-tc {
+  height: 5px;
+}
+
+/* line 367, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-right-bc {
+  height: 5px;
+}
+
+/* line 377, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-right-tl,
+.x-window-header-windowstyle6-right-bl,
+.x-window-header-windowstyle6-right-tr,
+.x-window-header-windowstyle6-right-br,
+.x-window-header-windowstyle6-right-tc,
+.x-window-header-windowstyle6-right-bc,
+.x-window-header-windowstyle6-right-ml,
+.x-window-header-windowstyle6-right-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/6/window-header/window-header-default-right-corners.gif);
+}
+
+/* line 382, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-right-ml,
+.x-window-header-windowstyle6-right-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/6/window-header/window-header-default-right-sides.gif);
+  background-repeat: repeat-y;
+}
+
+/* line 387, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-right-mc {
+  padding: 1px 0px 1px 0;
+}
+
+/* line 391, ../sass/dashboard-window-theme.scss */
+.x-strict .x-ie7 .x-window-header-windowstyle6-right-tl,
+.x-strict .x-ie7 .x-window-header-windowstyle6-right-bl {
+  position: relative;
+  right: 0;
+}
+
+/* line 395, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-right:after {
+  display: none;
+  content: "x-slicer:corners:url(../../../../dashboard/images/styles/6/window-header/window-header-default-right-corners.gif), sides:url(../../../../dashboard/images/styles/6/window-header/window-header-default-right-sides.gif)";
+}
+
+/* line 399, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-bottom {
+  -moz-border-radius-topleft: 0;
+  -webkit-border-top-left-radius: 0;
+  border-top-left-radius: 0;
+  -moz-border-radius-topright: 0;
+  -webkit-border-top-right-radius: 0;
+  border-top-right-radius: 0;
+  -moz-border-radius-bottomright: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 0 5px 4px 5px;
+  border-width: 0 1px 1px 1px;
+  border-style: solid;
+  background-color: #d3dee1;
+}
+
+/* line 417, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-bottom-mc {
+  background-color: #d3dee1;
+}
+
+/* line 420, ../sass/dashboard-window-theme.scss */
+.x-nbr .x-window-header-windowstyle6-bottom {
+  padding: 0 !important;
+  border-width: 0 !important;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+/* line 430, ../sass/dashboard-window-theme.scss */
+body.x-nbr .x-window-header-windowstyle6-bottom {
+  /* Pass along Div/Table, Horz/Vert, border-radius and border-width: */
+  background-image: url("s.png#dh-0-0-5-5-0-1-1-1-0-5-4-5");
+}
+
+/* line 434, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-bottom-tl {
+  background-position: 0 -10px;
+}
+
+/* line 437, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-bottom-tr {
+  background-position: right -15px;
+}
+
+/* line 440, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-bottom-bl {
+  background-position: 0 -20px;
+}
+
+/* line 443, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-bottom-br {
+  background-position: right -25px;
+}
+
+/* line 446, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-bottom-ml {
+  background-position: 0 top;
+}
+
+/* line 449, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-bottom-mr {
+  background-position: right top;
+}
+
+/* line 452, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-bottom-tc {
+  background-position: 0 0;
+}
+
+/* line 455, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-bottom-bc {
+  background-position: 0 -5px;
+}
+
+/* line 460, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-bottom-tr,
+.x-window-header-windowstyle6-bottom-br,
+.x-window-header-windowstyle6-bottom-mr {
+  padding-right: 5px;
+}
+
+/* line 465, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-bottom-tl,
+.x-window-header-windowstyle6-bottom-bl,
+.x-window-header-windowstyle6-bottom-ml {
+  padding-left: 5px;
+}
+
+/* line 468, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-bottom-tc {
+  height: 0;
+}
+
+/* line 471, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-bottom-bc {
+  height: 5px;
+}
+
+/* line 481, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-bottom-tl,
+.x-window-header-windowstyle6-bottom-bl,
+.x-window-header-windowstyle6-bottom-tr,
+.x-window-header-windowstyle6-bottom-br,
+.x-window-header-windowstyle6-bottom-tc,
+.x-window-header-windowstyle6-bottom-bc,
+.x-window-header-windowstyle6-bottom-ml,
+.x-window-header-windowstyle6-bottom-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/6/window-header/window-header-default-bottom-corners.gif);
+}
+
+/* line 486, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-bottom-ml,
+.x-window-header-windowstyle6-bottom-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/6/window-header/window-header-default-bottom-sides.gif);
+  background-repeat: repeat-y;
+}
+
+/* line 491, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-bottom-mc {
+  padding: 0 1px 0px 1px;
+}
+
+/* line 495, ../sass/dashboard-window-theme.scss */
+.x-strict .x-ie7 .x-window-header-windowstyle6-bottom-tl,
+.x-strict .x-ie7 .x-window-header-windowstyle6-bottom-bl {
+  position: relative;
+  right: 0;
+}
+
+/* line 499, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-bottom:after {
+  display: none;
+  content: "x-slicer:corners:url(../../../../dashboard/images/styles/6/window-header/window-header-default-bottom-corners.gif), sides:url(../../../../dashboard/images/styles/6/window-header/window-header-default-bottom-sides.gif)";
+}
+
+/* line 503, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-left {
+  -moz-border-radius-topleft: 5px;
+  -webkit-border-top-left-radius: 5px;
+  border-top-left-radius: 5px;
+  -moz-border-radius-topright: 0;
+  -webkit-border-top-right-radius: 0;
+  border-top-right-radius: 0;
+  -moz-border-radius-bottomright: 0;
+  -webkit-border-bottom-right-radius: 0;
+  border-bottom-right-radius: 0;
+  -moz-border-radius-bottomleft: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 5px 0 5px 4px;
+  border-width: 1px 0 1px 1px;
+  border-style: solid;
+  background-color: #d3dee1;
+}
+
+/* line 521, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-left-mc {
+  background-color: #d3dee1;
+}
+
+/* line 524, ../sass/dashboard-window-theme.scss */
+.x-nbr .x-window-header-windowstyle6-left {
+  padding: 0 !important;
+  border-width: 0 !important;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+/* line 534, ../sass/dashboard-window-theme.scss */
+body.x-nbr .x-window-header-windowstyle6-left {
+  /* Pass along Div/Table, Horz/Vert, border-radius and border-width: */
+  background-image: url("s.png#dh-5-0-0-5-1-0-1-1-5-0-5-4");
+}
+
+/* line 538, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-left-tl {
+  background-position: 0 -10px;
+}
+
+/* line 541, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-left-tr {
+  background-position: right -15px;
+}
+
+/* line 544, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-left-bl {
+  background-position: 0 -20px;
+}
+
+/* line 547, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-left-br {
+  background-position: right -25px;
+}
+
+/* line 550, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-left-ml {
+  background-position: 0 top;
+}
+
+/* line 553, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-left-mr {
+  background-position: right top;
+}
+
+/* line 556, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-left-tc {
+  background-position: 0 0;
+}
+
+/* line 559, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-left-bc {
+  background-position: 0 -5px;
+}
+
+/* line 564, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-left-tr,
+.x-window-header-windowstyle6-left-br,
+.x-window-header-windowstyle6-left-mr {
+  padding-right: 0;
+}
+
+/* line 569, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-left-tl,
+.x-window-header-windowstyle6-left-bl,
+.x-window-header-windowstyle6-left-ml {
+  padding-left: 5px;
+}
+
+/* line 572, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-left-tc {
+  height: 5px;
+}
+
+/* line 575, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-left-bc {
+  height: 5px;
+}
+
+/* line 585, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-left-tl,
+.x-window-header-windowstyle6-left-bl,
+.x-window-header-windowstyle6-left-tr,
+.x-window-header-windowstyle6-left-br,
+.x-window-header-windowstyle6-left-tc,
+.x-window-header-windowstyle6-left-bc,
+.x-window-header-windowstyle6-left-ml,
+.x-window-header-windowstyle6-left-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/6/window-header/window-header-default-left-corners.gif);
+}
+
+/* line 590, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-left-ml,
+.x-window-header-windowstyle6-left-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/6/window-header/window-header-default-left-sides.gif);
+  background-repeat: repeat-y;
+}
+
+/* line 595, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-left-mc {
+  padding: 1px 0 1px 0px;
+}
+
+/* line 599, ../sass/dashboard-window-theme.scss */
+.x-strict .x-ie7 .x-window-header-windowstyle6-left-tl,
+.x-strict .x-ie7 .x-window-header-windowstyle6-left-bl {
+  position: relative;
+  right: 0;
+}
+
+/* line 603, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-left:after {
+  display: none;
+  content: "x-slicer:corners:url(../../../../dashboard/images/styles/6/window-header/window-header-default-left-corners.gif), sides:url(../../../../dashboard/images/styles/6/window-header/window-header-default-left-sides.gif)";
+}
+
+/* line 607, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-top {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 4px 5px 4px 5px;
+  border-width: 1px;
+  border-style: solid;
+  background-color: #d3dee1;
+}
+
+/* line 618, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-top-mc {
+  background-color: #d3dee1;
+}
+
+/* line 621, ../sass/dashboard-window-theme.scss */
+.x-nbr .x-window-header-windowstyle6-collapsed-top {
+  padding: 0 !important;
+  border-width: 0 !important;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+/* line 631, ../sass/dashboard-window-theme.scss */
+body.x-nbr .x-window-header-windowstyle6-collapsed-top {
+  /* Pass along Div/Table, Horz/Vert, border-radius and border-width: */
+  background-image: url("s.png#dh-5-5-5-5-1-1-1-1-4-5-4-5");
+}
+
+/* line 635, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-top-tl {
+  background-position: 0 -10px;
+}
+
+/* line 638, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-top-tr {
+  background-position: right -15px;
+}
+
+/* line 641, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-top-bl {
+  background-position: 0 -20px;
+}
+
+/* line 644, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-top-br {
+  background-position: right -25px;
+}
+
+/* line 647, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-top-ml {
+  background-position: 0 top;
+}
+
+/* line 650, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-top-mr {
+  background-position: right top;
+}
+
+/* line 653, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-top-tc {
+  background-position: 0 0;
+}
+
+/* line 656, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-top-bc {
+  background-position: 0 -5px;
+}
+
+/* line 661, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-top-tr,
+.x-window-header-windowstyle6-collapsed-top-br,
+.x-window-header-windowstyle6-collapsed-top-mr {
+  padding-right: 5px;
+}
+
+/* line 666, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-top-tl,
+.x-window-header-windowstyle6-collapsed-top-bl,
+.x-window-header-windowstyle6-collapsed-top-ml {
+  padding-left: 5px;
+}
+
+/* line 669, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-top-tc {
+  height: 5px;
+}
+
+/* line 672, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-top-bc {
+  height: 5px;
+}
+
+/* line 682, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-top-tl,
+.x-window-header-windowstyle6-collapsed-top-bl,
+.x-window-header-windowstyle6-collapsed-top-tr,
+.x-window-header-windowstyle6-collapsed-top-br,
+.x-window-header-windowstyle6-collapsed-top-tc,
+.x-window-header-windowstyle6-collapsed-top-bc,
+.x-window-header-windowstyle6-collapsed-top-ml,
+.x-window-header-windowstyle6-collapsed-top-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/6/window-header/window-header-default-collapsed-top-corners.gif);
+}
+
+/* line 687, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-top-ml,
+.x-window-header-windowstyle6-collapsed-top-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/6/window-header/window-header-default-collapsed-top-sides.gif);
+  background-repeat: repeat-y;
+}
+
+/* line 692, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-top-mc {
+  padding: 0px 1px 0px 1px;
+}
+
+/* line 696, ../sass/dashboard-window-theme.scss */
+.x-strict .x-ie7 .x-window-header-windowstyle6-collapsed-top-tl,
+.x-strict .x-ie7 .x-window-header-windowstyle6-collapsed-top-bl {
+  position: relative;
+  right: 0;
+}
+
+/* line 700, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-top:after {
+  display: none;
+  content: "x-slicer:corners:url(../../../../dashboard/images/styles/6/window-header/window-header-default-collapsed-top-corners.gif), sides:url(../../../../dashboard/images/styles/6/window-header/window-header-default-collapsed-top-sides.gif)";
+}
+
+/* line 704, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-right {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 5px 4px 5px 4px;
+  border-width: 1px;
+  border-style: solid;
+  background-color: #d3dee1;
+}
+
+/* line 715, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-right-mc {
+  background-color: #d3dee1;
+}
+
+/* line 718, ../sass/dashboard-window-theme.scss */
+.x-nbr .x-window-header-windowstyle6-collapsed-right {
+  padding: 0 !important;
+  border-width: 0 !important;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+/* line 728, ../sass/dashboard-window-theme.scss */
+body.x-nbr .x-window-header-windowstyle6-collapsed-right {
+  /* Pass along Div/Table, Horz/Vert, border-radius and border-width: */
+  background-image: url("s.png#dh-5-5-5-5-1-1-1-1-5-4-5-4");
+}
+
+/* line 732, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-right-tl {
+  background-position: 0 -10px;
+}
+
+/* line 735, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-right-tr {
+  background-position: right -15px;
+}
+
+/* line 738, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-right-bl {
+  background-position: 0 -20px;
+}
+
+/* line 741, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-right-br {
+  background-position: right -25px;
+}
+
+/* line 744, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-right-ml {
+  background-position: 0 top;
+}
+
+/* line 747, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-right-mr {
+  background-position: right top;
+}
+
+/* line 750, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-right-tc {
+  background-position: 0 0;
+}
+
+/* line 753, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-right-bc {
+  background-position: 0 -5px;
+}
+
+/* line 758, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-right-tr,
+.x-window-header-windowstyle6-collapsed-right-br,
+.x-window-header-windowstyle6-collapsed-right-mr {
+  padding-right: 5px;
+}
+
+/* line 763, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-right-tl,
+.x-window-header-windowstyle6-collapsed-right-bl,
+.x-window-header-windowstyle6-collapsed-right-ml {
+  padding-left: 5px;
+}
+
+/* line 766, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-right-tc {
+  height: 5px;
+}
+
+/* line 769, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-right-bc {
+  height: 5px;
+}
+
+/* line 779, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-right-tl,
+.x-window-header-windowstyle6-collapsed-right-bl,
+.x-window-header-windowstyle6-collapsed-right-tr,
+.x-window-header-windowstyle6-collapsed-right-br,
+.x-window-header-windowstyle6-collapsed-right-tc,
+.x-window-header-windowstyle6-collapsed-right-bc,
+.x-window-header-windowstyle6-collapsed-right-ml,
+.x-window-header-windowstyle6-collapsed-right-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/6/window-header/window-header-default-collapsed-right-corners.gif);
+}
+
+/* line 784, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-right-ml,
+.x-window-header-windowstyle6-collapsed-right-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/6/window-header/window-header-default-collapsed-right-sides.gif);
+  background-repeat: repeat-y;
+}
+
+/* line 789, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-right-mc {
+  padding: 1px 0px 1px 0px;
+}
+
+/* line 793, ../sass/dashboard-window-theme.scss */
+.x-strict .x-ie7 .x-window-header-windowstyle6-collapsed-right-tl,
+.x-strict .x-ie7 .x-window-header-windowstyle6-collapsed-right-bl {
+  position: relative;
+  right: 0;
+}
+
+/* line 797, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-right:after {
+  display: none;
+  content: "x-slicer:corners:url(../../../../dashboard/images/styles/6/window-header/window-header-default-collapsed-right-corners.gif), sides:url(../../../../dashboard/images/styles/6/window-header/window-header-default-collapsed-right-sides.gif)";
+}
+
+/* line 801, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-bottom {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 4px 5px 4px 5px;
+  border-width: 1px;
+  border-style: solid;
+  background-color: #d3dee1;
+}
+
+/* line 812, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-bottom-mc {
+  background-color: #d3dee1;
+}
+
+/* line 815, ../sass/dashboard-window-theme.scss */
+.x-nbr .x-window-header-windowstyle6-collapsed-bottom {
+  padding: 0 !important;
+  border-width: 0 !important;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+/* line 825, ../sass/dashboard-window-theme.scss */
+body.x-nbr .x-window-header-windowstyle6-collapsed-bottom {
+  /* Pass along Div/Table, Horz/Vert, border-radius and border-width: */
+  background-image: url("s.png#dh-5-5-5-5-1-1-1-1-4-5-4-5");
+}
+
+/* line 829, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-bottom-tl {
+  background-position: 0 -10px;
+}
+
+/* line 832, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-bottom-tr {
+  background-position: right -15px;
+}
+
+/* line 835, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-bottom-bl {
+  background-position: 0 -20px;
+}
+
+/* line 838, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-bottom-br {
+  background-position: right -25px;
+}
+
+/* line 841, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-bottom-ml {
+  background-position: 0 top;
+}
+
+/* line 844, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-bottom-mr {
+  background-position: right top;
+}
+
+/* line 847, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-bottom-tc {
+  background-position: 0 0;
+}
+
+/* line 850, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-bottom-bc {
+  background-position: 0 -5px;
+}
+
+/* line 855, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-bottom-tr,
+.x-window-header-windowstyle6-collapsed-bottom-br,
+.x-window-header-windowstyle6-collapsed-bottom-mr {
+  padding-right: 5px;
+}
+
+/* line 860, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-bottom-tl,
+.x-window-header-windowstyle6-collapsed-bottom-bl,
+.x-window-header-windowstyle6-collapsed-bottom-ml {
+  padding-left: 5px;
+}
+
+/* line 863, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-bottom-tc {
+  height: 5px;
+}
+
+/* line 866, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-bottom-bc {
+  height: 5px;
+}
+
+/* line 876, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-bottom-tl,
+.x-window-header-windowstyle6-collapsed-bottom-bl,
+.x-window-header-windowstyle6-collapsed-bottom-tr,
+.x-window-header-windowstyle6-collapsed-bottom-br,
+.x-window-header-windowstyle6-collapsed-bottom-tc,
+.x-window-header-windowstyle6-collapsed-bottom-bc,
+.x-window-header-windowstyle6-collapsed-bottom-ml,
+.x-window-header-windowstyle6-collapsed-bottom-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/6/window-header/window-header-default-collapsed-bottom-corners.gif);
+}
+
+/* line 881, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-bottom-ml,
+.x-window-header-windowstyle6-collapsed-bottom-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/6/window-header/window-header-default-collapsed-bottom-sides.gif);
+  background-repeat: repeat-y;
+}
+
+/* line 886, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-bottom-mc {
+  padding: 0px 1px 0px 1px;
+}
+
+/* line 890, ../sass/dashboard-window-theme.scss */
+.x-strict .x-ie7 .x-window-header-windowstyle6-collapsed-bottom-tl,
+.x-strict .x-ie7 .x-window-header-windowstyle6-collapsed-bottom-bl {
+  position: relative;
+  right: 0;
+}
+
+/* line 894, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-bottom:after {
+  display: none;
+  content: "x-slicer:corners:url(../../../../dashboard/images/styles/6/window-header/window-header-default-collapsed-bottom-corners.gif), sides:url(../../../../dashboard/images/styles/6/window-header/window-header-default-collapsed-bottom-sides.gif)";
+}
+
+/* line 898, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-left {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 5px 4px 5px 4px;
+  border-width: 1px;
+  border-style: solid;
+  background-color: #d3dee1;
+}
+
+/* line 909, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-left-mc {
+  background-color: #d3dee1;
+}
+
+/* line 912, ../sass/dashboard-window-theme.scss */
+.x-nbr .x-window-header-windowstyle6-collapsed-left {
+  padding: 0 !important;
+  border-width: 0 !important;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+/* line 922, ../sass/dashboard-window-theme.scss */
+body.x-nbr .x-window-header-windowstyle6-collapsed-left {
+  /* Pass along Div/Table, Horz/Vert, border-radius and border-width: */
+  background-image: url("s.png#dh-5-5-5-5-1-1-1-1-5-4-5-4");
+}
+
+/* line 926, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-left-tl {
+  background-position: 0 -10px;
+}
+
+/* line 929, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-left-tr {
+  background-position: right -15px;
+}
+
+/* line 932, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-left-bl {
+  background-position: 0 -20px;
+}
+
+/* line 935, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-left-br {
+  background-position: right -25px;
+}
+
+/* line 938, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-left-ml {
+  background-position: 0 top;
+}
+
+/* line 941, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-left-mr {
+  background-position: right top;
+}
+
+/* line 944, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-left-tc {
+  background-position: 0 0;
+}
+
+/* line 947, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-left-bc {
+  background-position: 0 -5px;
+}
+
+/* line 952, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-left-tr,
+.x-window-header-windowstyle6-collapsed-left-br,
+.x-window-header-windowstyle6-collapsed-left-mr {
+  padding-right: 5px;
+}
+
+/* line 957, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-left-tl,
+.x-window-header-windowstyle6-collapsed-left-bl,
+.x-window-header-windowstyle6-collapsed-left-ml {
+  padding-left: 5px;
+}
+
+/* line 960, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-left-tc {
+  height: 5px;
+}
+
+/* line 963, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-left-bc {
+  height: 5px;
+}
+
+/* line 973, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-left-tl,
+.x-window-header-windowstyle6-collapsed-left-bl,
+.x-window-header-windowstyle6-collapsed-left-tr,
+.x-window-header-windowstyle6-collapsed-left-br,
+.x-window-header-windowstyle6-collapsed-left-tc,
+.x-window-header-windowstyle6-collapsed-left-bc,
+.x-window-header-windowstyle6-collapsed-left-ml,
+.x-window-header-windowstyle6-collapsed-left-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/6/window-header/window-header-default-collapsed-left-corners.gif);
+}
+
+/* line 978, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-left-ml,
+.x-window-header-windowstyle6-collapsed-left-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/6/window-header/window-header-default-collapsed-left-sides.gif);
+  background-repeat: repeat-y;
+}
+
+/* line 983, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-left-mc {
+  padding: 1px 0px 1px 0px;
+}
+
+/* line 987, ../sass/dashboard-window-theme.scss */
+.x-strict .x-ie7 .x-window-header-windowstyle6-collapsed-left-tl,
+.x-strict .x-ie7 .x-window-header-windowstyle6-collapsed-left-bl {
+  position: relative;
+  right: 0;
+}
+
+/* line 991, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-collapsed-left:after {
+  display: none;
+  content: "x-slicer:corners:url(../../../../dashboard/images/styles/6/window-header/window-header-default-collapsed-left-corners.gif), sides:url(../../../../dashboard/images/styles/6/window-header/window-header-default-collapsed-left-sides.gif)";
+}
+
+/* line 995, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-top {
+  -webkit-box-shadow: #3939ac 0 1px 0px 0 inset, #3939ac -1px 0 0px 0 inset, #3939ac 1px 0 0px 0 inset;
+  -moz-box-shadow: #3939ac 0 1px 0px 0 inset, #3939ac -1px 0 0px 0 inset, #3939ac 1px 0 0px 0 inset;
+  box-shadow: #3939ac 0 1px 0px 0 inset, #3939ac -1px 0 0px 0 inset, #3939ac 1px 0 0px 0 inset;
+}
+
+/* line 1000, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-right {
+  -webkit-box-shadow: #3939ac 0 1px 0px 0 inset, #3939ac 0 -1px 0px 0 inset, #3939ac -1px 0 0px 0 inset;
+  -moz-box-shadow: #3939ac 0 1px 0px 0 inset, #3939ac 0 -1px 0px 0 inset, #3939ac -1px 0 0px 0 inset;
+  box-shadow: #3939ac 0 1px 0px 0 inset, #3939ac 0 -1px 0px 0 inset, #3939ac -1px 0 0px 0 inset;
+}
+
+/* line 1005, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-bottom {
+  -webkit-box-shadow: #3939ac 0 -1px 0px 0 inset, #3939ac -1px 0 0px 0 inset, #3939ac 1px 0 0px 0 inset;
+  -moz-box-shadow: #3939ac 0 -1px 0px 0 inset, #3939ac -1px 0 0px 0 inset, #3939ac 1px 0 0px 0 inset;
+  box-shadow: #3939ac 0 -1px 0px 0 inset, #3939ac -1px 0 0px 0 inset, #3939ac 1px 0 0px 0 inset;
+}
+
+/* line 1010, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-left {
+  -webkit-box-shadow: #3939ac 0 1px 0px 0 inset, #3939ac 0 -1px 0px 0 inset, #3939ac 1px 0 0px 0 inset;
+  -moz-box-shadow: #3939ac 0 1px 0px 0 inset, #3939ac 0 -1px 0px 0 inset, #3939ac 1px 0 0px 0 inset;
+  box-shadow: #3939ac 0 1px 0px 0 inset, #3939ac 0 -1px 0px 0 inset, #3939ac 1px 0 0px 0 inset;
+}
+
+/* line 1015, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6 .x-window-header-icon {
+  width: 16px;
+  height: 16px;
+  color: #4040bf;
+  font-size: 16px;
+  line-height: 16px;
+  background-position: center center;
+}
+
+/* line 1023, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6 .x-window-header-glyph {
+  color: #4040bf;
+  font-size: 16px;
+  line-height: 16px;
+  opacity: 0.5;
+}
+
+/* line 1029, ../sass/dashboard-window-theme.scss */
+.x-ie8m .x-window-header-windowstyle6 .x-window-header-glyph {
+  color: #b4b46f;
+}
+
+/* line 1032, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-horizontal .x-window-header-icon-before-title {
+  margin: 0 2px 0 0;
+}
+
+/* line 1035, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-horizontal .x-window-header-icon-after-title {
+  margin: 0 0 0 2px;
+}
+
+/* line 1038, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-vertical .x-window-header-icon-before-title {
+  margin: 0 0 2px 0;
+}
+
+/* line 1041, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-vertical .x-window-header-icon-after-title {
+  margin: 2px 0 0 0;
+}
+
+/* line 1044, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-horizontal .x-tool-after-title {
+  margin: 0 0 0 2px;
+}
+
+/* line 1047, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-horizontal .x-tool-before-title {
+  margin: 0 2px 0 0;
+}
+
+/* line 1050, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-vertical .x-tool-after-title {
+  margin: 2px 0 0 0;
+}
+
+/* line 1053, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle6-vertical .x-tool-before-title {
+  margin: 0 0 2px 0;
+}
+
+/* line 1056, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle6-collapsed .x-window-header {
+  border-width: 1px !important;
+}
+
+/* line 1059, ../sass/dashboard-window-theme.scss */
+.x-nbr .x-window-windowstyle6-collapsed .x-window-header {
+  border-width: 0 !important;
+}
+
+/* line 1062, ../sass/dashboard-window-theme.scss */
+.x-window-tablerowstyle6 {
+  background-color: #333399 !important;
+}
+
+/* line 63, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle7 {
+  -webkit-box-shadow: #7a7a7a 0 1px 0px 0 inset, #7a7a7a 0 -1px 0px 0 inset, #7a7a7a -1px 0 0px 0 inset, #7a7a7a 1px 0 0px 0 inset;
+  -moz-box-shadow: #7a7a7a 0 1px 0px 0 inset, #7a7a7a 0 -1px 0px 0 inset, #7a7a7a -1px 0 0px 0 inset, #7a7a7a 1px 0 0px 0 inset;
+  box-shadow: #7a7a7a 0 1px 0 0 inset, #7a7a7a 0 -1px 0 0 inset, #7a7a7a -1px 0 0 0 inset, #7a7a7a 1px 0 0 0 inset;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 4px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #b2b5ac;
+  background-color: #606060;
+}
+
+/* line 78, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle7:after {
+  display: none;
+  content: "x-slicer:corners:url(../../../../dashboard/images/styles/7/window/window-default-corners.gif), sides:url(../../../../dashboard/images/styles/7/window/window-default-sides.gif)";
+}
+
+/* line 82, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle7-mc {
+  background-color: #606060;
+}
+
+/* line 85, ../sass/dashboard-window-theme.scss */
+.x-nbr .x-window-windowstyle7 {
+  padding: 0 !important;
+  border-width: 0;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+/* line 95, ../sass/dashboard-window-theme.scss */
+body.x-nbr .x-window-windowstyle7 {
+  background-image: url("s.png#dh-5-5-5-5-1-1-1-1-4-4-4-4");
+}
+
+/* line 98, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle7-tl {
+  background-position: 0 -10px;
+}
+
+/* line 101, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle7-tr {
+  background-position: right -15px;
+}
+
+/* line 104, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle7-bl {
+  background-position: 0 -20px;
+}
+
+/* line 107, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle7-br {
+  background-position: right -25px;
+}
+
+/* line 110, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle7-ml {
+  background-position: 0 top;
+}
+
+/* line 113, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle7-mr {
+  background-position: right top;
+}
+
+/* line 116, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle7-tc {
+  background-position: 0 0;
+}
+
+/* line 119, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle7-bc {
+  background-position: 0 -5px;
+}
+
+/* line 124, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle7-tr,
+.x-window-windowstyle7-br,
+.x-window-windowstyle7-mr {
+  padding-right: 5px;
+}
+
+/* line 129, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle7-tl,
+.x-window-windowstyle7-bl,
+.x-window-windowstyle7-ml {
+  padding-left: 5px;
+}
+
+/* line 132, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle7-tc {
+  height: 5px;
+}
+
+/* line 135, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle7-bc {
+  height: 5px;
+}
+
+/* line 145, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle7-tl,
+.x-window-windowstyle7-bl,
+.x-window-windowstyle7-tr,
+.x-window-windowstyle7-br,
+.x-window-windowstyle7-tc,
+.x-window-windowstyle7-bc,
+.x-window-windowstyle7-ml,
+.x-window-windowstyle7-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/7/window/window-default-corners.gif);
+}
+
+/* line 150, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle7-ml,
+.x-window-windowstyle7-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/7/window/window-default-sides.gif);
+  background-repeat: repeat-y;
+}
+
+/* line 155, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle7-mc {
+  padding: 0px 0px 0px 0px;
+}
+
+/* line 158, ../sass/dashboard-window-theme.scss */
+.x-window-body-windowstyle7 {
+  border-color: #3a3a3a;
+  border-width: 1px;
+}
+
+/* line 162, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7 {
+  border-color: #3a3a3a;
+}
+
+/* line 165, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-vertical .x-window-header-text-container {
+  -webkit-transform: rotate(90deg);
+  -webkit-transform-origin: 0 0;
+  -moz-transform: rotate(90deg);
+  -moz-transform-origin: 0 0;
+  -o-transform: rotate(90deg);
+  -o-transform-origin: 0 0;
+  transform: rotate(90deg);
+  transform-origin: 0 0;
+}
+
+/* line 175, ../sass/dashboard-window-theme.scss */
+.x-ie9m .x-window-header-windowstyle7-vertical .x-window-header-text-container {
+  background-color: #3a3a3a;
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1), progid:DXImageTransform.Microsoft.Chroma(color=#3a3a3a);
+}
+
+/* line 179, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7 .x-window-header-icon {
+  background-position: center center;
+  color: #3a3a3a;
+  font-size: 16px;
+  height: 16px;
+  line-height: 16px;
+  width: 16px;
+}
+
+/* line 187, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-top {
+  background-color: #606060;
+  -moz-border-radius-topleft: 5px;
+  -webkit-border-top-left-radius: 5px;
+  border-top-left-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  -webkit-border-top-right-radius: 5px;
+  border-top-right-radius: 5px;
+  -moz-border-radius-bottomright: 0;
+  -webkit-border-bottom-right-radius: 0;
+  border-bottom-right-radius: 0;
+  -moz-border-radius-bottomleft: 0;
+  -webkit-border-bottom-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 4px 5px 0 5px;
+  border-width: 1px 1px 0 1px;
+  border-style: solid;
+}
+
+/* line 205, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-top-mc {
+  background-color: #606060;
+}
+
+/* line 208, ../sass/dashboard-window-theme.scss */
+.x-window-header-text-container-windowstyle7 {
+  padding: 0 2px 1px;
+  text-transform: none;
+}
+
+/* line 212, ../sass/dashboard-window-theme.scss */
+.x-nbr .x-window-header-windowstyle7-top {
+  padding: 0 !important;
+  border-width: 0 !important;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+/* line 222, ../sass/dashboard-window-theme.scss */
+body.x-nbr .x-window-header-windowstyle7-top {
+  /* Pass along Div/Table, Horz/Vert, border-radius and border-width: */
+  background-image: url("s.png#dh-5-5-0-0-1-1-0-1-4-5-0-5");
+}
+
+/* line 226, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-top-tl {
+  background-position: 0 -10px;
+}
+
+/* line 229, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-top-tr {
+  background-position: right -15px;
+}
+
+/* line 232, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-top-bl {
+  background-position: 0 -20px;
+}
+
+/* line 235, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-top-br {
+  background-position: right -25px;
+}
+
+/* line 238, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-top-ml {
+  background-position: 0 top;
+}
+
+/* line 241, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-top-mr {
+  background-position: right top;
+}
+
+/* line 244, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-top-tc {
+  background-position: 0 0;
+}
+
+/* line 247, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-top-bc {
+  background-position: 0 -5px;
+}
+
+/* line 252, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-top-tr,
+.x-window-header-windowstyle7-top-br,
+.x-window-header-windowstyle7-top-mr {
+  padding-right: 5px;
+}
+
+/* line 257, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-top-tl,
+.x-window-header-windowstyle7-top-bl,
+.x-window-header-windowstyle7-top-ml {
+  padding-left: 5px;
+}
+
+/* line 260, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-top-tc {
+  height: 5px;
+}
+
+/* line 263, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-top-bc {
+  height: 0;
+}
+
+/* line 273, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-top-tl,
+.x-window-header-windowstyle7-top-bl,
+.x-window-header-windowstyle7-top-tr,
+.x-window-header-windowstyle7-top-br,
+.x-window-header-windowstyle7-top-tc,
+.x-window-header-windowstyle7-top-bc,
+.x-window-header-windowstyle7-top-ml,
+.x-window-header-windowstyle7-top-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/7/window-header/window-header-default-top-corners.gif);
+}
+
+/* line 278, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-top-ml,
+.x-window-header-windowstyle7-top-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/7/window-header/window-header-default-top-sides.gif);
+  background-repeat: repeat-y;
+}
+
+/* line 283, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-top-mc {
+  padding: 0px 1px 0 1px;
+}
+
+/* line 287, ../sass/dashboard-window-theme.scss */
+.x-strict .x-ie7 .x-window-header-windowstyle7-top-tl,
+.x-strict .x-ie7 .x-window-header-windowstyle7-top-bl {
+  position: relative;
+  right: 0;
+}
+
+/* line 291, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-top:after {
+  display: none;
+  content: "x-slicer:corners:url(../../../../dashboard/images/styles/7/window-header/window-header-default-top-corners.gif), sides:url(../../../../dashboard/images/styles/7/window-header/window-header-default-top-sides.gif)";
+}
+
+/* line 295, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-right {
+  -moz-border-radius-topleft: 0;
+  -webkit-border-top-left-radius: 0;
+  border-top-left-radius: 0;
+  -moz-border-radius-topright: 5px;
+  -webkit-border-top-right-radius: 5px;
+  border-top-right-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  -moz-border-radius-bottomleft: 0;
+  -webkit-border-bottom-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 5px 4px 5px 0;
+  border-width: 1px 1px 1px 0;
+  border-style: solid;
+  background-color: #d3dee1;
+}
+
+/* line 313, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-right-mc {
+  background-color: #d3dee1;
+}
+
+/* line 316, ../sass/dashboard-window-theme.scss */
+.x-nbr .x-window-header-windowstyle7-right {
+  padding: 0 !important;
+  border-width: 0 !important;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+/* line 326, ../sass/dashboard-window-theme.scss */
+body.x-nbr .x-window-header-windowstyle7-right {
+  /* Pass along Div/Table, Horz/Vert, border-radius and border-width: */
+  background-image: url("s.png#dh-0-5-5-0-1-1-1-0-5-4-5-0");
+}
+
+/* line 330, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-right-tl {
+  background-position: 0 -10px;
+}
+
+/* line 333, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-right-tr {
+  background-position: right -15px;
+}
+
+/* line 336, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-right-bl {
+  background-position: 0 -20px;
+}
+
+/* line 339, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-right-br {
+  background-position: right -25px;
+}
+
+/* line 342, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-right-ml {
+  background-position: 0 top;
+}
+
+/* line 345, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-right-mr {
+  background-position: right top;
+}
+
+/* line 348, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-right-tc {
+  background-position: 0 0;
+}
+
+/* line 351, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-right-bc {
+  background-position: 0 -5px;
+}
+
+/* line 356, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-right-tr,
+.x-window-header-windowstyle7-right-br,
+.x-window-header-windowstyle7-right-mr {
+  padding-right: 5px;
+}
+
+/* line 361, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-right-tl,
+.x-window-header-windowstyle7-right-bl,
+.x-window-header-windowstyle7-right-ml {
+  padding-left: 0;
+}
+
+/* line 364, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-right-tc {
+  height: 5px;
+}
+
+/* line 367, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-right-bc {
+  height: 5px;
+}
+
+/* line 377, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-right-tl,
+.x-window-header-windowstyle7-right-bl,
+.x-window-header-windowstyle7-right-tr,
+.x-window-header-windowstyle7-right-br,
+.x-window-header-windowstyle7-right-tc,
+.x-window-header-windowstyle7-right-bc,
+.x-window-header-windowstyle7-right-ml,
+.x-window-header-windowstyle7-right-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/7/window-header/window-header-default-right-corners.gif);
+}
+
+/* line 382, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-right-ml,
+.x-window-header-windowstyle7-right-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/7/window-header/window-header-default-right-sides.gif);
+  background-repeat: repeat-y;
+}
+
+/* line 387, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-right-mc {
+  padding: 1px 0px 1px 0;
+}
+
+/* line 391, ../sass/dashboard-window-theme.scss */
+.x-strict .x-ie7 .x-window-header-windowstyle7-right-tl,
+.x-strict .x-ie7 .x-window-header-windowstyle7-right-bl {
+  position: relative;
+  right: 0;
+}
+
+/* line 395, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-right:after {
+  display: none;
+  content: "x-slicer:corners:url(../../../../dashboard/images/styles/7/window-header/window-header-default-right-corners.gif), sides:url(../../../../dashboard/images/styles/7/window-header/window-header-default-right-sides.gif)";
+}
+
+/* line 399, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-bottom {
+  -moz-border-radius-topleft: 0;
+  -webkit-border-top-left-radius: 0;
+  border-top-left-radius: 0;
+  -moz-border-radius-topright: 0;
+  -webkit-border-top-right-radius: 0;
+  border-top-right-radius: 0;
+  -moz-border-radius-bottomright: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 0 5px 4px 5px;
+  border-width: 0 1px 1px 1px;
+  border-style: solid;
+  background-color: #d3dee1;
+}
+
+/* line 417, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-bottom-mc {
+  background-color: #d3dee1;
+}
+
+/* line 420, ../sass/dashboard-window-theme.scss */
+.x-nbr .x-window-header-windowstyle7-bottom {
+  padding: 0 !important;
+  border-width: 0 !important;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+/* line 430, ../sass/dashboard-window-theme.scss */
+body.x-nbr .x-window-header-windowstyle7-bottom {
+  /* Pass along Div/Table, Horz/Vert, border-radius and border-width: */
+  background-image: url("s.png#dh-0-0-5-5-0-1-1-1-0-5-4-5");
+}
+
+/* line 434, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-bottom-tl {
+  background-position: 0 -10px;
+}
+
+/* line 437, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-bottom-tr {
+  background-position: right -15px;
+}
+
+/* line 440, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-bottom-bl {
+  background-position: 0 -20px;
+}
+
+/* line 443, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-bottom-br {
+  background-position: right -25px;
+}
+
+/* line 446, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-bottom-ml {
+  background-position: 0 top;
+}
+
+/* line 449, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-bottom-mr {
+  background-position: right top;
+}
+
+/* line 452, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-bottom-tc {
+  background-position: 0 0;
+}
+
+/* line 455, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-bottom-bc {
+  background-position: 0 -5px;
+}
+
+/* line 460, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-bottom-tr,
+.x-window-header-windowstyle7-bottom-br,
+.x-window-header-windowstyle7-bottom-mr {
+  padding-right: 5px;
+}
+
+/* line 465, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-bottom-tl,
+.x-window-header-windowstyle7-bottom-bl,
+.x-window-header-windowstyle7-bottom-ml {
+  padding-left: 5px;
+}
+
+/* line 468, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-bottom-tc {
+  height: 0;
+}
+
+/* line 471, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-bottom-bc {
+  height: 5px;
+}
+
+/* line 481, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-bottom-tl,
+.x-window-header-windowstyle7-bottom-bl,
+.x-window-header-windowstyle7-bottom-tr,
+.x-window-header-windowstyle7-bottom-br,
+.x-window-header-windowstyle7-bottom-tc,
+.x-window-header-windowstyle7-bottom-bc,
+.x-window-header-windowstyle7-bottom-ml,
+.x-window-header-windowstyle7-bottom-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/7/window-header/window-header-default-bottom-corners.gif);
+}
+
+/* line 486, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-bottom-ml,
+.x-window-header-windowstyle7-bottom-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/7/window-header/window-header-default-bottom-sides.gif);
+  background-repeat: repeat-y;
+}
+
+/* line 491, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-bottom-mc {
+  padding: 0 1px 0px 1px;
+}
+
+/* line 495, ../sass/dashboard-window-theme.scss */
+.x-strict .x-ie7 .x-window-header-windowstyle7-bottom-tl,
+.x-strict .x-ie7 .x-window-header-windowstyle7-bottom-bl {
+  position: relative;
+  right: 0;
+}
+
+/* line 499, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-bottom:after {
+  display: none;
+  content: "x-slicer:corners:url(../../../../dashboard/images/styles/7/window-header/window-header-default-bottom-corners.gif), sides:url(../../../../dashboard/images/styles/7/window-header/window-header-default-bottom-sides.gif)";
+}
+
+/* line 503, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-left {
+  -moz-border-radius-topleft: 5px;
+  -webkit-border-top-left-radius: 5px;
+  border-top-left-radius: 5px;
+  -moz-border-radius-topright: 0;
+  -webkit-border-top-right-radius: 0;
+  border-top-right-radius: 0;
+  -moz-border-radius-bottomright: 0;
+  -webkit-border-bottom-right-radius: 0;
+  border-bottom-right-radius: 0;
+  -moz-border-radius-bottomleft: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 5px 0 5px 4px;
+  border-width: 1px 0 1px 1px;
+  border-style: solid;
+  background-color: #d3dee1;
+}
+
+/* line 521, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-left-mc {
+  background-color: #d3dee1;
+}
+
+/* line 524, ../sass/dashboard-window-theme.scss */
+.x-nbr .x-window-header-windowstyle7-left {
+  padding: 0 !important;
+  border-width: 0 !important;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+/* line 534, ../sass/dashboard-window-theme.scss */
+body.x-nbr .x-window-header-windowstyle7-left {
+  /* Pass along Div/Table, Horz/Vert, border-radius and border-width: */
+  background-image: url("s.png#dh-5-0-0-5-1-0-1-1-5-0-5-4");
+}
+
+/* line 538, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-left-tl {
+  background-position: 0 -10px;
+}
+
+/* line 541, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-left-tr {
+  background-position: right -15px;
+}
+
+/* line 544, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-left-bl {
+  background-position: 0 -20px;
+}
+
+/* line 547, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-left-br {
+  background-position: right -25px;
+}
+
+/* line 550, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-left-ml {
+  background-position: 0 top;
+}
+
+/* line 553, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-left-mr {
+  background-position: right top;
+}
+
+/* line 556, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-left-tc {
+  background-position: 0 0;
+}
+
+/* line 559, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-left-bc {
+  background-position: 0 -5px;
+}
+
+/* line 564, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-left-tr,
+.x-window-header-windowstyle7-left-br,
+.x-window-header-windowstyle7-left-mr {
+  padding-right: 0;
+}
+
+/* line 569, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-left-tl,
+.x-window-header-windowstyle7-left-bl,
+.x-window-header-windowstyle7-left-ml {
+  padding-left: 5px;
+}
+
+/* line 572, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-left-tc {
+  height: 5px;
+}
+
+/* line 575, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-left-bc {
+  height: 5px;
+}
+
+/* line 585, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-left-tl,
+.x-window-header-windowstyle7-left-bl,
+.x-window-header-windowstyle7-left-tr,
+.x-window-header-windowstyle7-left-br,
+.x-window-header-windowstyle7-left-tc,
+.x-window-header-windowstyle7-left-bc,
+.x-window-header-windowstyle7-left-ml,
+.x-window-header-windowstyle7-left-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/7/window-header/window-header-default-left-corners.gif);
+}
+
+/* line 590, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-left-ml,
+.x-window-header-windowstyle7-left-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/7/window-header/window-header-default-left-sides.gif);
+  background-repeat: repeat-y;
+}
+
+/* line 595, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-left-mc {
+  padding: 1px 0 1px 0px;
+}
+
+/* line 599, ../sass/dashboard-window-theme.scss */
+.x-strict .x-ie7 .x-window-header-windowstyle7-left-tl,
+.x-strict .x-ie7 .x-window-header-windowstyle7-left-bl {
+  position: relative;
+  right: 0;
+}
+
+/* line 603, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-left:after {
+  display: none;
+  content: "x-slicer:corners:url(../../../../dashboard/images/styles/7/window-header/window-header-default-left-corners.gif), sides:url(../../../../dashboard/images/styles/7/window-header/window-header-default-left-sides.gif)";
+}
+
+/* line 607, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-top {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 4px 5px 4px 5px;
+  border-width: 1px;
+  border-style: solid;
+  background-color: #d3dee1;
+}
+
+/* line 618, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-top-mc {
+  background-color: #d3dee1;
+}
+
+/* line 621, ../sass/dashboard-window-theme.scss */
+.x-nbr .x-window-header-windowstyle7-collapsed-top {
+  padding: 0 !important;
+  border-width: 0 !important;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+/* line 631, ../sass/dashboard-window-theme.scss */
+body.x-nbr .x-window-header-windowstyle7-collapsed-top {
+  /* Pass along Div/Table, Horz/Vert, border-radius and border-width: */
+  background-image: url("s.png#dh-5-5-5-5-1-1-1-1-4-5-4-5");
+}
+
+/* line 635, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-top-tl {
+  background-position: 0 -10px;
+}
+
+/* line 638, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-top-tr {
+  background-position: right -15px;
+}
+
+/* line 641, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-top-bl {
+  background-position: 0 -20px;
+}
+
+/* line 644, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-top-br {
+  background-position: right -25px;
+}
+
+/* line 647, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-top-ml {
+  background-position: 0 top;
+}
+
+/* line 650, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-top-mr {
+  background-position: right top;
+}
+
+/* line 653, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-top-tc {
+  background-position: 0 0;
+}
+
+/* line 656, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-top-bc {
+  background-position: 0 -5px;
+}
+
+/* line 661, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-top-tr,
+.x-window-header-windowstyle7-collapsed-top-br,
+.x-window-header-windowstyle7-collapsed-top-mr {
+  padding-right: 5px;
+}
+
+/* line 666, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-top-tl,
+.x-window-header-windowstyle7-collapsed-top-bl,
+.x-window-header-windowstyle7-collapsed-top-ml {
+  padding-left: 5px;
+}
+
+/* line 669, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-top-tc {
+  height: 5px;
+}
+
+/* line 672, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-top-bc {
+  height: 5px;
+}
+
+/* line 682, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-top-tl,
+.x-window-header-windowstyle7-collapsed-top-bl,
+.x-window-header-windowstyle7-collapsed-top-tr,
+.x-window-header-windowstyle7-collapsed-top-br,
+.x-window-header-windowstyle7-collapsed-top-tc,
+.x-window-header-windowstyle7-collapsed-top-bc,
+.x-window-header-windowstyle7-collapsed-top-ml,
+.x-window-header-windowstyle7-collapsed-top-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/7/window-header/window-header-default-collapsed-top-corners.gif);
+}
+
+/* line 687, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-top-ml,
+.x-window-header-windowstyle7-collapsed-top-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/7/window-header/window-header-default-collapsed-top-sides.gif);
+  background-repeat: repeat-y;
+}
+
+/* line 692, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-top-mc {
+  padding: 0px 1px 0px 1px;
+}
+
+/* line 696, ../sass/dashboard-window-theme.scss */
+.x-strict .x-ie7 .x-window-header-windowstyle7-collapsed-top-tl,
+.x-strict .x-ie7 .x-window-header-windowstyle7-collapsed-top-bl {
+  position: relative;
+  right: 0;
+}
+
+/* line 700, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-top:after {
+  display: none;
+  content: "x-slicer:corners:url(../../../../dashboard/images/styles/7/window-header/window-header-default-collapsed-top-corners.gif), sides:url(../../../../dashboard/images/styles/7/window-header/window-header-default-collapsed-top-sides.gif)";
+}
+
+/* line 704, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-right {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 5px 4px 5px 4px;
+  border-width: 1px;
+  border-style: solid;
+  background-color: #d3dee1;
+}
+
+/* line 715, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-right-mc {
+  background-color: #d3dee1;
+}
+
+/* line 718, ../sass/dashboard-window-theme.scss */
+.x-nbr .x-window-header-windowstyle7-collapsed-right {
+  padding: 0 !important;
+  border-width: 0 !important;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+/* line 728, ../sass/dashboard-window-theme.scss */
+body.x-nbr .x-window-header-windowstyle7-collapsed-right {
+  /* Pass along Div/Table, Horz/Vert, border-radius and border-width: */
+  background-image: url("s.png#dh-5-5-5-5-1-1-1-1-5-4-5-4");
+}
+
+/* line 732, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-right-tl {
+  background-position: 0 -10px;
+}
+
+/* line 735, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-right-tr {
+  background-position: right -15px;
+}
+
+/* line 738, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-right-bl {
+  background-position: 0 -20px;
+}
+
+/* line 741, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-right-br {
+  background-position: right -25px;
+}
+
+/* line 744, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-right-ml {
+  background-position: 0 top;
+}
+
+/* line 747, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-right-mr {
+  background-position: right top;
+}
+
+/* line 750, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-right-tc {
+  background-position: 0 0;
+}
+
+/* line 753, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-right-bc {
+  background-position: 0 -5px;
+}
+
+/* line 758, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-right-tr,
+.x-window-header-windowstyle7-collapsed-right-br,
+.x-window-header-windowstyle7-collapsed-right-mr {
+  padding-right: 5px;
+}
+
+/* line 763, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-right-tl,
+.x-window-header-windowstyle7-collapsed-right-bl,
+.x-window-header-windowstyle7-collapsed-right-ml {
+  padding-left: 5px;
+}
+
+/* line 766, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-right-tc {
+  height: 5px;
+}
+
+/* line 769, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-right-bc {
+  height: 5px;
+}
+
+/* line 779, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-right-tl,
+.x-window-header-windowstyle7-collapsed-right-bl,
+.x-window-header-windowstyle7-collapsed-right-tr,
+.x-window-header-windowstyle7-collapsed-right-br,
+.x-window-header-windowstyle7-collapsed-right-tc,
+.x-window-header-windowstyle7-collapsed-right-bc,
+.x-window-header-windowstyle7-collapsed-right-ml,
+.x-window-header-windowstyle7-collapsed-right-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/7/window-header/window-header-default-collapsed-right-corners.gif);
+}
+
+/* line 784, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-right-ml,
+.x-window-header-windowstyle7-collapsed-right-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/7/window-header/window-header-default-collapsed-right-sides.gif);
+  background-repeat: repeat-y;
+}
+
+/* line 789, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-right-mc {
+  padding: 1px 0px 1px 0px;
+}
+
+/* line 793, ../sass/dashboard-window-theme.scss */
+.x-strict .x-ie7 .x-window-header-windowstyle7-collapsed-right-tl,
+.x-strict .x-ie7 .x-window-header-windowstyle7-collapsed-right-bl {
+  position: relative;
+  right: 0;
+}
+
+/* line 797, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-right:after {
+  display: none;
+  content: "x-slicer:corners:url(../../../../dashboard/images/styles/7/window-header/window-header-default-collapsed-right-corners.gif), sides:url(../../../../dashboard/images/styles/7/window-header/window-header-default-collapsed-right-sides.gif)";
+}
+
+/* line 801, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-bottom {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 4px 5px 4px 5px;
+  border-width: 1px;
+  border-style: solid;
+  background-color: #d3dee1;
+}
+
+/* line 812, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-bottom-mc {
+  background-color: #d3dee1;
+}
+
+/* line 815, ../sass/dashboard-window-theme.scss */
+.x-nbr .x-window-header-windowstyle7-collapsed-bottom {
+  padding: 0 !important;
+  border-width: 0 !important;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+/* line 825, ../sass/dashboard-window-theme.scss */
+body.x-nbr .x-window-header-windowstyle7-collapsed-bottom {
+  /* Pass along Div/Table, Horz/Vert, border-radius and border-width: */
+  background-image: url("s.png#dh-5-5-5-5-1-1-1-1-4-5-4-5");
+}
+
+/* line 829, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-bottom-tl {
+  background-position: 0 -10px;
+}
+
+/* line 832, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-bottom-tr {
+  background-position: right -15px;
+}
+
+/* line 835, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-bottom-bl {
+  background-position: 0 -20px;
+}
+
+/* line 838, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-bottom-br {
+  background-position: right -25px;
+}
+
+/* line 841, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-bottom-ml {
+  background-position: 0 top;
+}
+
+/* line 844, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-bottom-mr {
+  background-position: right top;
+}
+
+/* line 847, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-bottom-tc {
+  background-position: 0 0;
+}
+
+/* line 850, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-bottom-bc {
+  background-position: 0 -5px;
+}
+
+/* line 855, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-bottom-tr,
+.x-window-header-windowstyle7-collapsed-bottom-br,
+.x-window-header-windowstyle7-collapsed-bottom-mr {
+  padding-right: 5px;
+}
+
+/* line 860, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-bottom-tl,
+.x-window-header-windowstyle7-collapsed-bottom-bl,
+.x-window-header-windowstyle7-collapsed-bottom-ml {
+  padding-left: 5px;
+}
+
+/* line 863, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-bottom-tc {
+  height: 5px;
+}
+
+/* line 866, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-bottom-bc {
+  height: 5px;
+}
+
+/* line 876, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-bottom-tl,
+.x-window-header-windowstyle7-collapsed-bottom-bl,
+.x-window-header-windowstyle7-collapsed-bottom-tr,
+.x-window-header-windowstyle7-collapsed-bottom-br,
+.x-window-header-windowstyle7-collapsed-bottom-tc,
+.x-window-header-windowstyle7-collapsed-bottom-bc,
+.x-window-header-windowstyle7-collapsed-bottom-ml,
+.x-window-header-windowstyle7-collapsed-bottom-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/7/window-header/window-header-default-collapsed-bottom-corners.gif);
+}
+
+/* line 881, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-bottom-ml,
+.x-window-header-windowstyle7-collapsed-bottom-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/7/window-header/window-header-default-collapsed-bottom-sides.gif);
+  background-repeat: repeat-y;
+}
+
+/* line 886, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-bottom-mc {
+  padding: 0px 1px 0px 1px;
+}
+
+/* line 890, ../sass/dashboard-window-theme.scss */
+.x-strict .x-ie7 .x-window-header-windowstyle7-collapsed-bottom-tl,
+.x-strict .x-ie7 .x-window-header-windowstyle7-collapsed-bottom-bl {
+  position: relative;
+  right: 0;
+}
+
+/* line 894, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-bottom:after {
+  display: none;
+  content: "x-slicer:corners:url(../../../../dashboard/images/styles/7/window-header/window-header-default-collapsed-bottom-corners.gif), sides:url(../../../../dashboard/images/styles/7/window-header/window-header-default-collapsed-bottom-sides.gif)";
+}
+
+/* line 898, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-left {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 5px 4px 5px 4px;
+  border-width: 1px;
+  border-style: solid;
+  background-color: #d3dee1;
+}
+
+/* line 909, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-left-mc {
+  background-color: #d3dee1;
+}
+
+/* line 912, ../sass/dashboard-window-theme.scss */
+.x-nbr .x-window-header-windowstyle7-collapsed-left {
+  padding: 0 !important;
+  border-width: 0 !important;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+/* line 922, ../sass/dashboard-window-theme.scss */
+body.x-nbr .x-window-header-windowstyle7-collapsed-left {
+  /* Pass along Div/Table, Horz/Vert, border-radius and border-width: */
+  background-image: url("s.png#dh-5-5-5-5-1-1-1-1-5-4-5-4");
+}
+
+/* line 926, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-left-tl {
+  background-position: 0 -10px;
+}
+
+/* line 929, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-left-tr {
+  background-position: right -15px;
+}
+
+/* line 932, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-left-bl {
+  background-position: 0 -20px;
+}
+
+/* line 935, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-left-br {
+  background-position: right -25px;
+}
+
+/* line 938, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-left-ml {
+  background-position: 0 top;
+}
+
+/* line 941, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-left-mr {
+  background-position: right top;
+}
+
+/* line 944, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-left-tc {
+  background-position: 0 0;
+}
+
+/* line 947, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-left-bc {
+  background-position: 0 -5px;
+}
+
+/* line 952, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-left-tr,
+.x-window-header-windowstyle7-collapsed-left-br,
+.x-window-header-windowstyle7-collapsed-left-mr {
+  padding-right: 5px;
+}
+
+/* line 957, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-left-tl,
+.x-window-header-windowstyle7-collapsed-left-bl,
+.x-window-header-windowstyle7-collapsed-left-ml {
+  padding-left: 5px;
+}
+
+/* line 960, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-left-tc {
+  height: 5px;
+}
+
+/* line 963, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-left-bc {
+  height: 5px;
+}
+
+/* line 973, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-left-tl,
+.x-window-header-windowstyle7-collapsed-left-bl,
+.x-window-header-windowstyle7-collapsed-left-tr,
+.x-window-header-windowstyle7-collapsed-left-br,
+.x-window-header-windowstyle7-collapsed-left-tc,
+.x-window-header-windowstyle7-collapsed-left-bc,
+.x-window-header-windowstyle7-collapsed-left-ml,
+.x-window-header-windowstyle7-collapsed-left-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/7/window-header/window-header-default-collapsed-left-corners.gif);
+}
+
+/* line 978, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-left-ml,
+.x-window-header-windowstyle7-collapsed-left-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/7/window-header/window-header-default-collapsed-left-sides.gif);
+  background-repeat: repeat-y;
+}
+
+/* line 983, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-left-mc {
+  padding: 1px 0px 1px 0px;
+}
+
+/* line 987, ../sass/dashboard-window-theme.scss */
+.x-strict .x-ie7 .x-window-header-windowstyle7-collapsed-left-tl,
+.x-strict .x-ie7 .x-window-header-windowstyle7-collapsed-left-bl {
+  position: relative;
+  right: 0;
+}
+
+/* line 991, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-collapsed-left:after {
+  display: none;
+  content: "x-slicer:corners:url(../../../../dashboard/images/styles/7/window-header/window-header-default-collapsed-left-corners.gif), sides:url(../../../../dashboard/images/styles/7/window-header/window-header-default-collapsed-left-sides.gif)";
+}
+
+/* line 995, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-top {
+  -webkit-box-shadow: #6d6d6d 0 1px 0px 0 inset, #6d6d6d -1px 0 0px 0 inset, #6d6d6d 1px 0 0px 0 inset;
+  -moz-box-shadow: #6d6d6d 0 1px 0px 0 inset, #6d6d6d -1px 0 0px 0 inset, #6d6d6d 1px 0 0px 0 inset;
+  box-shadow: #6d6d6d 0 1px 0px 0 inset, #6d6d6d -1px 0 0px 0 inset, #6d6d6d 1px 0 0px 0 inset;
+}
+
+/* line 1000, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-right {
+  -webkit-box-shadow: #6d6d6d 0 1px 0px 0 inset, #6d6d6d 0 -1px 0px 0 inset, #6d6d6d -1px 0 0px 0 inset;
+  -moz-box-shadow: #6d6d6d 0 1px 0px 0 inset, #6d6d6d 0 -1px 0px 0 inset, #6d6d6d -1px 0 0px 0 inset;
+  box-shadow: #6d6d6d 0 1px 0px 0 inset, #6d6d6d 0 -1px 0px 0 inset, #6d6d6d -1px 0 0px 0 inset;
+}
+
+/* line 1005, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-bottom {
+  -webkit-box-shadow: #6d6d6d 0 -1px 0px 0 inset, #6d6d6d -1px 0 0px 0 inset, #6d6d6d 1px 0 0px 0 inset;
+  -moz-box-shadow: #6d6d6d 0 -1px 0px 0 inset, #6d6d6d -1px 0 0px 0 inset, #6d6d6d 1px 0 0px 0 inset;
+  box-shadow: #6d6d6d 0 -1px 0px 0 inset, #6d6d6d -1px 0 0px 0 inset, #6d6d6d 1px 0 0px 0 inset;
+}
+
+/* line 1010, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-left {
+  -webkit-box-shadow: #6d6d6d 0 1px 0px 0 inset, #6d6d6d 0 -1px 0px 0 inset, #6d6d6d 1px 0 0px 0 inset;
+  -moz-box-shadow: #6d6d6d 0 1px 0px 0 inset, #6d6d6d 0 -1px 0px 0 inset, #6d6d6d 1px 0 0px 0 inset;
+  box-shadow: #6d6d6d 0 1px 0px 0 inset, #6d6d6d 0 -1px 0px 0 inset, #6d6d6d 1px 0 0px 0 inset;
+}
+
+/* line 1015, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7 .x-window-header-icon {
+  width: 16px;
+  height: 16px;
+  color: #7a7a7a;
+  font-size: 16px;
+  line-height: 16px;
+  background-position: center center;
+}
+
+/* line 1023, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7 .x-window-header-glyph {
+  color: #7a7a7a;
+  font-size: 16px;
+  line-height: 16px;
+  opacity: 0.5;
+}
+
+/* line 1029, ../sass/dashboard-window-theme.scss */
+.x-ie8m .x-window-header-windowstyle7 .x-window-header-glyph {
+  color: #b4b46f;
+}
+
+/* line 1032, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-horizontal .x-window-header-icon-before-title {
+  margin: 0 2px 0 0;
+}
+
+/* line 1035, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-horizontal .x-window-header-icon-after-title {
+  margin: 0 0 0 2px;
+}
+
+/* line 1038, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-vertical .x-window-header-icon-before-title {
+  margin: 0 0 2px 0;
+}
+
+/* line 1041, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-vertical .x-window-header-icon-after-title {
+  margin: 2px 0 0 0;
+}
+
+/* line 1044, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-horizontal .x-tool-after-title {
+  margin: 0 0 0 2px;
+}
+
+/* line 1047, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-horizontal .x-tool-before-title {
+  margin: 0 2px 0 0;
+}
+
+/* line 1050, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-vertical .x-tool-after-title {
+  margin: 2px 0 0 0;
+}
+
+/* line 1053, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle7-vertical .x-tool-before-title {
+  margin: 0 0 2px 0;
+}
+
+/* line 1056, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle7-collapsed .x-window-header {
+  border-width: 1px !important;
+}
+
+/* line 1059, ../sass/dashboard-window-theme.scss */
+.x-nbr .x-window-windowstyle7-collapsed .x-window-header {
+  border-width: 0 !important;
+}
+
+/* line 1062, ../sass/dashboard-window-theme.scss */
+.x-window-tablerowstyle7 {
+  background-color: #606060 !important;
+}
+
+/* line 63, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle8 {
+  -webkit-box-shadow: #b30000 0 1px 0px 0 inset, #b30000 0 -1px 0px 0 inset, #b30000 -1px 0 0px 0 inset, #b30000 1px 0 0px 0 inset;
+  -moz-box-shadow: #b30000 0 1px 0px 0 inset, #b30000 0 -1px 0px 0 inset, #b30000 -1px 0 0px 0 inset, #b30000 1px 0 0px 0 inset;
+  box-shadow: #b30000 0 1px 0 0 inset, #b30000 0 -1px 0 0 inset, #b30000 -1px 0 0 0 inset, #b30000 1px 0 0 0 inset;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 4px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #b2b5ac;
+  background-color: maroon;
+}
+
+/* line 78, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle8:after {
+  display: none;
+  content: "x-slicer:corners:url(../../../../dashboard/images/styles/8/window/window-default-corners.gif), sides:url(../../../../dashboard/images/styles/8/window/window-default-sides.gif)";
+}
+
+/* line 82, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle8-mc {
+  background-color: #800000;
+}
+
+/* line 85, ../sass/dashboard-window-theme.scss */
+.x-nbr .x-window-windowstyle8 {
+  padding: 0 !important;
+  border-width: 0;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+/* line 95, ../sass/dashboard-window-theme.scss */
+body.x-nbr .x-window-windowstyle8 {
+  background-image: url("s.png#dh-5-5-5-5-1-1-1-1-4-4-4-4");
+}
+
+/* line 98, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle8-tl {
+  background-position: 0 -10px;
+}
+
+/* line 101, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle8-tr {
+  background-position: right -15px;
+}
+
+/* line 104, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle8-bl {
+  background-position: 0 -20px;
+}
+
+/* line 107, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle8-br {
+  background-position: right -25px;
+}
+
+/* line 110, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle8-ml {
+  background-position: 0 top;
+}
+
+/* line 113, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle8-mr {
+  background-position: right top;
+}
+
+/* line 116, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle8-tc {
+  background-position: 0 0;
+}
+
+/* line 119, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle8-bc {
+  background-position: 0 -5px;
+}
+
+/* line 124, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle8-tr,
+.x-window-windowstyle8-br,
+.x-window-windowstyle8-mr {
+  padding-right: 5px;
+}
+
+/* line 129, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle8-tl,
+.x-window-windowstyle8-bl,
+.x-window-windowstyle8-ml {
+  padding-left: 5px;
+}
+
+/* line 132, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle8-tc {
+  height: 5px;
+}
+
+/* line 135, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle8-bc {
+  height: 5px;
+}
+
+/* line 145, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle8-tl,
+.x-window-windowstyle8-bl,
+.x-window-windowstyle8-tr,
+.x-window-windowstyle8-br,
+.x-window-windowstyle8-tc,
+.x-window-windowstyle8-bc,
+.x-window-windowstyle8-ml,
+.x-window-windowstyle8-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/8/window/window-default-corners.gif);
+}
+
+/* line 150, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle8-ml,
+.x-window-windowstyle8-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/8/window/window-default-sides.gif);
+  background-repeat: repeat-y;
+}
+
+/* line 155, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle8-mc {
+  padding: 0px 0px 0px 0px;
+}
+
+/* line 158, ../sass/dashboard-window-theme.scss */
+.x-window-body-windowstyle8 {
+  border-color: #340000;
+  border-width: 1px;
+}
+
+/* line 162, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8 {
+  border-color: #340000;
+}
+
+/* line 165, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-vertical .x-window-header-text-container {
+  -webkit-transform: rotate(90deg);
+  -webkit-transform-origin: 0 0;
+  -moz-transform: rotate(90deg);
+  -moz-transform-origin: 0 0;
+  -o-transform: rotate(90deg);
+  -o-transform-origin: 0 0;
+  transform: rotate(90deg);
+  transform-origin: 0 0;
+}
+
+/* line 175, ../sass/dashboard-window-theme.scss */
+.x-ie9m .x-window-header-windowstyle8-vertical .x-window-header-text-container {
+  background-color: #340000;
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1), progid:DXImageTransform.Microsoft.Chroma(color=#340000);
+}
+
+/* line 179, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8 .x-window-header-icon {
+  background-position: center center;
+  color: #340000;
+  font-size: 16px;
+  height: 16px;
+  line-height: 16px;
+  width: 16px;
+}
+
+/* line 187, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-top {
+  background-color: #800000;
+  -moz-border-radius-topleft: 5px;
+  -webkit-border-top-left-radius: 5px;
+  border-top-left-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  -webkit-border-top-right-radius: 5px;
+  border-top-right-radius: 5px;
+  -moz-border-radius-bottomright: 0;
+  -webkit-border-bottom-right-radius: 0;
+  border-bottom-right-radius: 0;
+  -moz-border-radius-bottomleft: 0;
+  -webkit-border-bottom-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 4px 5px 0 5px;
+  border-width: 1px 1px 0 1px;
+  border-style: solid;
+}
+
+/* line 205, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-top-mc {
+  background-color: #800000;
+}
+
+/* line 208, ../sass/dashboard-window-theme.scss */
+.x-window-header-text-container-windowstyle8 {
+  padding: 0 2px 1px;
+  text-transform: none;
+}
+
+/* line 212, ../sass/dashboard-window-theme.scss */
+.x-nbr .x-window-header-windowstyle8-top {
+  padding: 0 !important;
+  border-width: 0 !important;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+/* line 222, ../sass/dashboard-window-theme.scss */
+body.x-nbr .x-window-header-windowstyle8-top {
+  /* Pass along Div/Table, Horz/Vert, border-radius and border-width: */
+  background-image: url("s.png#dh-5-5-0-0-1-1-0-1-4-5-0-5");
+}
+
+/* line 226, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-top-tl {
+  background-position: 0 -10px;
+}
+
+/* line 229, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-top-tr {
+  background-position: right -15px;
+}
+
+/* line 232, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-top-bl {
+  background-position: 0 -20px;
+}
+
+/* line 235, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-top-br {
+  background-position: right -25px;
+}
+
+/* line 238, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-top-ml {
+  background-position: 0 top;
+}
+
+/* line 241, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-top-mr {
+  background-position: right top;
+}
+
+/* line 244, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-top-tc {
+  background-position: 0 0;
+}
+
+/* line 247, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-top-bc {
+  background-position: 0 -5px;
+}
+
+/* line 252, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-top-tr,
+.x-window-header-windowstyle8-top-br,
+.x-window-header-windowstyle8-top-mr {
+  padding-right: 5px;
+}
+
+/* line 257, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-top-tl,
+.x-window-header-windowstyle8-top-bl,
+.x-window-header-windowstyle8-top-ml {
+  padding-left: 5px;
+}
+
+/* line 260, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-top-tc {
+  height: 5px;
+}
+
+/* line 263, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-top-bc {
+  height: 0;
+}
+
+/* line 273, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-top-tl,
+.x-window-header-windowstyle8-top-bl,
+.x-window-header-windowstyle8-top-tr,
+.x-window-header-windowstyle8-top-br,
+.x-window-header-windowstyle8-top-tc,
+.x-window-header-windowstyle8-top-bc,
+.x-window-header-windowstyle8-top-ml,
+.x-window-header-windowstyle8-top-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/8/window-header/window-header-default-top-corners.gif);
+}
+
+/* line 278, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-top-ml,
+.x-window-header-windowstyle8-top-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/8/window-header/window-header-default-top-sides.gif);
+  background-repeat: repeat-y;
+}
+
+/* line 283, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-top-mc {
+  padding: 0px 1px 0 1px;
+}
+
+/* line 287, ../sass/dashboard-window-theme.scss */
+.x-strict .x-ie7 .x-window-header-windowstyle8-top-tl,
+.x-strict .x-ie7 .x-window-header-windowstyle8-top-bl {
+  position: relative;
+  right: 0;
+}
+
+/* line 291, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-top:after {
+  display: none;
+  content: "x-slicer:corners:url(../../../../dashboard/images/styles/8/window-header/window-header-default-top-corners.gif), sides:url(../../../../dashboard/images/styles/8/window-header/window-header-default-top-sides.gif)";
+}
+
+/* line 295, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-right {
+  -moz-border-radius-topleft: 0;
+  -webkit-border-top-left-radius: 0;
+  border-top-left-radius: 0;
+  -moz-border-radius-topright: 5px;
+  -webkit-border-top-right-radius: 5px;
+  border-top-right-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  -moz-border-radius-bottomleft: 0;
+  -webkit-border-bottom-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 5px 4px 5px 0;
+  border-width: 1px 1px 1px 0;
+  border-style: solid;
+  background-color: #d3dee1;
+}
+
+/* line 313, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-right-mc {
+  background-color: #d3dee1;
+}
+
+/* line 316, ../sass/dashboard-window-theme.scss */
+.x-nbr .x-window-header-windowstyle8-right {
+  padding: 0 !important;
+  border-width: 0 !important;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+/* line 326, ../sass/dashboard-window-theme.scss */
+body.x-nbr .x-window-header-windowstyle8-right {
+  /* Pass along Div/Table, Horz/Vert, border-radius and border-width: */
+  background-image: url("s.png#dh-0-5-5-0-1-1-1-0-5-4-5-0");
+}
+
+/* line 330, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-right-tl {
+  background-position: 0 -10px;
+}
+
+/* line 333, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-right-tr {
+  background-position: right -15px;
+}
+
+/* line 336, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-right-bl {
+  background-position: 0 -20px;
+}
+
+/* line 339, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-right-br {
+  background-position: right -25px;
+}
+
+/* line 342, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-right-ml {
+  background-position: 0 top;
+}
+
+/* line 345, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-right-mr {
+  background-position: right top;
+}
+
+/* line 348, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-right-tc {
+  background-position: 0 0;
+}
+
+/* line 351, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-right-bc {
+  background-position: 0 -5px;
+}
+
+/* line 356, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-right-tr,
+.x-window-header-windowstyle8-right-br,
+.x-window-header-windowstyle8-right-mr {
+  padding-right: 5px;
+}
+
+/* line 361, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-right-tl,
+.x-window-header-windowstyle8-right-bl,
+.x-window-header-windowstyle8-right-ml {
+  padding-left: 0;
+}
+
+/* line 364, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-right-tc {
+  height: 5px;
+}
+
+/* line 367, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-right-bc {
+  height: 5px;
+}
+
+/* line 377, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-right-tl,
+.x-window-header-windowstyle8-right-bl,
+.x-window-header-windowstyle8-right-tr,
+.x-window-header-windowstyle8-right-br,
+.x-window-header-windowstyle8-right-tc,
+.x-window-header-windowstyle8-right-bc,
+.x-window-header-windowstyle8-right-ml,
+.x-window-header-windowstyle8-right-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/8/window-header/window-header-default-right-corners.gif);
+}
+
+/* line 382, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-right-ml,
+.x-window-header-windowstyle8-right-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/8/window-header/window-header-default-right-sides.gif);
+  background-repeat: repeat-y;
+}
+
+/* line 387, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-right-mc {
+  padding: 1px 0px 1px 0;
+}
+
+/* line 391, ../sass/dashboard-window-theme.scss */
+.x-strict .x-ie7 .x-window-header-windowstyle8-right-tl,
+.x-strict .x-ie7 .x-window-header-windowstyle8-right-bl {
+  position: relative;
+  right: 0;
+}
+
+/* line 395, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-right:after {
+  display: none;
+  content: "x-slicer:corners:url(../../../../dashboard/images/styles/8/window-header/window-header-default-right-corners.gif), sides:url(../../../../dashboard/images/styles/8/window-header/window-header-default-right-sides.gif)";
+}
+
+/* line 399, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-bottom {
+  -moz-border-radius-topleft: 0;
+  -webkit-border-top-left-radius: 0;
+  border-top-left-radius: 0;
+  -moz-border-radius-topright: 0;
+  -webkit-border-top-right-radius: 0;
+  border-top-right-radius: 0;
+  -moz-border-radius-bottomright: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 0 5px 4px 5px;
+  border-width: 0 1px 1px 1px;
+  border-style: solid;
+  background-color: #d3dee1;
+}
+
+/* line 417, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-bottom-mc {
+  background-color: #d3dee1;
+}
+
+/* line 420, ../sass/dashboard-window-theme.scss */
+.x-nbr .x-window-header-windowstyle8-bottom {
+  padding: 0 !important;
+  border-width: 0 !important;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+/* line 430, ../sass/dashboard-window-theme.scss */
+body.x-nbr .x-window-header-windowstyle8-bottom {
+  /* Pass along Div/Table, Horz/Vert, border-radius and border-width: */
+  background-image: url("s.png#dh-0-0-5-5-0-1-1-1-0-5-4-5");
+}
+
+/* line 434, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-bottom-tl {
+  background-position: 0 -10px;
+}
+
+/* line 437, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-bottom-tr {
+  background-position: right -15px;
+}
+
+/* line 440, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-bottom-bl {
+  background-position: 0 -20px;
+}
+
+/* line 443, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-bottom-br {
+  background-position: right -25px;
+}
+
+/* line 446, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-bottom-ml {
+  background-position: 0 top;
+}
+
+/* line 449, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-bottom-mr {
+  background-position: right top;
+}
+
+/* line 452, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-bottom-tc {
+  background-position: 0 0;
+}
+
+/* line 455, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-bottom-bc {
+  background-position: 0 -5px;
+}
+
+/* line 460, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-bottom-tr,
+.x-window-header-windowstyle8-bottom-br,
+.x-window-header-windowstyle8-bottom-mr {
+  padding-right: 5px;
+}
+
+/* line 465, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-bottom-tl,
+.x-window-header-windowstyle8-bottom-bl,
+.x-window-header-windowstyle8-bottom-ml {
+  padding-left: 5px;
+}
+
+/* line 468, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-bottom-tc {
+  height: 0;
+}
+
+/* line 471, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-bottom-bc {
+  height: 5px;
+}
+
+/* line 481, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-bottom-tl,
+.x-window-header-windowstyle8-bottom-bl,
+.x-window-header-windowstyle8-bottom-tr,
+.x-window-header-windowstyle8-bottom-br,
+.x-window-header-windowstyle8-bottom-tc,
+.x-window-header-windowstyle8-bottom-bc,
+.x-window-header-windowstyle8-bottom-ml,
+.x-window-header-windowstyle8-bottom-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/8/window-header/window-header-default-bottom-corners.gif);
+}
+
+/* line 486, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-bottom-ml,
+.x-window-header-windowstyle8-bottom-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/8/window-header/window-header-default-bottom-sides.gif);
+  background-repeat: repeat-y;
+}
+
+/* line 491, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-bottom-mc {
+  padding: 0 1px 0px 1px;
+}
+
+/* line 495, ../sass/dashboard-window-theme.scss */
+.x-strict .x-ie7 .x-window-header-windowstyle8-bottom-tl,
+.x-strict .x-ie7 .x-window-header-windowstyle8-bottom-bl {
+  position: relative;
+  right: 0;
+}
+
+/* line 499, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-bottom:after {
+  display: none;
+  content: "x-slicer:corners:url(../../../../dashboard/images/styles/8/window-header/window-header-default-bottom-corners.gif), sides:url(../../../../dashboard/images/styles/8/window-header/window-header-default-bottom-sides.gif)";
+}
+
+/* line 503, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-left {
+  -moz-border-radius-topleft: 5px;
+  -webkit-border-top-left-radius: 5px;
+  border-top-left-radius: 5px;
+  -moz-border-radius-topright: 0;
+  -webkit-border-top-right-radius: 0;
+  border-top-right-radius: 0;
+  -moz-border-radius-bottomright: 0;
+  -webkit-border-bottom-right-radius: 0;
+  border-bottom-right-radius: 0;
+  -moz-border-radius-bottomleft: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 5px 0 5px 4px;
+  border-width: 1px 0 1px 1px;
+  border-style: solid;
+  background-color: #d3dee1;
+}
+
+/* line 521, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-left-mc {
+  background-color: #d3dee1;
+}
+
+/* line 524, ../sass/dashboard-window-theme.scss */
+.x-nbr .x-window-header-windowstyle8-left {
+  padding: 0 !important;
+  border-width: 0 !important;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+/* line 534, ../sass/dashboard-window-theme.scss */
+body.x-nbr .x-window-header-windowstyle8-left {
+  /* Pass along Div/Table, Horz/Vert, border-radius and border-width: */
+  background-image: url("s.png#dh-5-0-0-5-1-0-1-1-5-0-5-4");
+}
+
+/* line 538, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-left-tl {
+  background-position: 0 -10px;
+}
+
+/* line 541, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-left-tr {
+  background-position: right -15px;
+}
+
+/* line 544, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-left-bl {
+  background-position: 0 -20px;
+}
+
+/* line 547, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-left-br {
+  background-position: right -25px;
+}
+
+/* line 550, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-left-ml {
+  background-position: 0 top;
+}
+
+/* line 553, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-left-mr {
+  background-position: right top;
+}
+
+/* line 556, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-left-tc {
+  background-position: 0 0;
+}
+
+/* line 559, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-left-bc {
+  background-position: 0 -5px;
+}
+
+/* line 564, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-left-tr,
+.x-window-header-windowstyle8-left-br,
+.x-window-header-windowstyle8-left-mr {
+  padding-right: 0;
+}
+
+/* line 569, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-left-tl,
+.x-window-header-windowstyle8-left-bl,
+.x-window-header-windowstyle8-left-ml {
+  padding-left: 5px;
+}
+
+/* line 572, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-left-tc {
+  height: 5px;
+}
+
+/* line 575, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-left-bc {
+  height: 5px;
+}
+
+/* line 585, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-left-tl,
+.x-window-header-windowstyle8-left-bl,
+.x-window-header-windowstyle8-left-tr,
+.x-window-header-windowstyle8-left-br,
+.x-window-header-windowstyle8-left-tc,
+.x-window-header-windowstyle8-left-bc,
+.x-window-header-windowstyle8-left-ml,
+.x-window-header-windowstyle8-left-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/8/window-header/window-header-default-left-corners.gif);
+}
+
+/* line 590, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-left-ml,
+.x-window-header-windowstyle8-left-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/8/window-header/window-header-default-left-sides.gif);
+  background-repeat: repeat-y;
+}
+
+/* line 595, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-left-mc {
+  padding: 1px 0 1px 0px;
+}
+
+/* line 599, ../sass/dashboard-window-theme.scss */
+.x-strict .x-ie7 .x-window-header-windowstyle8-left-tl,
+.x-strict .x-ie7 .x-window-header-windowstyle8-left-bl {
+  position: relative;
+  right: 0;
+}
+
+/* line 603, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-left:after {
+  display: none;
+  content: "x-slicer:corners:url(../../../../dashboard/images/styles/8/window-header/window-header-default-left-corners.gif), sides:url(../../../../dashboard/images/styles/8/window-header/window-header-default-left-sides.gif)";
+}
+
+/* line 607, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-top {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 4px 5px 4px 5px;
+  border-width: 1px;
+  border-style: solid;
+  background-color: #d3dee1;
+}
+
+/* line 618, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-top-mc {
+  background-color: #d3dee1;
+}
+
+/* line 621, ../sass/dashboard-window-theme.scss */
+.x-nbr .x-window-header-windowstyle8-collapsed-top {
+  padding: 0 !important;
+  border-width: 0 !important;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+/* line 631, ../sass/dashboard-window-theme.scss */
+body.x-nbr .x-window-header-windowstyle8-collapsed-top {
+  /* Pass along Div/Table, Horz/Vert, border-radius and border-width: */
+  background-image: url("s.png#dh-5-5-5-5-1-1-1-1-4-5-4-5");
+}
+
+/* line 635, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-top-tl {
+  background-position: 0 -10px;
+}
+
+/* line 638, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-top-tr {
+  background-position: right -15px;
+}
+
+/* line 641, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-top-bl {
+  background-position: 0 -20px;
+}
+
+/* line 644, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-top-br {
+  background-position: right -25px;
+}
+
+/* line 647, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-top-ml {
+  background-position: 0 top;
+}
+
+/* line 650, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-top-mr {
+  background-position: right top;
+}
+
+/* line 653, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-top-tc {
+  background-position: 0 0;
+}
+
+/* line 656, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-top-bc {
+  background-position: 0 -5px;
+}
+
+/* line 661, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-top-tr,
+.x-window-header-windowstyle8-collapsed-top-br,
+.x-window-header-windowstyle8-collapsed-top-mr {
+  padding-right: 5px;
+}
+
+/* line 666, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-top-tl,
+.x-window-header-windowstyle8-collapsed-top-bl,
+.x-window-header-windowstyle8-collapsed-top-ml {
+  padding-left: 5px;
+}
+
+/* line 669, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-top-tc {
+  height: 5px;
+}
+
+/* line 672, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-top-bc {
+  height: 5px;
+}
+
+/* line 682, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-top-tl,
+.x-window-header-windowstyle8-collapsed-top-bl,
+.x-window-header-windowstyle8-collapsed-top-tr,
+.x-window-header-windowstyle8-collapsed-top-br,
+.x-window-header-windowstyle8-collapsed-top-tc,
+.x-window-header-windowstyle8-collapsed-top-bc,
+.x-window-header-windowstyle8-collapsed-top-ml,
+.x-window-header-windowstyle8-collapsed-top-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/8/window-header/window-header-default-collapsed-top-corners.gif);
+}
+
+/* line 687, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-top-ml,
+.x-window-header-windowstyle8-collapsed-top-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/8/window-header/window-header-default-collapsed-top-sides.gif);
+  background-repeat: repeat-y;
+}
+
+/* line 692, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-top-mc {
+  padding: 0px 1px 0px 1px;
+}
+
+/* line 696, ../sass/dashboard-window-theme.scss */
+.x-strict .x-ie7 .x-window-header-windowstyle8-collapsed-top-tl,
+.x-strict .x-ie7 .x-window-header-windowstyle8-collapsed-top-bl {
+  position: relative;
+  right: 0;
+}
+
+/* line 700, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-top:after {
+  display: none;
+  content: "x-slicer:corners:url(../../../../dashboard/images/styles/8/window-header/window-header-default-collapsed-top-corners.gif), sides:url(../../../../dashboard/images/styles/8/window-header/window-header-default-collapsed-top-sides.gif)";
+}
+
+/* line 704, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-right {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 5px 4px 5px 4px;
+  border-width: 1px;
+  border-style: solid;
+  background-color: #d3dee1;
+}
+
+/* line 715, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-right-mc {
+  background-color: #d3dee1;
+}
+
+/* line 718, ../sass/dashboard-window-theme.scss */
+.x-nbr .x-window-header-windowstyle8-collapsed-right {
+  padding: 0 !important;
+  border-width: 0 !important;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+/* line 728, ../sass/dashboard-window-theme.scss */
+body.x-nbr .x-window-header-windowstyle8-collapsed-right {
+  /* Pass along Div/Table, Horz/Vert, border-radius and border-width: */
+  background-image: url("s.png#dh-5-5-5-5-1-1-1-1-5-4-5-4");
+}
+
+/* line 732, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-right-tl {
+  background-position: 0 -10px;
+}
+
+/* line 735, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-right-tr {
+  background-position: right -15px;
+}
+
+/* line 738, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-right-bl {
+  background-position: 0 -20px;
+}
+
+/* line 741, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-right-br {
+  background-position: right -25px;
+}
+
+/* line 744, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-right-ml {
+  background-position: 0 top;
+}
+
+/* line 747, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-right-mr {
+  background-position: right top;
+}
+
+/* line 750, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-right-tc {
+  background-position: 0 0;
+}
+
+/* line 753, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-right-bc {
+  background-position: 0 -5px;
+}
+
+/* line 758, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-right-tr,
+.x-window-header-windowstyle8-collapsed-right-br,
+.x-window-header-windowstyle8-collapsed-right-mr {
+  padding-right: 5px;
+}
+
+/* line 763, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-right-tl,
+.x-window-header-windowstyle8-collapsed-right-bl,
+.x-window-header-windowstyle8-collapsed-right-ml {
+  padding-left: 5px;
+}
+
+/* line 766, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-right-tc {
+  height: 5px;
+}
+
+/* line 769, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-right-bc {
+  height: 5px;
+}
+
+/* line 779, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-right-tl,
+.x-window-header-windowstyle8-collapsed-right-bl,
+.x-window-header-windowstyle8-collapsed-right-tr,
+.x-window-header-windowstyle8-collapsed-right-br,
+.x-window-header-windowstyle8-collapsed-right-tc,
+.x-window-header-windowstyle8-collapsed-right-bc,
+.x-window-header-windowstyle8-collapsed-right-ml,
+.x-window-header-windowstyle8-collapsed-right-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/8/window-header/window-header-default-collapsed-right-corners.gif);
+}
+
+/* line 784, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-right-ml,
+.x-window-header-windowstyle8-collapsed-right-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/8/window-header/window-header-default-collapsed-right-sides.gif);
+  background-repeat: repeat-y;
+}
+
+/* line 789, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-right-mc {
+  padding: 1px 0px 1px 0px;
+}
+
+/* line 793, ../sass/dashboard-window-theme.scss */
+.x-strict .x-ie7 .x-window-header-windowstyle8-collapsed-right-tl,
+.x-strict .x-ie7 .x-window-header-windowstyle8-collapsed-right-bl {
+  position: relative;
+  right: 0;
+}
+
+/* line 797, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-right:after {
+  display: none;
+  content: "x-slicer:corners:url(../../../../dashboard/images/styles/8/window-header/window-header-default-collapsed-right-corners.gif), sides:url(../../../../dashboard/images/styles/8/window-header/window-header-default-collapsed-right-sides.gif)";
+}
+
+/* line 801, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-bottom {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 4px 5px 4px 5px;
+  border-width: 1px;
+  border-style: solid;
+  background-color: #d3dee1;
+}
+
+/* line 812, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-bottom-mc {
+  background-color: #d3dee1;
+}
+
+/* line 815, ../sass/dashboard-window-theme.scss */
+.x-nbr .x-window-header-windowstyle8-collapsed-bottom {
+  padding: 0 !important;
+  border-width: 0 !important;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+/* line 825, ../sass/dashboard-window-theme.scss */
+body.x-nbr .x-window-header-windowstyle8-collapsed-bottom {
+  /* Pass along Div/Table, Horz/Vert, border-radius and border-width: */
+  background-image: url("s.png#dh-5-5-5-5-1-1-1-1-4-5-4-5");
+}
+
+/* line 829, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-bottom-tl {
+  background-position: 0 -10px;
+}
+
+/* line 832, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-bottom-tr {
+  background-position: right -15px;
+}
+
+/* line 835, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-bottom-bl {
+  background-position: 0 -20px;
+}
+
+/* line 838, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-bottom-br {
+  background-position: right -25px;
+}
+
+/* line 841, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-bottom-ml {
+  background-position: 0 top;
+}
+
+/* line 844, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-bottom-mr {
+  background-position: right top;
+}
+
+/* line 847, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-bottom-tc {
+  background-position: 0 0;
+}
+
+/* line 850, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-bottom-bc {
+  background-position: 0 -5px;
+}
+
+/* line 855, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-bottom-tr,
+.x-window-header-windowstyle8-collapsed-bottom-br,
+.x-window-header-windowstyle8-collapsed-bottom-mr {
+  padding-right: 5px;
+}
+
+/* line 860, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-bottom-tl,
+.x-window-header-windowstyle8-collapsed-bottom-bl,
+.x-window-header-windowstyle8-collapsed-bottom-ml {
+  padding-left: 5px;
+}
+
+/* line 863, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-bottom-tc {
+  height: 5px;
+}
+
+/* line 866, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-bottom-bc {
+  height: 5px;
+}
+
+/* line 876, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-bottom-tl,
+.x-window-header-windowstyle8-collapsed-bottom-bl,
+.x-window-header-windowstyle8-collapsed-bottom-tr,
+.x-window-header-windowstyle8-collapsed-bottom-br,
+.x-window-header-windowstyle8-collapsed-bottom-tc,
+.x-window-header-windowstyle8-collapsed-bottom-bc,
+.x-window-header-windowstyle8-collapsed-bottom-ml,
+.x-window-header-windowstyle8-collapsed-bottom-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/8/window-header/window-header-default-collapsed-bottom-corners.gif);
+}
+
+/* line 881, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-bottom-ml,
+.x-window-header-windowstyle8-collapsed-bottom-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/8/window-header/window-header-default-collapsed-bottom-sides.gif);
+  background-repeat: repeat-y;
+}
+
+/* line 886, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-bottom-mc {
+  padding: 0px 1px 0px 1px;
+}
+
+/* line 890, ../sass/dashboard-window-theme.scss */
+.x-strict .x-ie7 .x-window-header-windowstyle8-collapsed-bottom-tl,
+.x-strict .x-ie7 .x-window-header-windowstyle8-collapsed-bottom-bl {
+  position: relative;
+  right: 0;
+}
+
+/* line 894, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-bottom:after {
+  display: none;
+  content: "x-slicer:corners:url(../../../../dashboard/images/styles/8/window-header/window-header-default-collapsed-bottom-corners.gif), sides:url(../../../../dashboard/images/styles/8/window-header/window-header-default-collapsed-bottom-sides.gif)";
+}
+
+/* line 898, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-left {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 5px 4px 5px 4px;
+  border-width: 1px;
+  border-style: solid;
+  background-color: #d3dee1;
+}
+
+/* line 909, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-left-mc {
+  background-color: #d3dee1;
+}
+
+/* line 912, ../sass/dashboard-window-theme.scss */
+.x-nbr .x-window-header-windowstyle8-collapsed-left {
+  padding: 0 !important;
+  border-width: 0 !important;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+/* line 922, ../sass/dashboard-window-theme.scss */
+body.x-nbr .x-window-header-windowstyle8-collapsed-left {
+  /* Pass along Div/Table, Horz/Vert, border-radius and border-width: */
+  background-image: url("s.png#dh-5-5-5-5-1-1-1-1-5-4-5-4");
+}
+
+/* line 926, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-left-tl {
+  background-position: 0 -10px;
+}
+
+/* line 929, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-left-tr {
+  background-position: right -15px;
+}
+
+/* line 932, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-left-bl {
+  background-position: 0 -20px;
+}
+
+/* line 935, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-left-br {
+  background-position: right -25px;
+}
+
+/* line 938, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-left-ml {
+  background-position: 0 top;
+}
+
+/* line 941, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-left-mr {
+  background-position: right top;
+}
+
+/* line 944, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-left-tc {
+  background-position: 0 0;
+}
+
+/* line 947, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-left-bc {
+  background-position: 0 -5px;
+}
+
+/* line 952, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-left-tr,
+.x-window-header-windowstyle8-collapsed-left-br,
+.x-window-header-windowstyle8-collapsed-left-mr {
+  padding-right: 5px;
+}
+
+/* line 957, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-left-tl,
+.x-window-header-windowstyle8-collapsed-left-bl,
+.x-window-header-windowstyle8-collapsed-left-ml {
+  padding-left: 5px;
+}
+
+/* line 960, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-left-tc {
+  height: 5px;
+}
+
+/* line 963, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-left-bc {
+  height: 5px;
+}
+
+/* line 973, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-left-tl,
+.x-window-header-windowstyle8-collapsed-left-bl,
+.x-window-header-windowstyle8-collapsed-left-tr,
+.x-window-header-windowstyle8-collapsed-left-br,
+.x-window-header-windowstyle8-collapsed-left-tc,
+.x-window-header-windowstyle8-collapsed-left-bc,
+.x-window-header-windowstyle8-collapsed-left-ml,
+.x-window-header-windowstyle8-collapsed-left-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/8/window-header/window-header-default-collapsed-left-corners.gif);
+}
+
+/* line 978, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-left-ml,
+.x-window-header-windowstyle8-collapsed-left-mr {
+  zoom: 1;
+  background-image: url(../../../../dashboard/images/styles/8/window-header/window-header-default-collapsed-left-sides.gif);
+  background-repeat: repeat-y;
+}
+
+/* line 983, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-left-mc {
+  padding: 1px 0px 1px 0px;
+}
+
+/* line 987, ../sass/dashboard-window-theme.scss */
+.x-strict .x-ie7 .x-window-header-windowstyle8-collapsed-left-tl,
+.x-strict .x-ie7 .x-window-header-windowstyle8-collapsed-left-bl {
+  position: relative;
+  right: 0;
+}
+
+/* line 991, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-collapsed-left:after {
+  display: none;
+  content: "x-slicer:corners:url(../../../../dashboard/images/styles/8/window-header/window-header-default-collapsed-left-corners.gif), sides:url(../../../../dashboard/images/styles/8/window-header/window-header-default-collapsed-left-sides.gif)";
+}
+
+/* line 995, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-top {
+  -webkit-box-shadow: #9a0000 0 1px 0px 0 inset, #9a0000 -1px 0 0px 0 inset, #9a0000 1px 0 0px 0 inset;
+  -moz-box-shadow: #9a0000 0 1px 0px 0 inset, #9a0000 -1px 0 0px 0 inset, #9a0000 1px 0 0px 0 inset;
+  box-shadow: #9a0000 0 1px 0px 0 inset, #9a0000 -1px 0 0px 0 inset, #9a0000 1px 0 0px 0 inset;
+}
+
+/* line 1000, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-right {
+  -webkit-box-shadow: #9a0000 0 1px 0px 0 inset, #9a0000 0 -1px 0px 0 inset, #9a0000 -1px 0 0px 0 inset;
+  -moz-box-shadow: #9a0000 0 1px 0px 0 inset, #9a0000 0 -1px 0px 0 inset, #9a0000 -1px 0 0px 0 inset;
+  box-shadow: #9a0000 0 1px 0px 0 inset, #9a0000 0 -1px 0px 0 inset, #9a0000 -1px 0 0px 0 inset;
+}
+
+/* line 1005, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-bottom {
+  -webkit-box-shadow: #9a0000 0 -1px 0px 0 inset, #9a0000 -1px 0 0px 0 inset, #9a0000 1px 0 0px 0 inset;
+  -moz-box-shadow: #9a0000 0 -1px 0px 0 inset, #9a0000 -1px 0 0px 0 inset, #9a0000 1px 0 0px 0 inset;
+  box-shadow: #9a0000 0 -1px 0px 0 inset, #9a0000 -1px 0 0px 0 inset, #9a0000 1px 0 0px 0 inset;
+}
+
+/* line 1010, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-left {
+  -webkit-box-shadow: #9a0000 0 1px 0px 0 inset, #9a0000 0 -1px 0px 0 inset, #9a0000 1px 0 0px 0 inset;
+  -moz-box-shadow: #9a0000 0 1px 0px 0 inset, #9a0000 0 -1px 0px 0 inset, #9a0000 1px 0 0px 0 inset;
+  box-shadow: #9a0000 0 1px 0px 0 inset, #9a0000 0 -1px 0px 0 inset, #9a0000 1px 0 0px 0 inset;
+}
+
+/* line 1015, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8 .x-window-header-icon {
+  width: 16px;
+  height: 16px;
+  color: #b30000;
+  font-size: 16px;
+  line-height: 16px;
+  background-position: center center;
+}
+
+/* line 1023, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8 .x-window-header-glyph {
+  color: #b30000;
+  font-size: 16px;
+  line-height: 16px;
+  opacity: 0.5;
+}
+
+/* line 1029, ../sass/dashboard-window-theme.scss */
+.x-ie8m .x-window-header-windowstyle8 .x-window-header-glyph {
+  color: #b4b46f;
+}
+
+/* line 1032, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-horizontal .x-window-header-icon-before-title {
+  margin: 0 2px 0 0;
+}
+
+/* line 1035, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-horizontal .x-window-header-icon-after-title {
+  margin: 0 0 0 2px;
+}
+
+/* line 1038, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-vertical .x-window-header-icon-before-title {
+  margin: 0 0 2px 0;
+}
+
+/* line 1041, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-vertical .x-window-header-icon-after-title {
+  margin: 2px 0 0 0;
+}
+
+/* line 1044, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-horizontal .x-tool-after-title {
+  margin: 0 0 0 2px;
+}
+
+/* line 1047, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-horizontal .x-tool-before-title {
+  margin: 0 2px 0 0;
+}
+
+/* line 1050, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-vertical .x-tool-after-title {
+  margin: 2px 0 0 0;
+}
+
+/* line 1053, ../sass/dashboard-window-theme.scss */
+.x-window-header-windowstyle8-vertical .x-tool-before-title {
+  margin: 0 0 2px 0;
+}
+
+/* line 1056, ../sass/dashboard-window-theme.scss */
+.x-window-windowstyle8-collapsed .x-window-header {
+  border-width: 1px !important;
+}
+
+/* line 1059, ../sass/dashboard-window-theme.scss */
+.x-nbr .x-window-windowstyle8-collapsed .x-window-header {
+  border-width: 0 !important;
+}
+
+/* line 1062, ../sass/dashboard-window-theme.scss */
+.x-window-tablerowstyle8 {
+  background-color: maroon !important;
+}

@@ -1,0 +1,53 @@
+$theme-name: 'lightgreen';
+
+$base-color: #d9e4c3 !default;
+$neutral-color: #f8fbf3 !default;
+
+// -> GRID HEADER
+$grid-header-background-color: #adbaa3;
+$grid-header-border-color: $neutral-color !default;
+$grid-header-over-border-color: adjust-color($base-color, $hue: -0.175deg, $saturation: 25.296%, $lightness: -2.549%) !default;
+$grid-header-over-background-color: #9dd96a;
+$grid-header-background-color: $grid-base-color !default;
+$grid-header-line-height: 15px !default;
+$grid-header-padding: 3px 6px 4px !default;
+$grid-header-trigger-height: 22px !default;
+$grid-header-trigger-width: 14px !default;
+$grid-header-color: null !default;
+
+// -> BUTTON GROUP
+$btn-group-header-background-color: #d5e8b1;
+
+// -> TABS
+$tab-icon-top: 5px; //new variable for icon top added also in _tabs.scss
+$tab-height: 25px !default;
+
+// -> Custom to overwrite the zeblue styles
+#right-dsEditor .x-panel-header-text-default, #treeControl_header_hd .x-panel-header-text-default, #curveTreePanel_header_hd .x-panel-header-text-default, #sourcetree_header .x-panel-header-text-default, #treeControl-placeholder_hd .x-panel-header-text-default, #right-dsEditor-placeholder_hd .x-panel-header-text-default, #userTemplateTree_header_hd .x-panel-header-text-default {
+    color: #577A10;
+	}
+
+.x-panel-header-text-default,.x-panel-header-text{
+font-weight: normal;
+}
+
+.x-column-header {
+    background-color: #d5e3c9 !important;
+}
+
+.x-column-header-over {
+    background-color: #c1cfb6 !important;
+}
+
+#outGraph-body .x-panel-header-default {
+    background: none repeat scroll 0 0 #e1eccc;
+    box-shadow: none;
+}
+.x-grid-header-ct {
+    background-color: #e1eccc !important;
+}
+// -> end custom to overwrite the zeblue styles
+
+@import 'compass';
+@import 'ext4/default/all';
+

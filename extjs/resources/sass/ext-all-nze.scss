@@ -1,0 +1,71 @@
+$theme-name: 'newze';
+
+$base-color: #c1ddeb !default;
+$neutral-color: #eaf6fe !default;
+
+// -> GRID HEADER
+$grid-header-background-color: #83b7d1;
+$grid-header-border-color: $neutral-color !default;
+$grid-header-over-border-color: adjust-color($base-color, $hue: -0.175deg, $saturation: 25.296%, $lightness: -2.549%) !default;
+$grid-header-over-background-color: #9dd96a;
+$grid-header-background-color: $grid-base-color !default;
+$grid-header-line-height: 15px !default;
+$grid-header-padding: 3px 6px 4px !default;
+$grid-header-trigger-height: 22px !default;
+$grid-header-trigger-width: 14px !default;
+$grid-header-color: null !default;
+
+
+$panel-header-background-color:#136f9d;
+$btn-group-header-color:#FFF;
+
+.x-splitter{
+background-color:#76a7c0;
+}
+$toolbar-text-color: #09547a;
+
+// -> BUTTON GROUP
+$btn-group-header-background-color: #136f9d;
+
+// -> TABS
+$tab-icon-top: 5px; //new variable for icon top added also in _tabs.scss
+$tab-height: 25px !default;
+$tabbar-strip-background-color:#136f9d;
+$tab-background-gradient: color-stops(#8dd5f6, #8dd5f6);
+$tab-background-gradient-disabled:  color-stops(#ededed, #ededed);
+$tab-background-gradient-active: color-stops(#136f9d, #136f9d);
+$tab-color-disabled: #cfcfcf;
+$tab-color: #144e68;
+$tab-color-active: #fff;
+
+
+// -> Custom to overwrite the zeblue styles
+#right-dsEditor .x-panel-header-text-default, #treeControl_header_hd .x-panel-header-text-default, #curveTreePanel_header_hd .x-panel-header-text-default, #sourcetree_header .x-panel-header-text-default, #treeControl-placeholder_hd .x-panel-header-text-default, #right-dsEditor-placeholder_hd .x-panel-header-text-default, #userTemplateTree_header_hd .x-panel-header-text-default {
+    color: #ffffff;
+	}
+
+#favouriteTreePanel_header_hd .x-panel-header-text, #profileTreePanel_header_hd .x-panel-header-text, #templateTreePanel_header_hd .x-panel-header-text, #formulaTreePanel_header_hd .x-panel-header-text, #dataSourceTreePanel_header_hd .x-panel-header-text, #curveReportTreePanel_header_hd .x-panel-header-text {
+    color: #05202e;
+    
+}
+
+.x-column-header {
+    background-color: #c9ecff !important;
+}
+
+.x-column-header-over {
+    background-color: #84d5ff !important;
+}
+
+#outGraph-body .x-panel-header-default {
+    background: none repeat scroll 0 0 #8dd5f6;
+    box-shadow: none;
+}
+.x-grid-header-ct {
+    background-color: #acc4d1 !important;
+}
+// -> end custom to overwrite the zeblue styles
+
+@import 'compass';
+@import 'ext4/default/all';
+
