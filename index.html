@@ -35,17 +35,25 @@
   </nav>
 
   <div class="container">
-
     <div class="starter-template">
       <h1>A brief study on popular JavaScript chart engines</h1>
-      <p class="lead"><br> <br></p>
+      <p class="lead"><br></p>
     </div>
 
-
+    <div class="dropdown">
+      <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select City
+      <span class="caret"></span></button>
+      <ul class="dropdown-menu" id="city">
+        <li><a href="#">Beijing</a></li>
+        <li><a href="#">Chengdu</a></li>
+        <li><a href="#">Guangzhou</a></li>
+        <li><a href="#">Shanghai</a></li>
+        <li><a href="#">Shenyang</a></li>
+      </ul>
+    </div>
     <div id="chart-container">
     FusionCharts will render here
    </div>
-
 
   </div><!-- /.container -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
