@@ -4,7 +4,7 @@
     <script type="text/javascript" src="dygraph-combined-dev.js"></script>
 </head>
 <body>
-    <div id="graphdiv">
+    <div id="graphdiv" style="text-align: left; position: relative; width: 1100px; height: 600px;">
     </div>
     <script type="text/javascript">
         var data = [
@@ -7305,18 +7305,19 @@
 						{"label":"10/31/2015 22:00","beijingValue":"98","shanghaiValue":"31","chengduValue":"31","guangzhouValue":"16","shenzhenValue":"112"},
 						{"label":"10/31/2015 23:00","beijingValue":"104","shanghaiValue":"25","chengduValue":"37","guangzhouValue":"17","shenzhenValue":"115"}
 					];
-                g = new Dygraph(
-            document.getElementById("graphdiv"),
-            function () {
-                var arr = [];
-                for (var item in data) {
-                    arr.push([new Date(data[item].label), data[item].beijingValue, data[item].shanghaiValue, data[item].chengduValue, data[item].guangzhouValue, data[item].shenzhenValue]);
-                }
-                return arr;
-            },
-            {
-                labels: ["label", "beijing", "shanghai", "chengdu", "guangzhou", "shenzhen"]
-            });
+            var  g = new Dygraph(
+									document.getElementById("graphdiv"),
+									function () {
+										var arr = [];
+										for (var item in data) {
+											arr.push([new Date(data[item].label), data[item].beijingValue, data[item].shanghaiValue, data[item].chengduValue, data[item].guangzhouValue, data[item].shenzhenValue]);
+										}
+										return arr;
+									},
+									{
+										labels: ["label", "beijing", "shanghai", "chengdu", "guangzhou", "shenzhen"]
+									}
+								);
     </script>
 </body>
 </html>
