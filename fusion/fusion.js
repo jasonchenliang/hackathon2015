@@ -47,6 +47,8 @@ $.getJSON("../data.json", function(data) {
           "showShadow": "0",
           "showAlternateHGridColor": "0",
           "canvasBgColor": "#ffffff",
+          "exportEnabled": "1",
+          "exportAtClientSide": "1",
           "yaxisname": "PM2.5",
           "xaxisname": "Date",
           "yaxisminValue": "0",
