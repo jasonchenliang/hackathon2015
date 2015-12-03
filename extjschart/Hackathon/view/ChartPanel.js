@@ -24,6 +24,10 @@ Ext.define('Hackathon.view.ChartPanel', {
         {
           text: 'Preview',
           handler: 'onPreview'
+        },
+        {
+          text: 'Download',
+          handler: 'onDownload'
         }
     ],
 
@@ -49,15 +53,15 @@ Ext.define('Hackathon.view.ChartPanel', {
               'stroke-width': 1
             },
             colors: ['#d62728'],
-            marker: {
-              radius: 4,
-              fill: '#d62728'
-              //type: 'square',
-              //fx: {
-              //  duration: 200,
-              //  easing: 'backOut'
-              //}
-            },
+            //marker: {
+            //  radius: 4,
+            //  fill: '#d62728'
+            //  //type: 'square',
+            //  //fx: {
+            //  //  duration: 200,
+            //  //  easing: 'backOut'
+            //  //}
+            //},
             tooltip: {
               trackMouse: true,
               renderer: 'onSeriesTooltipRender'
@@ -72,7 +76,11 @@ Ext.define('Hackathon.view.ChartPanel', {
               stroke: '#ff7f0e',
               'stroke-width': 1
             },
-            colors: ['#ff7f0e']
+            colors: ['#ff7f0e'],
+            tooltip: {
+              trackMouse: true,
+              renderer: 'onSeriesTooltipRender'
+            }
           },
           {
             type: 'line',
@@ -83,7 +91,11 @@ Ext.define('Hackathon.view.ChartPanel', {
               stroke: '#ffff00',
               'stroke-width': 1
             },
-            colors: ['#ffff00']
+            colors: ['#ffff00'],
+            tooltip: {
+              trackMouse: true,
+              renderer: 'onSeriesTooltipRender'
+            }
           },
           {
             type: 'line',
@@ -94,7 +106,11 @@ Ext.define('Hackathon.view.ChartPanel', {
               stroke: '#1f77b4',
               'stroke-width': 1
             },
-            colors: ['#1f77b4']
+            colors: ['#1f77b4'],
+            tooltip: {
+              trackMouse: true,
+              renderer: 'onSeriesTooltipRender'
+            }
           },
           {
             type: 'line',
@@ -106,12 +122,13 @@ Ext.define('Hackathon.view.ChartPanel', {
               'stroke-width': 1
             },
             colors: ['#2ca02c'],
-            marker: {
-              radius: 4
-            },
+            //marker: {
+            //  radius: 4
+            //},
             highlightCfg: {
               scaling: 2
             },
+            step: true,
             tooltip: {
               trackMouse: true,
               renderer: 'onSeriesTooltipRender'

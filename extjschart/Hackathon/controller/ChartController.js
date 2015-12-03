@@ -17,6 +17,13 @@ Ext.define('Hackathon.controller.ChartController', {
         chart.preview();
     },
 
+    onDownload: function () {
+        var chart = this.lookupReference('chart');
+        chart.download({
+            filename: 'Hackathon ExtJS Chart'
+        });
+    },
+
     onSeriesTooltipRender: function (tooltip, record, item) {
         var title = item.series.getTitle();
 
