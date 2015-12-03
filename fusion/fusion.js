@@ -26,9 +26,6 @@ $(function() {
   });
 
   var drawChart = function() {
-    $('#chart-container').bind('rendered', function(event, args) {
-        alert(args.toolText);
-    });
 
     $("#chart-container").insertFusionCharts({
       "type": "zoomline",
