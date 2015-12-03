@@ -10,6 +10,18 @@ Ext.define('Hackathon.controller.ChartController', {
         if (handler) {
             handler();
         }
+    },
+
+    onPreview: function () {
+        var chart = this.lookupReference('chart');
+        chart.preview();
+    },
+
+    onSeriesTooltipRender: function (tooltip, record, item) {
+        var title = item.series.getTitle();
+
+        tooltip.setHtml(title + ' on ' + record.get('label') + ': ' +
+            record.get(item.series.getYField()));
     }
 
 });

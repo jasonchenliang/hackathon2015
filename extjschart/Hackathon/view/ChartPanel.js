@@ -18,8 +18,12 @@ Ext.define('Hackathon.view.ChartPanel', {
     tbar: [
         '->',
         {
-            text: 'Undo Zoom',
-            handler: 'onZoomUndo'
+          text: 'Undo Zoom',
+          handler: 'onZoomUndo'
+        },
+        {
+          text: 'Preview',
+          handler: 'onPreview'
         }
     ],
 
@@ -96,6 +100,16 @@ Ext.define('Hackathon.view.ChartPanel', {
             style: {
               stroke: '#2ca02c',
               'stroke-width': 1
+            },
+            marker: {
+              radius: 4
+            },
+            highlightCfg: {
+              scaling: 2
+            },
+            tooltip: {
+              trackMouse: true,
+              renderer: 'onSeriesTooltipRender'
             }
           }
         ],
@@ -115,6 +129,11 @@ Ext.define('Hackathon.view.ChartPanel', {
             titleMargin: 12,
             title: {
                 text: 'Date and Time'
+            },
+            label: {
+              rotate: {
+                degrees: -45
+              }
             }
         }],
         legend: {
