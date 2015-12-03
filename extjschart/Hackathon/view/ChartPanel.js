@@ -39,27 +39,28 @@ Ext.define('Hackathon.view.ChartPanel', {
         },
         insetPadding: '20 20 10 10',
         series: [
-          //{
-          //  type: 'line',
-          //  xField: 'label',
-          //  yField: 'beijingValue',
-          //  style: {
-          //      lineWidth: 2,
-          //      fillStyle: '#115fa6',
-          //      strokeStyle: '#115fa6',
-          //      fillOpacity: 0.6,
-          //      miterLimit: 3,
-          //      lineCap: 'miter'
-          //  }
-          //},
           {
             type: 'line',
             xField: 'label',
             yField: 'beijingValue',
             title: 'Beijing',
             style: {
-              stroke: '#9467bd',
+              stroke: '#d62728',
               'stroke-width': 1
+            },
+            colors: ['#d62728'],
+            marker: {
+              radius: 4,
+              fill: '#d62728'
+              //type: 'square',
+              //fx: {
+              //  duration: 200,
+              //  easing: 'backOut'
+              //}
+            },
+            tooltip: {
+              trackMouse: true,
+              renderer: 'onSeriesTooltipRender'
             }
           },
           {
@@ -70,7 +71,8 @@ Ext.define('Hackathon.view.ChartPanel', {
             style: {
               stroke: '#ff7f0e',
               'stroke-width': 1
-            }
+            },
+            colors: ['#ff7f0e']
           },
           {
             type: 'line',
@@ -78,9 +80,10 @@ Ext.define('Hackathon.view.ChartPanel', {
             yField: 'chengduValue',
             title: 'Chengdu',
             style: {
-              stroke: '#1f77b4',
+              stroke: '#ffff00',
               'stroke-width': 1
-            }
+            },
+            colors: ['#ffff00']
           },
           {
             type: 'line',
@@ -88,9 +91,10 @@ Ext.define('Hackathon.view.ChartPanel', {
             yField: 'guangzhouValue',
             title: 'Guangzhou',
             style: {
-              stroke: '#d62728',
+              stroke: '#1f77b4',
               'stroke-width': 1
-            }
+            },
+            colors: ['#1f77b4']
           },
           {
             type: 'line',
@@ -101,6 +105,7 @@ Ext.define('Hackathon.view.ChartPanel', {
               stroke: '#2ca02c',
               'stroke-width': 1
             },
+            colors: ['#2ca02c'],
             marker: {
               radius: 4
             },
@@ -120,7 +125,8 @@ Ext.define('Hackathon.view.ChartPanel', {
             titleMargin: 12,
             title: {
                 text: 'PM 2.5'
-            }
+            },
+			grid: true
         }, {
             type: 'category',
             visibleRange: [0, 1],
@@ -134,7 +140,8 @@ Ext.define('Hackathon.view.ChartPanel', {
               rotate: {
                 degrees: -45
               }
-            }
+            },
+			grid: true
         }],
         legend: {
           docked: 'bottom'
