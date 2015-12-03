@@ -29,8 +29,8 @@ $.getJSON("../data.json", function(data) {
   var drawChart = function (){
     $("#chart-container").insertFusionCharts({
       "type": "zoomline",
-      "width": "1800 ",
-      "height": "700",
+      "width": "1200 ",
+      "height": "800",
       "dataFormat": "json",
       "dataSource": {
         "chart": {
@@ -50,7 +50,7 @@ $.getJSON("../data.json", function(data) {
           "yaxisname": "PM2.5",
           "xaxisname": "Date",
           "yaxisminValue": "0",
-          "yaxismaxValue": "500",
+          "yaxismaxValue": "800",
           "forceAxisLimits": "1",
           "pixelsPerPoint": "0",
           "pixelsPerLabel": "30",
