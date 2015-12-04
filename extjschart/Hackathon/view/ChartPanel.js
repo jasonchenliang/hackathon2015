@@ -1,16 +1,16 @@
 Ext.define('Hackathon.view.ChartPanel', {
     extend: 'Ext.Panel',
     xtype: 'extjschartpanel',
-	controller: 'extjschart',
+	  controller: 'extjschart',
 
     requires: [
 	    'Hackathon.controller.ChartController',
-		'Hackathon.store.ChartData',
-        'Ext.chart.CartesianChart',
-        'Ext.chart.series.Line',
-        'Ext.chart.axis.Numeric',
-        'Ext.chart.axis.Category',
-        'Ext.chart.interactions.CrossZoom'
+		  'Hackathon.store.ChartData',
+      'Ext.chart.CartesianChart',
+      'Ext.chart.series.Line',
+      'Ext.chart.axis.Numeric',
+      'Ext.chart.axis.Category',
+      'Ext.chart.interactions.CrossZoom'
     ],
 
     layout: 'fit',
@@ -37,10 +37,12 @@ Ext.define('Hackathon.view.ChartPanel', {
         width: '100%',
         height: '100%',
         store: Ext.create('Hackathon.store.ChartData'),
-        interactions: {
+        interactions: [
+          {
             type: 'crosszoom',
             zoomOnPanGesture: false
-        },
+          }
+        ],
         insetPadding: '20 20 10 10',
         series: [
           {
@@ -143,7 +145,7 @@ Ext.define('Hackathon.view.ChartPanel', {
             title: {
                 text: 'PM 2.5'
             },
-			grid: true
+			      grid: true
         }, {
             type: 'category',
             visibleRange: [0, 1],
@@ -158,7 +160,7 @@ Ext.define('Hackathon.view.ChartPanel', {
                 degrees: -45
               }
             },
-			grid: true
+			      grid: true
         }],
         legend: {
           docked: 'bottom'

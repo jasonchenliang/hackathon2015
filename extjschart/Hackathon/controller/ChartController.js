@@ -29,6 +29,18 @@ Ext.define('Hackathon.controller.ChartController', {
 
         tooltip.setHtml(title + ' on ' + record.get('label') + ': ' +
             record.get(item.series.getYField()));
-    }
+    },
 
+    onModeToggle: function (segmentedButton, button, pressed) {
+        var chart = this.lookupReference('chart'),
+            interactions = chart.getInteractions(),
+            panzoom = interactions[0],
+            crosshair = interactions[1],
+            value = segmentedButton.getValue(),
+            isCrosshair = value === 0;
+
+        crosshair.setEnabled(isCrosshair);
+        panzoom.setEnabled(!isCrosshair);
+        panzoom.setZoomOnPanGesture(value === 2);
+    }
 });
