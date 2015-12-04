@@ -69,6 +69,77 @@ $(function() {
           "legendItemFontSize": "10",
           "legendItemFontColor": "#666666"
         },
+        "annotations": {
+          "origw": "400",
+          "origh": "300",
+          "autoscale": "1",
+          "groups": [{
+            "items": [{
+              "id": "beyond-index-labels-zone",
+              "type": "rectangle",
+              "x": "$yaxis.0.label.0.startx - 3",
+              "y": "$yaxis.0.label.2.starty - 20",
+              "tox": "$yaxis.0.label.0.endx",
+              "toy": "$yaxis.0.label.5.starty",
+              "color": "#575757",
+              "alpha": "20"
+            }, {
+              "id": "hazardous-labels-zone",
+              "type": "rectangle",
+              "x": "$yaxis.0.label.0.startx - 3",
+              "y": "$yaxis.0.label.1.starty - 20",
+              "tox": "$yaxis.0.label.0.endx",
+              "toy": "$yaxis.0.label.2.starty - 20",
+              "color": "#4C0026",
+              "alpha": "20"
+            }, {
+              "id": "very-unhealthy-labels-zone",
+              "type": "rectangle",
+              "x": "$yaxis.0.label.0.startx - 3",
+              "y": "$yaxis.0.label.1.starty",
+              "tox": "$yaxis.0.label.0.endx",
+              "toy": "$yaxis.0.label.1.starty - 20",
+              "color": "#99004C",
+              "alpha": "20"
+            }, {
+              "id": "unhealthy-labels-zone",
+              "type": "rectangle",
+              "x": "$yaxis.0.label.0.startx - 3",
+              "y": "$yaxis.0.label.0.starty - 30",
+              "tox": "$yaxis.0.label.0.endx",
+              "toy": "$yaxis.0.label.1.starty",
+              "color": "#FF0000",
+              "alpha": "20"
+            }, {
+              "id": "unhealthy-for-sensitive-group-labels-zone",
+              "type": "rectangle",
+              "x": "$yaxis.0.label.0.startx - 3",
+              "y": "$yaxis.0.label.0.starty - 20",
+              "tox": "$yaxis.0.label.0.endx",
+              "toy": "$yaxis.0.label.0.starty - 30",
+              "color": "#FF7E00",
+              "alpha": "20"
+            }, {
+              "id": "moderate-labels-zone",
+              "type": "rectangle",
+              "x": "$yaxis.0.label.0.startx - 3",
+              "y": "$yaxis.0.label.0.starty - 10",
+              "tox": "$yaxis.0.label.0.endx",
+              "toy": "$yaxis.0.label.0.starty - 20",
+              "color": "#FFFF00",
+              "alpha": "20"
+            }, {
+              "id": "good-labels-zone",
+              "type": "rectangle",
+              "x": "$yaxis.0.label.0.startx - 3",
+              "y": "$yaxis.0.label.0.starty",
+              "tox": "$yaxis.0.label.0.endx",
+              "toy": "$yaxis.0.label.0.starty - 10",
+              "color": "#00E400",
+              "alpha": "20"
+            }]
+          }]
+        },
         "categories": [{
           "category": categories
         }],
